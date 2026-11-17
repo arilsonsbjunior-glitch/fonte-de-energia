@@ -30,6 +30,21 @@
     "video": ""
   },
   {
+    "data": "2026-11-17",
+    "setor": "petroleo",
+    "titulo": "OPEP+ se reúne no fim do mês para rever capacidade",
+    "resumo": "Com o petróleo em queda, os países da OPEP+ marcaram para 29 de novembro a reunião que revisa a capacidade de produção de cada membro. A decisão pode mexer no preço do barril.",
+    "destaque": "29 nov",
+    "legenda": "data da reunião da OPEP+ sobre capacidade de produção",
+    "fontes": [
+      {
+        "nome": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/world/40073582"
+      }
+    ],
+    "video": ""
+  },
+  {
     "data": "2026-11-16",
     "setor": "petroleo",
     "titulo": "O petróleo caiu mais de 3% em um dia",
@@ -109,6 +124,36 @@
     "video": ""
   },
   {
+    "data": "2026-11-10",
+    "setor": "luz",
+    "titulo": "Decreto dos data centers deve sair ainda em novembro",
+    "resumo": "O regime especial para data centers, o Redata, deve ser regulamentado até o fim do mês. Um dos pontos em debate é se essas empresas terão que contratar energia nova para abastecer as próprias instalações.",
+    "destaque": "Redata",
+    "legenda": "decreto esperado para o fim de novembro",
+    "fontes": [
+      {
+        "nome": "TAG Law",
+        "url": "https://tagdlaw.com.br/?p=17145"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-07",
+    "setor": "luz",
+    "titulo": "A concessão da Enel no Rio também está em jogo",
+    "resumo": "O contrato da Enel no Rio de Janeiro está perto de vencer, e ANEEL e Ministério de Minas e Energia trocaram cobranças sobre a análise da renovação.",
+    "destaque": "Renovação",
+    "legenda": "da concessão da Enel Rio em análise",
+    "fontes": [
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/mme-e-aneel-trocam-cobrancas-sobre-concessao-da-enel-rio-prestes-a-vencer/"
+      }
+    ],
+    "video": ""
+  },
+  {
     "data": "2026-11-06",
     "setor": "hidrogenio",
     "titulo": "Hidrogênio verde ficou mais caro no Brasil",
@@ -154,6 +199,126 @@
     "video": ""
   },
   {
+    "data": "2026-11-06",
+    "setor": "renovaveis",
+    "titulo": "Governo quer transformar lixo em energia",
+    "resumo": "O Conselho Nacional de Política Energética criou um grupo para estudar a geração de energia a partir de resíduos. O país produz mais de 80 milhões de toneladas por ano, segundo o ministério.",
+    "destaque": "80 mi t",
+    "legenda": "de resíduos gerados por ano no Brasil",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/?p=549055"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-06",
+    "setor": "renovaveis",
+    "titulo": "Brasil vai organizar os seus dados de energia",
+    "resumo": "Foi aprovada uma estratégia nacional para integrar e padronizar as informações dos órgãos de energia, seguindo recomendações da Agência Internacional de Energia.",
+    "destaque": "2027–2031",
+    "legenda": "período da Estratégia Nacional de Dados Energéticos",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/transicao-energetica/cnpe-aprova-estrategia-nacional-de-dados-energeticos-elaborada-com-a-iea/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-03",
+    "setor": "petroleo",
+    "titulo": "Querosene de avião ficou 7,2% mais caro",
+    "resumo": "A Petrobras reajustou o combustível de aviação em novembro, uma alta de R$ 0,45 por litro, puxada pela volatilidade do refino no mundo.",
+    "destaque": "+7,2%",
+    "legenda": "no preço do querosene de aviação em novembro",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/tag/reajuste-de-combustiveis/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-30",
+    "setor": "luz",
+    "titulo": "Leilão contrata R$ 8,9 bilhões em linhas de transmissão",
+    "resumo": "Oito lotes foram arrematados por cinco empresas, com previsão de 1.866 km de novas linhas. Os vencedores aceitaram receber, em média, metade do valor máximo previsto.",
+    "destaque": "R$ 8,9 bi",
+    "legenda": "em investimentos na rede de transmissão",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/10/30/leilao-de-transmissao-contrata-r-89-bilhoes-e-registra-desagio-medio-de-5010/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-30",
+    "setor": "luz",
+    "titulo": "Data centers vão consumir muita energia até 2036",
+    "resumo": "O plano decenal de energia estima que os data centers vão consumir 30 TWh de eletricidade em 2036. As novas regras devem exigir eficiência no uso de água e energia de fontes limpas.",
+    "destaque": "30 TWh",
+    "legenda": "de consumo previsto para data centers em 2036",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/10/30/data-centers-redata-eficiencia-energetica-hidrica-energia-renovavel/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-30",
+    "setor": "petroleo",
+    "titulo": "Terceira descoberta de petróleo na Foz do Amazonas",
+    "resumo": "A Petrobras terminou a perfuração do poço Morpho, na costa do Amapá, e confirmou um novo reservatório com petróleo. A sonda segue agora para a Bacia Potiguar.",
+    "destaque": "3ª",
+    "legenda": "descoberta no poço Morpho, na Margem Equatorial",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/10/30/petrobras-conclui-perfuracao-na-foz-do-amazonas-e-confirma-3a-descoberta-no-poco-morpho/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-29",
+    "setor": "renovaveis",
+    "titulo": "Os portos ainda não estão prontos para a eólica no mar",
+    "resumo": "Um estudo apresentado pelo governo aponta que nenhum dos portos analisados está apto hoje a receber a montagem de eólicas offshore em grande escala sem obras e investimentos.",
+    "destaque": "0 portos",
+    "legenda": "prontos hoje para eólica offshore em grande escala",
+    "fontes": [
+      {
+        "nome": "TAG Law",
+        "url": "https://tagdlaw.com.br/?p=16878"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-28",
+    "setor": "petroleo",
+    "titulo": "Brasil bate recorde de produção de petróleo e gás",
+    "resumo": "Em setembro o país produziu 6,116 milhões de barris de óleo equivalente por dia. O pré-sal respondeu por mais de 83% desse total.",
+    "destaque": "6,1 mi",
+    "legenda": "barris de óleo equivalente por dia em setembro",
+    "fontes": [
+      {
+        "nome": "Jornal do Comércio",
+        "url": "https://www.jornaldocomercio.com/economia/2026/10/1268535-producao-de-petroleo-e-gas-no-brasil-volta-a-bater-recorde-em-setembro-revela-anp.html"
+      }
+    ],
+    "video": ""
+  },
+  {
     "data": "2026-10-19",
     "setor": "renovaveis",
     "titulo": "Eólica e solar desaceleraram no Brasil",
@@ -179,6 +344,141 @@
       {
         "nome": "Movimento Econômico",
         "url": "https://movimentoeconomico.com.br/petroleo-e-gas/2026/10/07/maior-leilao-do-pre-sal-tem-7-dos-13-blocos-arrematados-e-r-530-milhoes-em-bonus/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-09-25",
+    "setor": "hidrogenio",
+    "titulo": "Pecém como laboratório da transição energética",
+    "resumo": "Para a Casa dos Ventos, que vai abastecer o data center do TikTok no Ceará, o que acontecer no Pecém deve se repetir no resto do mundo alguns anos depois.",
+    "destaque": "5 a 7 anos",
+    "legenda": "à frente do mundo, segundo a Casa dos Ventos",
+    "fontes": [
+      {
+        "nome": "Diário do Nordeste",
+        "url": "https://diariodonordeste.verdesmares.com.br/negocios/pecem-e-laboratorio-da-transicao-energetica-no-mundo-diz-casa-dos-ventos-1.3793915"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-08-27",
+    "setor": "luz",
+    "titulo": "Leilões de baterias podem destravar R$ 10 bilhões",
+    "resumo": "O Brasil prepara os primeiros leilões para contratar grandes baterias que guardam energia solar e eólica. Contratar 2 GW poderia movimentar cerca de R$ 10 bilhões em investimentos.",
+    "destaque": "R$ 10 bi",
+    "legenda": "em investimentos com 2 GW de baterias",
+    "fontes": [
+      {
+        "nome": "Movimento Econômico",
+        "url": "https://movimentoeconomico.com.br/energia/2026/08/27/leiloes-de-baterias-contra-o-curtailment-no-nordeste-vao-a-audiencia-na-aneel/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-08-13",
+    "setor": "hidrogenio",
+    "titulo": "Saiu o decreto do hidrogênio de baixo carbono",
+    "resumo": "O governo regulamentou o marco legal do hidrogênio, com regras de certificação e de disputa pelos créditos fiscais do setor.",
+    "destaque": "R$ 18,3 bi",
+    "legenda": "em créditos fiscais previstos para o hidrogênio",
+    "fontes": [
+      {
+        "nome": "Diário do Comércio",
+        "url": "https://diariodocomercio.com.br/legislacao/decreto-hidrogenio-baixa-emissao-creditos/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-08-13",
+    "setor": "gas",
+    "titulo": "A produção de biometano cresceu 75%",
+    "resumo": "O biometano, gás feito a partir de resíduos, avança no país. Já são 21 plantas autorizadas a vender, com capacidade de cerca de 1,33 milhão de metros cúbicos por dia.",
+    "destaque": "+75%",
+    "legenda": "de crescimento na produção de biometano",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/08/13/biometano-cresce-75-e-setor-consolida-regras-para-mercado-de-certificados-cgob/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-07-09",
+    "setor": "petroleo",
+    "titulo": "Petrobras ganha bloco de petróleo na África",
+    "resumo": "A estatal concluiu a compra de um bloco exploratório em São Tomé e Príncipe e será a operadora, como parte da estratégia de repor reservas.",
+    "destaque": "75%",
+    "legenda": "de participação da Petrobras no bloco",
+    "fontes": [
+      {
+        "nome": "Petrobras",
+        "url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281426003721/pbr20260709_6k.htm"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-07-04",
+    "setor": "hidrogenio",
+    "titulo": "Primeiro leilão do hidrogênio verde vem aí",
+    "resumo": "O leilão do programa de hidrogênio de baixo carbono deve acontecer entre o fim de 2026 e janeiro de 2027, com créditos fiscais que começam em 2028.",
+    "destaque": "R$ 1,7 bi",
+    "legenda": "em crédito fiscal em 2028, subindo até R$ 5 bi em 2032",
+    "fontes": [
+      {
+        "nome": "Movimento Econômico",
+        "url": "https://movimentoeconomico.com.br/coluna-movimento-economico/2026/07/04/leilao-de-2027-sera-o-primeiro-grande-teste-do-hidrogenio-verde-para-o-nordeste/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-07-03",
+    "setor": "luz",
+    "titulo": "Segunda rodada do leilão de transmissão",
+    "resumo": "A segunda etapa do primeiro leilão de transmissão do ano teve a Axia, antiga Eletrobras, como grande vencedora, levando três dos quatro lotes.",
+    "destaque": "53,2%",
+    "legenda": "de deságio médio nesta etapa do leilão",
+    "fontes": [
+      {
+        "nome": "TAG Law",
+        "url": "https://tagdlaw.com.br/?p=13159"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-06-02",
+    "setor": "petroleo",
+    "titulo": "Diesel recebe subsídio de R$ 1,12 por litro",
+    "resumo": "A Petrobras aderiu à nova subvenção do governo para produtores e importadores de diesel rodoviário.",
+    "destaque": "R$ 1,12",
+    "legenda": "por litro de subvenção ao diesel",
+    "fontes": [
+      {
+        "nome": "Petrobras",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001119639/000129281426003269/pbr20260602_6k.htm"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-03-18",
+    "setor": "gas",
+    "titulo": "Petrobras garante 8 térmicas em leilão de capacidade",
+    "resumo": "A estatal contratou oito usinas termelétricas no leilão de reserva de capacidade, somando mais de 2 mil MW por 10 anos.",
+    "destaque": "8 usinas",
+    "legenda": "termelétricas da Petrobras contratadas no leilão",
+    "fontes": [
+      {
+        "nome": "Petrobras",
+        "url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281426001236/pbr20260318_6k1.htm"
       }
     ],
     "video": ""
