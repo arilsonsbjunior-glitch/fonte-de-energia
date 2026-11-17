@@ -19,13 +19,15 @@ Site de notícias de energia (petróleo, gás, luz, hidrogênio e renováveis), 
   "destaque": "−32%",
   "legenda": "o que esse número significa, em poucas palavras",
   "fontes": [{ "nome": "eixos", "url": "https://link-da-materia-original" }],
-  "video": ""
+  "video": "",
+  "arte": "<path d=\"...\"/>"
 }
 ```
 
 - `setor`: `petroleo`, `gas`, `luz`, `hidrogenio` ou `renovaveis`.
 - `destaque`: o número principal da notícia (aparece grande na capa colorida).
 - `video`: link do vídeo no Instagram/TikTok, quando houver. Vazio mostra "Vídeo em breve".
+- `arte`: desenho exclusivo da notícia, em SVG de traço (viewBox 0 0 200 200, sem preenchimento, sem cores, sem texto; só `path`, `circle`, `ellipse`, `rect`). Se ficar vazio, o site usa o desenho padrão do setor.
 - A ordem é automática pela data; as 3 mais novas viram os destaques do topo.
 
 ## Regras de conteúdo
