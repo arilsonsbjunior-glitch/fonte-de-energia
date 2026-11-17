@@ -1,0 +1,186 @@
+[
+  {
+    "data": "2026-11-17",
+    "setor": "gas",
+    "titulo": "O pedágio do gás vai ficar mais barato?",
+    "resumo": "A ANP decide quanto as empresas donas dos gasodutos podem cobrar para transportar gás até 2030. A proposta corta mais de 30% a tarifa de uma das maiores. Se o pedágio cai, o gás chega mais barato na indústria, e isso pode aparecer no preço de muita coisa.",
+    "destaque": "−32%",
+    "legenda": "a −35% na tarifa proposta para uma transportadora de gás",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/newsletters/comece-seu-dia/do-transporte-de-gas-ao-futuro-da-enel-semana-coloca-anp-e-aneel-no-centro-das-atencoes/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-17",
+    "setor": "luz",
+    "titulo": "A Enel pode perder a conta de luz de São Paulo",
+    "resumo": "A ANEEL vota se recomenda tirar da Enel o direito de distribuir energia em São Paulo, depois dos apagões. Duas diretoras já votaram a favor. A palavra final é do Ministério de Minas e Energia.",
+    "destaque": "2 votos",
+    "legenda": "de diretoras da ANEEL já a favor de encerrar a concessão",
+    "fontes": [
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/aneel-tende-a-recomendar-caducidade-da-enel-sp-nesta-semana-dizem-fontes/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-16",
+    "setor": "petroleo",
+    "titulo": "O petróleo caiu mais de 3% em um dia",
+    "resumo": "Com o petróleo voltando a passar pelo Oriente Médio, o mundo deve ter mais petróleo do que compradores no fim do ano. Resultado: o preço do barril despencou na segunda-feira.",
+    "destaque": "1,7 mi",
+    "legenda": "barris por dia de sobra no fim de 2026, segundo a IEA",
+    "fontes": [
+      {
+        "nome": "Reuters",
+        "url": "https://finance.yahoo.com/energy/articles/oil-prices-fall-expectations-coming-020042042.html"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-13",
+    "setor": "petroleo",
+    "titulo": "A Petrobras produzindo mais sem construir nada novo",
+    "resumo": "Onze plataformas que já existiam ganharam capacidade para quase 300 mil barris a mais por dia, só com engenharia e ajustes. E isso chega justo quando o preço do petróleo começa a cair no mundo.",
+    "destaque": "+282 mil",
+    "legenda": "barris por dia de capacidade em 11 plataformas, sem obra nova",
+    "fontes": [
+      {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/economia/2026/11/13/petrobras-aumenta-capacidade-de-producao-de-11-plataformas-sem-novos-investimentos"
+      },
+      {
+        "nome": "Petrobras",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001119639/000129281426005231/pbr20261110_6k1.htm"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-10",
+    "setor": "petroleo",
+    "titulo": "Petrobras aumenta a previsão de produção do ano",
+    "resumo": "A empresa revisou para cima quanto vai produzir em 2026: de 3,1 para até 3,4 milhões de barris de óleo e gás por dia. Mais plataformas novas funcionando e mais sondas disponíveis ajudaram.",
+    "destaque": "3,4 mi",
+    "legenda": "barris de óleo e gás por dia: o novo teto da previsão para 2026",
+    "fontes": [
+      {
+        "nome": "Petrobras",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001119639/000129281426005231/pbr20261110_6k1.htm"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-10",
+    "setor": "renovaveis",
+    "titulo": "O sol colocou mais 3,75 GW na matriz elétrica em 2026",
+    "resumo": "A energia solar segue sendo a fonte que mais cresce no Brasil. Só neste ano, as novas usinas somaram mais de 3,7 gigawatts de capacidade.",
+    "destaque": "3,75 GW",
+    "legenda": "de energia solar adicionados à matriz elétrica em 2026",
+    "fontes": [
+      {
+        "nome": "Times Brasil",
+        "url": "https://timesbrasil.com.br/empresas-e-negocios/energia/energia-solar-alimenta-a-matriz-eletrica-brasileira/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-10",
+    "setor": "hidrogenio",
+    "titulo": "O hidrogênio verde do Ceará ainda está no papel",
+    "resumo": "Cinco anos depois dos primeiros anúncios, os projetos de hidrogênio verde no Porto do Pecém somam R$ 63 bilhões prometidos em seis pré-contratos, mas nenhuma usina saiu do chão.",
+    "destaque": "R$ 63 bi",
+    "legenda": "em investimentos prometidos no hub de hidrogênio do Pecém",
+    "fontes": [
+      {
+        "nome": "Diário do Nordeste",
+        "url": "https://diariodonordeste.verdesmares.com.br/negocios/promessas-bilionarias-do-hidrogenio-verde-no-ceara-seguem-no-papel-cinco-anos-depois-1.3799307"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-06",
+    "setor": "hidrogenio",
+    "titulo": "Hidrogênio verde ficou mais caro no Brasil",
+    "resumo": "Produzir um quilo de hidrogênio verde passou de US$ 5,19 para US$ 6,58 em um ano. O vilão é a energia elétrica, que pesa de 60% a 80% no custo dos projetos.",
+    "destaque": "+26,9%",
+    "legenda": "no custo de produção do hidrogênio verde em 12 meses",
+    "fontes": [
+      {
+        "nome": "Canal Solar",
+        "url": "https://canalsolar.com.br/custo-hirdrogenio-verde-sobe-269-brasil/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-06",
+    "setor": "renovaveis",
+    "titulo": "O Brasil aprovou o seu plano de transição energética",
+    "resumo": "O Conselho Nacional de Política Energética aprovou o Plante, o plano que organiza como o país vai mudar a sua matriz de energia nos próximos anos.",
+    "destaque": "81%",
+    "legenda": "de matriz renovável prevista pelo plano",
+    "fontes": [
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/?p=49825"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-11-06",
+    "setor": "luz",
+    "titulo": "Governo cria grupo para planejar os carros elétricos",
+    "resumo": "Um grupo de trabalho vai propor a estratégia nacional de eletromobilidade, da rede de recarga até os minerais das baterias.",
+    "destaque": "120 dias",
+    "legenda": "de prazo para o grupo apresentar a proposta",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/?p=548791"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-19",
+    "setor": "renovaveis",
+    "titulo": "Eólica e solar desaceleraram no Brasil",
+    "resumo": "A instalação de novas usinas eólicas e solares caiu 27% de 2024 para 2025. A rede elétrica não está dando conta de escoar tanta energia nos horários de pico de geração.",
+    "destaque": "−27%",
+    "legenda": "na instalação de novas usinas eólicas e solares",
+    "fontes": [
+      {
+        "nome": "Movimento Econômico",
+        "url": "https://movimentoeconomico.com.br/economia/energia/2026/10/19/expansao-da-eolica-e-solar-caiu-27-no-brasil-diz-bloombergnef/"
+      }
+    ],
+    "video": ""
+  },
+  {
+    "data": "2026-10-07",
+    "setor": "petroleo",
+    "titulo": "Leilão do pré-sal vende 7 de 13 áreas",
+    "resumo": "Petrobras e Prio levaram duas áreas cada, e a norueguesa Equinor também saiu com duas. Foi o maior leilão do pré-sal do ano.",
+    "destaque": "7 de 13",
+    "legenda": "blocos do pré-sal arrematados no leilão",
+    "fontes": [
+      {
+        "nome": "Movimento Econômico",
+        "url": "https://movimentoeconomico.com.br/petroleo-e-gas/2026/10/07/maior-leilao-do-pre-sal-tem-7-dos-13-blocos-arrematados-e-r-530-milhoes-em-bonus/"
+      }
+    ],
+    "video": ""
+  }
+]

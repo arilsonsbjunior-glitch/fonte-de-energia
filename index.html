@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fonte de Energia</title>
+<meta name="description" content="Notícias de petróleo, gás, luz, hidrogênio e renováveis, resumidas em poucas linhas e com o link da fonte.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* Revista moderna: 1 destaque grande + 2 médios, depois notícias menores agrupadas por mês, com "ver mais" para as antigas */
+  --paper: #ffffff;
+  --ink: #0d0d10;
+  --muted: #62626e;
+  --line: #e8e8ee;
+  --soft: #f5f5f8;
+  --font-display: "Anton", "Impact", "Arial Narrow", sans-serif;
+  --font-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; border-radius: 6px; }
+.sr { position: absolute; left: -9999px; }
+.wrap { width: 100%; margin: 0 auto; padding: 0 clamp(16px, 3.2vw, 56px); }
+
+/* ---------- Cabeçalho ---------- */
+.mast .wrap { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding-top: 22px; padding-bottom: 16px; }
+.globe { width: 64px; height: 64px; }
+.globe canvas { width: 100%; height: 100%; display: block; }
+.title { font-family: var(--font-display); font-size: clamp(44px, 7vw, 92px); line-height: .9; text-transform: uppercase; }
+.title span { color: transparent; -webkit-text-stroke: 1.6px var(--ink); }
+.issue { text-align: right; font-size: 13px; color: var(--muted); line-height: 1.4; }
+.issue b { display: block; color: var(--ink); font-weight: 700; font-size: 14px; }
+.issue b::first-letter { text-transform: uppercase; }
+
+/* ---------- Faixa de manchetes ---------- */
+.ticker { background: var(--ink); color: #fff; overflow: hidden; white-space: nowrap; }
+.ticker .row { display: inline-flex; animation: run 60s linear infinite; }
+.ticker:hover .row { animation-play-state: paused; }
+.ticker .item { display: inline-flex; align-items: center; gap: 12px; padding: 11px 26px 11px 0; font-size: 14px; font-weight: 500; }
+.ticker .item i { font-style: normal; font-weight: 700; padding: 2px 9px; border-radius: 999px; background: var(--c); color: var(--t); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; }
+.ticker .item::after { content: "✦"; margin-left: 14px; color: #6b6b78; }
+@keyframes run { to { transform: translateX(-50%); } }
+
+/* ---------- Filtros e busca ---------- */
+.tools { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 0 4px; }
+.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--ink); background: var(--paper); color: var(--ink); font: inherit; font-size: 14px; font-weight: 600; padding: 7px 15px; border-radius: 999px; cursor: pointer; }
+.chip .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); border: 1px solid rgba(0,0,0,.15); }
+.chip[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.search { position: relative; flex: 0 0 280px; }
+.search svg { position: absolute; left: 13px; top: 50%; translate: 0 -50%; width: 16px; height: 16px; color: var(--muted); pointer-events: none; }
+.search input { width: 100%; padding: 9px 14px 9px 38px; border: 1.5px solid var(--line); border-radius: 999px; font: inherit; font-size: 14.5px; color: var(--ink); background: var(--soft); }
+.search input:focus { outline: none; border-color: var(--ink); background: #fff; }
+
+/* ---------- Cards (base) ---------- */
+.card { position: relative; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.card .stretch { position: absolute; inset: 0; z-index: 1; border-radius: 18px; }
+.cover {
+  position: relative; overflow: hidden; border-radius: 18px; background: var(--c); color: var(--t);
+  padding: 20px 22px; display: flex; flex-direction: column; justify-content: space-between;
+  container-type: inline-size; transition: transform .25s;
+}
+.card:hover .cover { transform: scale(1.012); }
+.cover::after { content: ""; position: absolute; right: -30%; bottom: -45%; width: 85%; aspect-ratio: 1; border-radius: 50%; border: 2px solid currentColor; opacity: .14; }
+.cover::before { content: ""; position: absolute; right: -12%; bottom: -25%; width: 50%; aspect-ratio: 1; border-radius: 50%; border: 2px solid currentColor; opacity: .14; }
+.cover > * { position: relative; z-index: 1; }
+.cover .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.cover .row .d { font-weight: 500; opacity: .8; letter-spacing: .04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cover .num { white-space: nowrap; font-family: var(--font-display); line-height: .9; }
+.cover .cap { margin-top: 8px; font-size: 14px; font-weight: 500; line-height: 1.3; opacity: .9; max-width: 32ch; }
+.cover h2 { margin: 14px 0 0; font-family: var(--font-display); font-weight: 400; line-height: .98; text-transform: uppercase; max-width: 16ch; }
+.info { display: grid; gap: 6px; }
+.info h3 { margin: 0; font-weight: 700; line-height: 1.2; letter-spacing: -0.015em; text-wrap: balance; }
+.info p { margin: 0; color: var(--muted); display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+.links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 14px; margin-top: 2px; }
+.read { font-weight: 700; display: inline-flex; align-items: center; gap: 6px; border-bottom: 2px solid var(--c); }
+.extra { position: relative; z-index: 2; color: var(--muted); font-weight: 500; }
+a.extra:hover { color: var(--ink); }
+.video { position: relative; z-index: 2; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+a.video { color: var(--ink); }
+.video svg { width: 12px; height: 12px; }
+
+/* Grande */
+.lg .cover { flex: 1; min-height: 460px; padding: 30px 32px; }
+.lg .cover .num { font-size: clamp(72px, 24cqi, 180px); }
+.lg .cover h2 { font-size: clamp(30px, 7cqi, 60px); }
+.lg .info h3 { display: none; }
+.lg .info p { font-size: 16.5px; color: #34343c; -webkit-line-clamp: 3; }
+/* Médio */
+.md .cover { height: clamp(210px, 15vw, 290px); }
+.md .cover .num { font-size: clamp(48px, 22cqi, 110px); }
+.md .info h3 { font-size: 21px; }
+.md .info p { font-size: 15px; -webkit-line-clamp: 2; }
+/* Pequeno */
+.sm .cover { height: clamp(150px, 10vw, 190px); padding: 16px 18px; border-radius: 14px; }
+.sm .stretch { border-radius: 14px; }
+.sm .cover .row { font-size: 11px; }
+.sm .cover .num { font-size: clamp(36px, 20cqi, 72px); }
+.sm .cover .cap { display: none; }
+.sm .info h3 { font-size: 17px; }
+.sm .info p { font-size: 14px; -webkit-line-clamp: 2; }
+.sm .links { font-size: 13px; }
+
+/* ---------- Seções ---------- */
+.top3 { display: grid; grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr); grid-template-rows: auto auto; gap: 28px 26px; margin-top: 18px; }
+.top3 .lg { grid-row: span 2; }
+.month { margin-top: 48px; }
+.month h2 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 20px; padding-bottom: 10px; border-bottom: 1.5px solid var(--ink); font-family: var(--font-display); font-weight: 400; font-size: 30px; text-transform: uppercase; line-height: 1; }
+.month h2 span { font-family: var(--font-body); font-size: 13px; color: var(--muted); text-transform: none; letter-spacing: 0; }
+.grid-sm { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 28px 22px; }
+.more { display: flex; justify-content: center; margin-top: 44px; }
+.more button { font: inherit; font-size: 15px; font-weight: 700; padding: 13px 26px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--ink); color: #fff; cursor: pointer; }
+.more button:hover { background: #2a2a33; }
+.more .end { color: var(--muted); font-size: 14px; }
+.empty { padding: 40px; text-align: center; color: var(--muted); background: var(--soft); border-radius: 18px; margin-top: 18px; }
+
+.footer { margin-top: 64px; border-top: 1.5px solid var(--ink); }
+.footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 14px; padding-top: 20px; padding-bottom: 36px; font-size: 13.5px; color: var(--muted); }
+.footer .t { font-family: var(--font-display); font-size: 26px; color: var(--ink); text-transform: uppercase; }
+.footer a { color: var(--ink); font-weight: 600; }
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1000px) {
+  .top3 { grid-template-columns: 1fr 1fr; }
+  .top3 .lg { grid-column: 1 / -1; grid-row: auto; }
+  .lg .cover { min-height: 420px; }
+}
+/* ---------- Celular ---------- */
+@media (max-width: 640px) {
+  .mast .wrap { grid-template-columns: auto 1fr; gap: 12px; padding-top: 16px; padding-bottom: 12px; }
+  .globe { width: 50px; height: 50px; }
+  .title { font-size: 40px; }
+  .title span { -webkit-text-stroke-width: 1.2px; }
+  .issue { grid-column: 1 / -1; text-align: left; display: flex; gap: 6px; flex-wrap: wrap; }
+  .issue b { display: inline; }
+  .ticker .item { font-size: 13px; padding: 9px 22px 9px 0; }
+  .tools { flex-direction: column-reverse; align-items: stretch; gap: 12px; padding-top: 14px; }
+  .search { flex: none; }
+  .top3 { grid-template-columns: minmax(0, 1fr); gap: 26px; margin-top: 12px; }
+  .lg .cover { flex: none; min-height: 0; aspect-ratio: 1 / 1; padding: 22px; }
+  .lg .cover .num { font-size: clamp(64px, 26cqi, 110px); }
+  .lg .cover h2 { font-size: 32px; }
+  .md .cover { height: auto; aspect-ratio: 16 / 10; padding: 18px; border-radius: 16px; }
+  .month { margin-top: 36px; }
+  .month h2 { font-size: 24px; }
+  /* No celular as menores viram lista compacta: quadradinho à esquerda, texto à direita */
+  .grid-sm { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .sm { flex-direction: row; gap: 14px; align-items: flex-start; }
+  .sm .cover { flex: 0 0 104px; height: 104px; padding: 10px; border-radius: 12px; justify-content: flex-end; }
+  .sm .cover .row { display: none; }
+  .sm .cover .num { font-size: clamp(16px, 23cqi, 30px); white-space: normal; line-height: .95; }
+  .sm .cover::before, .sm .cover::after { display: none; }
+  .sm .info { gap: 4px; }
+  .sm .info h3 { font-size: 16px; }
+  .sm .info p { font-size: 13.5px; }
+  .sm .meta-m { display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+}
+.meta-m { display: none; }
+@media (prefers-reduced-motion: reduce) { .ticker .row { animation: none; } .cover { transition: none; } }
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="globe"><canvas id="globe" role="img" aria-label="Globo girando com notícias viajando pelo mundo"></canvas></div>
+    <a class="title" href="#">Fonte <span>de</span> Energia</a>
+    <div class="issue"><b id="hoje"></b><span>Petróleo · Gás · Luz · Hidrogênio · Renováveis</span></div>
+  </div>
+</header>
+
+<div class="ticker" aria-label="Manchetes"><div class="row" id="ticker"></div></div>
+
+<main class="wrap">
+  <div class="tools">
+    <div class="chips" id="chips" role="group" aria-label="Filtrar por setor"></div>
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label for="q" class="sr">Buscar notícias</label>
+      <input id="q" type="search" placeholder="Buscar notícias antigas…" autocomplete="off">
+    </div>
+  </div>
+  <div id="conteudo" aria-live="polite"></div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span class="t">Fonte de Energia</span>
+    <span>Resumos com link para a matéria original. As matérias pertencem aos veículos citados. <a href="https://www.instagram.com/" data-ig>Vídeos no Instagram ↗</a></span>
+  </div>
+</footer>
+
+<script>
+/* As notícias ficam no arquivo noticias.json (a tarefa diária adiciona as novas lá). */
+let NOTICIAS = [];
+const INSTAGRAM = "https://www.instagram.com/";
+const POR_PAGINA = 12;   /* quantas notícias menores aparecem antes do botão "Ver mais" */
+
+/* Cor de cada setor (c = fundo, t = texto) */
+const SETORES = {
+  petroleo:   { nome: "Petróleo",   c: "#3b2bff", t: "#ffffff" },
+  gas:        { nome: "Gás",        c: "#ff5a1f", t: "#ffffff" },
+  luz:        { nome: "Luz",        c: "#ffd400", t: "#0d0d10" },
+  hidrogenio: { nome: "Hidrogênio", c: "#00c2d8", t: "#0d0d10" },
+  renovaveis: { nome: "Renováveis", c: "#19c37d", t: "#0d0d10" }
+};
+
+/* ===== daqui pra baixo não precisa mexer ===== */
+const MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+const curta = (iso) => { const [a, m, d] = iso.split("-").map(Number); return `${d} ${MESES[m - 1].slice(0, 3)}`; };
+const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const PLAY = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
+let ordenadas = [];
+document.getElementById("hoje").textContent = new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
+document.querySelectorAll("[data-ig]").forEach(a => a.href = INSTAGRAM);
+
+/* Faixa de manchetes: só as 10 mais recentes, em ritmo calmo */
+function montarFaixa() {
+const tk = document.getElementById("ticker");
+const tick = ordenadas.slice(0, 10).map(n => { const s = SETORES[n.setor]; return `<span class="item" style="--c:${s.c};--t:${s.t}"><i>${s.nome}</i>${n.titulo}</span>`; }).join("");
+const metade = tick.repeat(Math.max(1, Math.ceil(6 / Math.max(1, Math.min(10, ordenadas.length)))));
+tk.innerHTML = metade + metade;
+requestAnimationFrame(() => { tk.style.animationDuration = Math.max(40, tk.scrollWidth / 2 / 40) + "s"; });
+}
+
+let filtro = "todos", termo = "", mostrar = POR_PAGINA;
+const chips = document.getElementById("chips");
+[["todos", "Todas", "#0d0d10"], ...Object.entries(SETORES).map(([k, s]) => [k, s.nome, s.c])].forEach(([k, nome, c]) => {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "chip"; b.dataset.k = k; b.id = "chip-" + k; b.style.setProperty("--c", c);
+  b.innerHTML = (k === "todos" ? "" : '<span class="dot"></span>') + nome;
+  b.addEventListener("click", () => { filtro = k; mostrar = POR_PAGINA; render(); });
+  chips.append(b);
+});
+document.getElementById("q").addEventListener("input", (e) => { termo = e.target.value; mostrar = POR_PAGINA; render(); });
+
+function card(n, tam) {
+  const s = SETORES[n.setor], f = n.fontes[0];
+  const extras = tam === "sm" ? "" : n.fontes.slice(1).map(x => `<a class="extra" href="${x.url}" target="_blank" rel="noopener">+ ${x.nome}</a>`).join("");
+  const video = n.video ? `<a class="video" href="${n.video}" target="_blank" rel="noopener">${PLAY}Ver vídeo</a>` : (tam === "sm" ? "" : `<span class="video">${PLAY}Vídeo em breve</span>`);
+  const tag = tam === "lg" ? "div" : "li";
+  return `<${tag} class="card ${tam}" style="--c:${s.c};--t:${s.t}">
+    <a class="stretch" href="${f.url}" target="_blank" rel="noopener" aria-label="${n.titulo}. Abrir a notícia em ${f.nome}"></a>
+    <div class="cover">
+      <div class="row"><span>${s.nome}</span><span class="d">${curta(n.data)} · ${f.nome}</span></div>
+      <div>
+        <div class="num">${n.destaque}</div>
+        <div class="cap">${n.legenda}</div>
+        ${tam === "lg" ? `<h2>${n.titulo}</h2>` : ""}
+      </div>
+    </div>
+    <div class="info">
+      <span class="meta-m">${s.nome} · ${curta(n.data)}</span>
+      <h3>${n.titulo}</h3>
+      <p>${n.resumo}</p>
+      <div class="links"><span class="read">Ler notícia ↗</span>${extras}${video}</div>
+    </div>
+  </${tag}>`;
+}
+
+function render() {
+  chips.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === filtro ? "true" : "false"));
+  const t = norm(termo.trim());
+  const lista = ordenadas
+    .filter(n => filtro === "todos" || n.setor === filtro)
+    .filter(n => !t || norm(n.titulo + " " + n.resumo + " " + n.fontes.map(f => f.nome).join(" ")).includes(t));
+  const el = document.getElementById("conteudo");
+  if (!lista.length) { el.innerHTML = `<div class="empty">Nenhuma notícia encontrada. Tente outro setor ou outra palavra.</div>`; return; }
+
+  const [g, m1, m2, ...resto] = lista;
+  let html = `<section class="top3" aria-label="Destaques">${card(g, "lg")}${m1 ? `<ul class="sr-list" style="display:contents">${card(m1, "md")}${m2 ? card(m2, "md") : ""}</ul>` : ""}</section>`;
+
+  const visiveis = resto.slice(0, mostrar);
+  const meses = [];
+  visiveis.forEach(n => { const k = n.data.slice(0, 7); const grp = meses.find(x => x.k === k); grp ? grp.itens.push(n) : meses.push({ k, itens: [n] }); });
+  html += meses.map(({ k, itens }) => {
+    const [a, m] = k.split("-").map(Number);
+    return `<section class="month"><h2>${MESES[m - 1]} ${a} <span>${itens.length} ${itens.length === 1 ? "notícia" : "notícias"}</span></h2><ol class="grid-sm">${itens.map(n => card(n, "sm")).join("")}</ol></section>`;
+  }).join("");
+
+  const faltam = resto.length - visiveis.length;
+  if (faltam > 0) html += `<div class="more"><button type="button" id="mais">Ver mais notícias (${faltam} restantes)</button></div>`;
+  else if (resto.length > POR_PAGINA) html += `<div class="more"><span class="end">Você chegou às notícias mais antigas.</span></div>`;
+  el.innerHTML = html;
+  const btn = document.getElementById("mais");
+  if (btn) btn.addEventListener("click", () => { mostrar += POR_PAGINA; render(); });
+}
+fetch("noticias.json", { cache: "no-cache" })
+  .then(r => r.json())
+  .then(lista => { NOTICIAS = lista; ordenadas = lista.slice().sort((a, b) => b.data.localeCompare(a.data)); montarFaixa(); render(); })
+  .catch(() => { document.getElementById("conteudo").innerHTML = '<div class="empty">Não foi possível carregar as notícias agora. Tente recarregar a página.</div>'; });
+
+/* ===== Globo infinito (marca viva ao lado do nome) ===== */
+(function globe() {
+  const cv = document.getElementById("globe"), ctx = cv.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let W, R;
+  function size() { const dpr = Math.min(devicePixelRatio || 1, 2); W = cv.clientWidth; cv.width = W * dpr; cv.height = W * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); R = W * 0.47; }
+  size(); addEventListener("resize", size);
+  const N = 420, pts = [];
+  for (let i = 0; i < N; i++) { const y = 1 - (i / (N - 1)) * 2, r = Math.sqrt(1 - y * y), th = i * 2.399963; pts.push([Math.cos(th) * r, y, Math.sin(th) * r]); }
+  const cid = [[-22.9,-43.2],[-20.3,-40.3],[29.8,-95.4],[51.5,-0.1],[59.9,10.7],[25.3,51.5],[39.9,116.4],[-33.9,18.4],[1.3,103.8],[6.5,3.4]];
+  const toV = ([la, lo]) => { const a = la * Math.PI / 180, b = lo * Math.PI / 180; return [Math.cos(a) * Math.sin(b), Math.sin(a), Math.cos(a) * Math.cos(b)]; };
+  const C = cid.map(toV), tilt = -0.35;
+  const proj = (v, rot) => { let [x, y, z] = v; const c = Math.cos(rot), s = Math.sin(rot); [x, z] = [x * c + z * s, -x * s + z * c]; const ct = Math.cos(tilt), st = Math.sin(tilt); [y, z] = [y * ct - z * st, y * st + z * ct]; return [W / 2 + x * R, W / 2 - y * R, z]; };
+  const slerp = (a, b, t) => { const d = Math.acos(Math.min(1, a[0]*b[0] + a[1]*b[1] + a[2]*b[2])); if (d < 1e-4) return a; const s1 = Math.sin((1 - t) * d) / Math.sin(d), s2 = Math.sin(t * d) / Math.sin(d), k = 1 + Math.sin(Math.PI * t) * .2; return [(a[0]*s1 + b[0]*s2) * k, (a[1]*s1 + b[1]*s2) * k, (a[2]*s1 + b[2]*s2) * k]; };
+  const arcs = []; const add = (t0) => { const a = Math.random() * C.length | 0; let b; do { b = Math.random() * C.length | 0; } while (b === a); arcs.push({ a, b, t0, dur: 1800 + Math.random() * 1200 }); };
+  for (let i = 0; i < 4; i++) add(-i * 600);
+  function frame(now) {
+    const rot = reduce ? 1.2 : now * 0.0003;
+    ctx.clearRect(0, 0, W, W);
+    ctx.fillStyle = "#0d0d10"; ctx.beginPath(); ctx.arc(W/2, W/2, R, 0, 7); ctx.fill();
+    for (const p of pts) { const [x, y, z] = proj(p, rot); if (z < 0) continue; ctx.fillStyle = `rgba(255,255,255,${.2 + z * .7})`; ctx.beginPath(); ctx.arc(x, y, .55 + z * .7, 0, 7); ctx.fill(); }
+    if (!reduce) for (let i = arcs.length - 1; i >= 0; i--) {
+      const A = arcs[i], t = (now - A.t0) / A.dur; if (t < 0) continue;
+      if (t > 1.3) { arcs.splice(i, 1); add(now + Math.random() * 300); continue; }
+      const head = Math.min(1, t), tail = Math.max(0, t - .5), fade = t > 1 ? 1 - (t - 1) / .3 : 1;
+      ctx.lineWidth = 1.6; ctx.lineCap = "round"; let prev = null;
+      for (let k = 0; k <= 20; k++) { const q = proj(slerp(C[A.a], C[A.b], tail + (head - tail) * k / 20), rot); if (prev && q[2] > -.1 && prev[2] > -.1) { ctx.strokeStyle = `rgba(0,194,216,${(k / 20) * fade})`; ctx.beginPath(); ctx.moveTo(prev[0], prev[1]); ctx.lineTo(q[0], q[1]); ctx.stroke(); } prev = q; }
+    }
+    if (!reduce) requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
