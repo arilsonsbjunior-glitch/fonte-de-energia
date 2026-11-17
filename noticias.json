@@ -13,7 +13,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M0 150h200M0 172h200\"/><path d=\"M40 150v-50h40v50M34 100h52M50 115h20v18H50z\"/><path d=\"M80 120h90M95 114v12M115 114v12M135 114v12M155 114v12\"/><path d=\"M160 30v44M146 60l14 14 14-14\"/>"
+    "arte": "<path d=\"M0 150h200M0 172h200\"/><path d=\"M40 150v-50h40v50M34 100h52M50 115h20v18H50z\"/><path d=\"M80 120h90M95 114v12M115 114v12M135 114v12M155 114v12\"/><path d=\"M160 30v44M146 60l14 14 14-14\"/>",
+    "foto": "https://images.pexels.com/photos/23878948/pexels-photo-23878948.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/iron-poles-in-a-forest-23878948/"
   },
   {
     "data": "2026-11-17",
@@ -29,7 +32,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M100 30a34 34 0 0 1 20 62v16H80V92a34 34 0 0 1 20-62z\"/><path d=\"M84 118h32M88 128h24\"/><path d=\"M88 52l24 24M112 52l-24 24\"/><path d=\"M10 200v-40h20v-20h20v60M150 200v-50h18v-14h22v64\"/>"
+    "arte": "<path d=\"M100 30a34 34 0 0 1 20 62v16H80V92a34 34 0 0 1 20-62z\"/><path d=\"M84 118h32M88 128h24\"/><path d=\"M88 52l24 24M112 52l-24 24\"/><path d=\"M10 200v-40h20v-20h20v60M150 200v-50h18v-14h22v64\"/>",
+    "foto": "https://images.pexels.com/photos/6420227/pexels-photo-6420227.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/city-skyline-on-an-afterglow-6420227/"
   },
   {
     "data": "2026-11-17",
@@ -45,7 +51,10 @@
       }
     ],
     "video": "",
-    "arte": "<rect x=\"24\" y=\"40\" width=\"96\" height=\"84\" rx=\"6\"/><path d=\"M24 62h96M48 30v20M96 30v20M44 84h10M66 84h10M88 84h10M44 104h10M66 104h10\"/><path d=\"M86 100l10 10 18-22\"/><ellipse cx=\"160\" cy=\"132\" rx=\"26\" ry=\"9\"/><path d=\"M134 132v50c0 5 12 9 26 9s26-4 26-9v-50M134 152c0 5 12 9 26 9s26-4 26-9\"/>"
+    "arte": "<rect x=\"24\" y=\"40\" width=\"96\" height=\"84\" rx=\"6\"/><path d=\"M24 62h96M48 30v20M96 30v20M44 84h10M66 84h10M88 84h10M44 104h10M66 104h10\"/><path d=\"M86 100l10 10 18-22\"/><ellipse cx=\"160\" cy=\"132\" rx=\"26\" ry=\"9\"/><path d=\"M134 132v50c0 5 12 9 26 9s26-4 26-9v-50M134 152c0 5 12 9 26 9s26-4 26-9\"/>",
+    "foto": "https://images.pexels.com/photos/38150961/pexels-photo-38150961.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/stacked-red-industrial-oil-barrels-38150961/"
   },
   {
     "data": "2026-11-16",
@@ -61,7 +70,10 @@
       }
     ],
     "video": "",
-    "arte": "<ellipse cx=\"60\" cy=\"70\" rx=\"30\" ry=\"10\"/><path d=\"M30 70v70c0 6 13 11 30 11s30-5 30-11V70M30 98c0 6 13 11 30 11s30-5 30-11\"/><path d=\"M110 40l25 32 20-10 35 60\"/><path d=\"M174 118l16 4 2-16\"/><path d=\"M110 192h86M110 192V30\"/>"
+    "arte": "<ellipse cx=\"60\" cy=\"70\" rx=\"30\" ry=\"10\"/><path d=\"M30 70v70c0 6 13 11 30 11s30-5 30-11V70M30 98c0 6 13 11 30 11s30-5 30-11\"/><path d=\"M110 40l25 32 20-10 35 60\"/><path d=\"M174 118l16 4 2-16\"/><path d=\"M110 192h86M110 192V30\"/>",
+    "foto": "https://images.pexels.com/photos/7567223/pexels-photo-7567223.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/stock-market-illustration-on-the-screen-7567223/"
   },
   {
     "data": "2026-11-13",
@@ -81,7 +93,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M30 150h110M40 150v35M85 150v35M130 150v35M45 150v-26h40v26M95 150v-18h30v18\"/><circle cx=\"160\" cy=\"60\" r=\"20\"/><circle cx=\"160\" cy=\"60\" r=\"7\"/><path d=\"M160 32v8M160 80v8M132 60h8M180 60h8M140 40l6 6M174 74l6 6M140 80l6-6M174 46l6-6\"/><path d=\"M70 110V60M58 72l12-12 12 12\"/><path d=\"M0 192q12-8 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0\"/>"
+    "arte": "<path d=\"M30 150h110M40 150v35M85 150v35M130 150v35M45 150v-26h40v26M95 150v-18h30v18\"/><circle cx=\"160\" cy=\"60\" r=\"20\"/><circle cx=\"160\" cy=\"60\" r=\"7\"/><path d=\"M160 32v8M160 80v8M132 60h8M180 60h8M140 40l6 6M174 74l6 6M140 80l6-6M174 46l6-6\"/><path d=\"M70 110V60M58 72l12-12 12 12\"/><path d=\"M0 192q12-8 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0\"/>",
+    "foto": "https://images.pexels.com/photos/3192662/pexels-photo-3192662.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/oil-platform-3192662/"
   },
   {
     "data": "2026-11-10",
@@ -97,7 +112,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 190h170\"/><rect x=\"35\" y=\"140\" width=\"24\" height=\"50\"/><rect x=\"75\" y=\"115\" width=\"24\" height=\"75\"/><rect x=\"115\" y=\"85\" width=\"24\" height=\"105\"/><rect x=\"155\" y=\"60\" width=\"24\" height=\"130\" stroke-dasharray=\"6 6\"/><path d=\"M167 20c-7.199999999999999 10.799999999999999 -10.799999999999999 15.6 -10.799999999999999 21.599999999999998a10.799999999999999 10.799999999999999 0 0 0 21.599999999999998 0c0 -6.0 -3.5999999999999996 -10.799999999999999 -10.799999999999999 -21.599999999999998z\"/>"
+    "arte": "<path d=\"M20 190h170\"/><rect x=\"35\" y=\"140\" width=\"24\" height=\"50\"/><rect x=\"75\" y=\"115\" width=\"24\" height=\"75\"/><rect x=\"115\" y=\"85\" width=\"24\" height=\"105\"/><rect x=\"155\" y=\"60\" width=\"24\" height=\"130\" stroke-dasharray=\"6 6\"/><path d=\"M167 20c-7.199999999999999 10.799999999999999 -10.799999999999999 15.6 -10.799999999999999 21.599999999999998a10.799999999999999 10.799999999999999 0 0 0 21.599999999999998 0c0 -6.0 -3.5999999999999996 -10.799999999999999 -10.799999999999999 -21.599999999999998z\"/>",
+    "foto": "https://images.pexels.com/photos/37703372/pexels-photo-37703372.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/offshore-oil-rig-in-calm-ocean-waters-37703372/"
   },
   {
     "data": "2026-11-10",
@@ -113,7 +131,10 @@
       }
     ],
     "video": "",
-    "arte": "<circle cx=\"140\" cy=\"55\" r=\"22\"/><path d=\"M140 18v10M140 82v10M103 55h10M167 55h10M114 29l7 7M159 74l7 7M114 81l7-7M159 36l7-7\"/><path d=\"M10 190l26-26h56l-26 26zM70 190l26-26h56l-26 26zM130 190l26-26h44v26\"/><path d=\"M28 177h56M88 177h56M148 177h52\"/>"
+    "arte": "<circle cx=\"140\" cy=\"55\" r=\"22\"/><path d=\"M140 18v10M140 82v10M103 55h10M167 55h10M114 29l7 7M159 74l7 7M114 81l7-7M159 36l7-7\"/><path d=\"M10 190l26-26h56l-26 26zM70 190l26-26h56l-26 26zM130 190l26-26h44v26\"/><path d=\"M28 177h56M88 177h56M148 177h52\"/>",
+    "foto": "https://images.pexels.com/photos/9893727/pexels-photo-9893727.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/photography-of-solar-energy-farm-9893727/"
   },
   {
     "data": "2026-11-10",
@@ -129,7 +150,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M40 30h80l30 30v120H40z\"/><path d=\"M120 30v30h30\"/><circle cx=\"76\" cy=\"105\" r=\"16\"/><circle cx=\"116\" cy=\"105\" r=\"16\"/><path d=\"M92 105h8\"/><path d=\"M60 145h70M60 160h50\"/><path d=\"M162 192l28-90 10 4-28 90-12 6z\"/>"
+    "arte": "<path d=\"M40 30h80l30 30v120H40z\"/><path d=\"M120 30v30h30\"/><circle cx=\"76\" cy=\"105\" r=\"16\"/><circle cx=\"116\" cy=\"105\" r=\"16\"/><path d=\"M92 105h8\"/><path d=\"M60 145h70M60 160h50\"/><path d=\"M162 192l28-90 10 4-28 90-12 6z\"/>",
+    "foto": "https://images.pexels.com/photos/33885284/pexels-photo-33885284.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/industrial-port-crane-at-a-busy-harbor-33885284/"
   },
   {
     "data": "2026-11-10",
@@ -145,7 +169,10 @@
       }
     ],
     "video": "",
-    "arte": "<rect x=\"30\" y=\"40\" width=\"70\" height=\"140\" rx=\"4\"/><path d=\"M30 75h70M30 110h70M30 145h70M60 58h28M60 93h28M60 128h28M60 163h28\"/><circle cx=\"44\" cy=\"58\" r=\"3\"/><circle cx=\"44\" cy=\"93\" r=\"3\"/><circle cx=\"44\" cy=\"128\" r=\"3\"/><circle cx=\"44\" cy=\"163\" r=\"3\"/><path d=\"M120 70h60v80h-60z\"/><path d=\"M132 90h36M132 104h36M132 118h24\"/><circle cx=\"170\" cy=\"148\" r=\"12\"/>"
+    "arte": "<rect x=\"30\" y=\"40\" width=\"70\" height=\"140\" rx=\"4\"/><path d=\"M30 75h70M30 110h70M30 145h70M60 58h28M60 93h28M60 128h28M60 163h28\"/><circle cx=\"44\" cy=\"58\" r=\"3\"/><circle cx=\"44\" cy=\"93\" r=\"3\"/><circle cx=\"44\" cy=\"128\" r=\"3\"/><circle cx=\"44\" cy=\"163\" r=\"3\"/><path d=\"M120 70h60v80h-60z\"/><path d=\"M132 90h36M132 104h36M132 118h24\"/><circle cx=\"170\" cy=\"148\" r=\"12\"/>",
+    "foto": "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/server-racks-on-data-center-5480781/"
   },
   {
     "data": "2026-11-07",
@@ -161,7 +188,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M0 192c20-10 30-60 50-60s25 40 40 40 20-70 45-70 30 60 65 90\"/><path d=\"M135 102l35-40\"/><circle cx=\"170\" cy=\"62\" r=\"4\"/><path d=\"M20 40h60v70H20z\"/><path d=\"M32 58h36M32 72h36M32 86h24\"/><circle cx=\"74\" cy=\"104\" r=\"14\"/><path d=\"M74 96v8l6 4\"/>"
+    "arte": "<path d=\"M0 192c20-10 30-60 50-60s25 40 40 40 20-70 45-70 30 60 65 90\"/><path d=\"M135 102l35-40\"/><circle cx=\"170\" cy=\"62\" r=\"4\"/><path d=\"M20 40h60v70H20z\"/><path d=\"M32 58h36M32 72h36M32 86h24\"/><circle cx=\"74\" cy=\"104\" r=\"14\"/><path d=\"M74 96v8l6 4\"/>",
+    "foto": "https://images.pexels.com/photos/23938273/pexels-photo-23938273.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/sugarloaf-mountain-off-the-coast-of-rio-de-janeiro-in-the-evening-23938273/"
   },
   {
     "data": "2026-11-06",
@@ -177,7 +207,10 @@
       }
     ],
     "video": "",
-    "arte": "<circle cx=\"55\" cy=\"80\" r=\"22\"/><circle cx=\"110\" cy=\"80\" r=\"22\"/><path d=\"M77 80h11\"/><path d=\"M110 132l50-50h30v30l-50 50z\"/><circle cx=\"178\" cy=\"94\" r=\"5\"/><path d=\"M40 190v-50M28 152l12-12 12 12M70 190v-30M58 172l12-12 12 12\"/>"
+    "arte": "<circle cx=\"55\" cy=\"80\" r=\"22\"/><circle cx=\"110\" cy=\"80\" r=\"22\"/><path d=\"M77 80h11\"/><path d=\"M110 132l50-50h30v30l-50 50z\"/><circle cx=\"178\" cy=\"94\" r=\"5\"/><path d=\"M40 190v-50M28 152l12-12 12 12M70 190v-30M58 172l12-12 12 12\"/>",
+    "foto": "https://images.pexels.com/photos/7722670/pexels-photo-7722670.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/clear-glass-bottle-on-table-7722670/"
   },
   {
     "data": "2026-11-06",
@@ -193,7 +226,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 190v-50l20-12v12l20-12v12l20-12v62z\"/><path d=\"M30 128v-30h10v22\"/><path d=\"M90 172c30 0 20-50 50-50s20-40 40-40\"/><path d=\"M100 70V30l24 10-24 10\"/><path d=\"M168 200l3-56 3 56M171 144l-4-36h8zM171 144l30 18-4 6zM171 144l-30 16-2-6z\"/>"
+    "arte": "<path d=\"M20 190v-50l20-12v12l20-12v12l20-12v62z\"/><path d=\"M30 128v-30h10v22\"/><path d=\"M90 172c30 0 20-50 50-50s20-40 40-40\"/><path d=\"M100 70V30l24 10-24 10\"/><path d=\"M168 200l3-56 3 56M171 144l-4-36h8zM171 144l30 18-4 6zM171 144l-30 16-2-6z\"/>",
+    "foto": "https://images.pexels.com/photos/30037318/pexels-photo-30037318.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/aerial-view-of-wind-turbines-at-sunset-30037318/"
   },
   {
     "data": "2026-11-06",
@@ -209,7 +245,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 150l14-30h80l20 30h20v24H20z\"/><circle cx=\"50\" cy=\"176\" r=\"12\"/><circle cx=\"130\" cy=\"176\" r=\"12\"/><path d=\"M42 120l10-18h48l14 18\"/><rect x=\"160\" y=\"70\" width=\"30\" height=\"60\" rx=\"4\"/><path d=\"M175 130v20c0 10-8 14-21 14\"/><path d=\"M178 84l-8 14h10l-6 14\"/>"
+    "arte": "<path d=\"M20 150l14-30h80l20 30h20v24H20z\"/><circle cx=\"50\" cy=\"176\" r=\"12\"/><circle cx=\"130\" cy=\"176\" r=\"12\"/><path d=\"M42 120l10-18h48l14 18\"/><rect x=\"160\" y=\"70\" width=\"30\" height=\"60\" rx=\"4\"/><path d=\"M175 130v20c0 10-8 14-21 14\"/><path d=\"M178 84l-8 14h10l-6 14\"/>",
+    "foto": "https://images.pexels.com/photos/24376862/pexels-photo-24376862.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/electric-car-while-charging-24376862/"
   },
   {
     "data": "2026-11-06",
@@ -225,7 +264,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M30 70h70M40 70l8 110h34l8-110M55 60h20v10M58 90v70M72 90v70\"/><path d=\"M110 120h40M140 108l12 12-12 12\"/><path d=\"M186 70l-24 44h18l-10 40 30-52h-18z\"/>"
+    "arte": "<path d=\"M30 70h70M40 70l8 110h34l8-110M55 60h20v10M58 90v70M72 90v70\"/><path d=\"M110 120h40M140 108l12 12-12 12\"/><path d=\"M186 70l-24 44h18l-10 40 30-52h-18z\"/>",
+    "foto": "https://images.pexels.com/photos/4454065/pexels-photo-4454065.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/top-view-of-an-excavator-of-a-garbage-dump-4454065/"
   },
   {
     "data": "2026-11-06",
@@ -241,7 +283,10 @@
       }
     ],
     "video": "",
-    "arte": "<ellipse cx=\"60\" cy=\"50\" rx=\"36\" ry=\"12\"/><path d=\"M24 50v90c0 7 16 12 36 12s36-5 36-12V50M24 80c0 7 16 12 36 12s36-5 36-12M24 110c0 7 16 12 36 12s36-5 36-12\"/><path d=\"M120 190h76M130 190v-40M150 190v-70M170 190v-55M190 190v-90\"/>"
+    "arte": "<ellipse cx=\"60\" cy=\"50\" rx=\"36\" ry=\"12\"/><path d=\"M24 50v90c0 7 16 12 36 12s36-5 36-12V50M24 80c0 7 16 12 36 12s36-5 36-12M24 110c0 7 16 12 36 12s36-5 36-12\"/><path d=\"M120 190h76M130 190v-40M150 190v-70M170 190v-55M190 190v-90\"/>",
+    "foto": "https://images.pexels.com/photos/17489163/pexels-photo-17489163.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/computer-server-in-data-center-room-17489163/"
   },
   {
     "data": "2026-11-03",
@@ -257,7 +302,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 120h120l40-20v10l-30 30H20z\"/><path d=\"M70 120l30-50h16l-14 50M80 140l20 30h14l-8-30\"/><path d=\"M170 30c-7.199999999999999 10.799999999999999 -10.799999999999999 15.6 -10.799999999999999 21.599999999999998a10.799999999999999 10.799999999999999 0 0 0 21.599999999999998 0c0 -6.0 -3.5999999999999996 -10.799999999999999 -10.799999999999999 -21.599999999999998z\"/><path d=\"M160 192v-40M150 162l10-10 10 10\"/>"
+    "arte": "<path d=\"M20 120h120l40-20v10l-30 30H20z\"/><path d=\"M70 120l30-50h16l-14 50M80 140l20 30h14l-8-30\"/><path d=\"M170 30c-7.199999999999999 10.799999999999999 -10.799999999999999 15.6 -10.799999999999999 21.599999999999998a10.799999999999999 10.799999999999999 0 0 0 21.599999999999998 0c0 -6.0 -3.5999999999999996 -10.799999999999999 -10.799999999999999 -21.599999999999998z\"/><path d=\"M160 192v-40M150 162l10-10 10 10\"/>",
+    "foto": "https://images.pexels.com/photos/36581522/pexels-photo-36581522.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/airport-ground-crew-refueling-klm-airplane-36581522/"
   },
   {
     "data": "2026-10-30",
@@ -273,7 +321,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M120 200l18-120h16l18 120M128 150h36M124 175h44M132 115h28M110 95h72M138 80l-6-20h28l-6 20\"/><path d=\"M28 108l30-30M44 124l30-30M36 100l22 22M66 70l22 22\"/><path d=\"M52 110l-38 40\"/><path d=\"M10 190h70\"/>"
+    "arte": "<path d=\"M120 200l18-120h16l18 120M128 150h36M124 175h44M132 115h28M110 95h72M138 80l-6-20h28l-6 20\"/><path d=\"M28 108l30-30M44 124l30-30M36 100l22 22M66 70l22 22\"/><path d=\"M52 110l-38 40\"/><path d=\"M10 190h70\"/>",
+    "foto": "https://images.pexels.com/photos/39398551/pexels-photo-39398551.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/high-voltage-power-lines-in-rural-landscape-39398551/"
   },
   {
     "data": "2026-10-30",
@@ -289,7 +340,10 @@
       }
     ],
     "video": "",
-    "arte": "<rect x=\"20\" y=\"70\" width=\"44\" height=\"110\" rx=\"3\"/><rect x=\"74\" y=\"50\" width=\"44\" height=\"130\" rx=\"3\"/><path d=\"M20 100h44M20 130h44M20 160h44M74 82h44M74 114h44M74 146h44\"/><path d=\"M132 180a38 38 0 0 1 66-26\"/><path d=\"M165 180l20-30\"/><path d=\"M146 50l10-20 10 20 10-20 10 20\"/>"
+    "arte": "<rect x=\"20\" y=\"70\" width=\"44\" height=\"110\" rx=\"3\"/><rect x=\"74\" y=\"50\" width=\"44\" height=\"130\" rx=\"3\"/><path d=\"M20 100h44M20 130h44M20 160h44M74 82h44M74 114h44M74 146h44\"/><path d=\"M132 180a38 38 0 0 1 66-26\"/><path d=\"M165 180l20-30\"/><path d=\"M146 50l10-20 10 20 10-20 10 20\"/>",
+    "foto": "https://images.pexels.com/photos/5203849/pexels-photo-5203849.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/black-server-racks-5203849/"
   },
   {
     "data": "2026-10-30",
@@ -305,7 +359,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 100h140l-14 22H34z\"/><path d=\"M80 100V40h14v60M76 60h22M76 80h22\"/><path d=\"M87 122v60\"/><path d=\"M0 128q12-8 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0\"/><path d=\"M140 150c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/><path d=\"M165 160c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/><path d=\"M115 165c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/>"
+    "arte": "<path d=\"M20 100h140l-14 22H34z\"/><path d=\"M80 100V40h14v60M76 60h22M76 80h22\"/><path d=\"M87 122v60\"/><path d=\"M0 128q12-8 25 0t25 0 25 0 25 0 25 0 25 0 25 0 25 0\"/><path d=\"M140 150c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/><path d=\"M165 160c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/><path d=\"M115 165c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/>",
+    "foto": "https://images.unsplash.com/photo-1690508313456-bf8c851e8319?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Gabriel Xavier / Unsplash",
+    "foto_link": "https://unsplash.com/photos/an-oil-rig-in-the-middle-of-the-ocean-XquCLVbTYLE"
   },
   {
     "data": "2026-10-29",
@@ -321,7 +378,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 190V60h10v130M20 70h80M90 70v40M84 110h12M30 90l40-20\"/><path d=\"M0 190h200\"/><path d=\"M150 190l3-90 3 90M153 100l-4-46h8zM153 100l40 22-4 6zM153 100l-40 20-3-6z\"/><path d=\"M110 178q10-6 20 0t20 0 20 0 20 0\"/>"
+    "arte": "<path d=\"M20 190V60h10v130M20 70h80M90 70v40M84 110h12M30 90l40-20\"/><path d=\"M0 190h200\"/><path d=\"M150 190l3-90 3 90M153 100l-4-46h8zM153 100l40 22-4 6zM153 100l-40 20-3-6z\"/><path d=\"M110 178q10-6 20 0t20 0 20 0 20 0\"/>",
+    "foto": "https://images.pexels.com/photos/33520381/pexels-photo-33520381.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/silhouette-of-hamburg-port-cranes-at-sunset-33520381/"
   },
   {
     "data": "2026-10-28",
@@ -337,7 +397,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M60 40h80v30a40 40 0 0 1-80 0z\"/><path d=\"M60 50H40a20 20 0 0 0 22 30M140 50h20a20 20 0 0 1-22 30\"/><path d=\"M100 110v30M75 170h50l-6-30H81z\"/><path d=\"M100 56c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/>"
+    "arte": "<path d=\"M60 40h80v30a40 40 0 0 1-80 0z\"/><path d=\"M60 50H40a20 20 0 0 0 22 30M140 50h20a20 20 0 0 1-22 30\"/><path d=\"M100 110v30M75 170h50l-6-30H81z\"/><path d=\"M100 56c-6 9 -9 13 -9 18a9 9 0 0 0 18 0c0 -5 -3 -9 -9 -18z\"/>",
+    "foto": "https://images.pexels.com/photos/34442635/pexels-photo-34442635.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/stunning-offshore-oil-rigs-at-sunset-34442635/"
   },
   {
     "data": "2026-10-19",
@@ -353,7 +416,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M60 200l3-100 3 100M63 100l-5-60h10zM63 100l52 28-5 8zM63 100l-52 26-4-8z\"/><circle cx=\"63\" cy=\"100\" r=\"5\"/><path d=\"M150 40v100M136 126l14 14 14-14\"/><path d=\"M120 190l20-20h50v20\"/>"
+    "arte": "<path d=\"M60 200l3-100 3 100M63 100l-5-60h10zM63 100l52 28-5 8zM63 100l-52 26-4-8z\"/><circle cx=\"63\" cy=\"100\" r=\"5\"/><path d=\"M150 40v100M136 126l14 14 14-14\"/><path d=\"M120 190l20-20h50v20\"/>",
+    "foto": "https://images.pexels.com/photos/744347/pexels-photo-744347.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/white-windmill-during-cloudy-day-744347/"
   },
   {
     "data": "2026-10-07",
@@ -369,7 +435,10 @@
       }
     ],
     "video": "",
-    "arte": "<rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M37 55l6 7 11-14\"/><rect x=\"68\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M75 55l6 7 11-14\"/><rect x=\"106\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M113 55l6 7 11-14\"/><rect x=\"144\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M151 55l6 7 11-14\"/><rect x=\"30\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M37 93l6 7 11-14\"/><rect x=\"68\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M75 93l6 7 11-14\"/><rect x=\"106\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M113 93l6 7 11-14\"/><rect x=\"144\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"30\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"68\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"106\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"144\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"30\" y=\"154\" width=\"30\" height=\"30\" rx=\"3\"/>"
+    "arte": "<rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M37 55l6 7 11-14\"/><rect x=\"68\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M75 55l6 7 11-14\"/><rect x=\"106\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M113 55l6 7 11-14\"/><rect x=\"144\" y=\"40\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M151 55l6 7 11-14\"/><rect x=\"30\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M37 93l6 7 11-14\"/><rect x=\"68\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M75 93l6 7 11-14\"/><rect x=\"106\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><path d=\"M113 93l6 7 11-14\"/><rect x=\"144\" y=\"78\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"30\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"68\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"106\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"144\" y=\"116\" width=\"30\" height=\"30\" rx=\"3\"/><rect x=\"30\" y=\"154\" width=\"30\" height=\"30\" rx=\"3\"/>",
+    "foto": "https://images.unsplash.com/photo-1749073668528-38ab64575f5d?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "J.f Manzanero / Unsplash",
+    "foto_link": "https://unsplash.com/photos/an-oil-rig-being-serviced-by-a-supply-ship-3J2FB7BItdA"
   },
   {
     "data": "2026-09-25",
@@ -385,7 +454,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M70 30h40M80 30v50l-40 80c-4 10 2 20 14 20h72c12 0 18-10 14-20l-40-80V30\"/><path d=\"M52 140h96\"/><circle cx=\"85\" cy=\"160\" r=\"6\"/><circle cx=\"112\" cy=\"150\" r=\"4\"/><circle cx=\"160\" cy=\"50\" r=\"22\"/><path d=\"M138 50h44M160 28c-10 12-10 32 0 44M160 28c10 12 10 32 0 44\"/>"
+    "arte": "<path d=\"M70 30h40M80 30v50l-40 80c-4 10 2 20 14 20h72c12 0 18-10 14-20l-40-80V30\"/><path d=\"M52 140h96\"/><circle cx=\"85\" cy=\"160\" r=\"6\"/><circle cx=\"112\" cy=\"150\" r=\"4\"/><circle cx=\"160\" cy=\"50\" r=\"22\"/><path d=\"M138 50h44M160 28c-10 12-10 32 0 44M160 28c10 12 10 32 0 44\"/>",
+    "foto": "https://images.pexels.com/photos/8539517/pexels-photo-8539517.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/person-in-white-scrub-suit-looking-at-the-microscope-8539517/"
   },
   {
     "data": "2026-08-27",
@@ -401,7 +473,10 @@
       }
     ],
     "video": "",
-    "arte": "<rect x=\"30\" y=\"70\" width=\"120\" height=\"70\" rx=\"8\"/><path d=\"M150 92h12v26h-12\"/><path d=\"M96 80l-20 34h16l-8 20 26-36h-16z\"/><path d=\"M40 170h100M40 185h70\"/><circle cx=\"170\" cy=\"40\" r=\"14\"/><path d=\"M170 14v8M170 58v8M144 40h8M188 40h8\"/>"
+    "arte": "<rect x=\"30\" y=\"70\" width=\"120\" height=\"70\" rx=\"8\"/><path d=\"M150 92h12v26h-12\"/><path d=\"M96 80l-20 34h16l-8 20 26-36h-16z\"/><path d=\"M40 170h100M40 185h70\"/><circle cx=\"170\" cy=\"40\" r=\"14\"/><path d=\"M170 14v8M170 58v8M144 40h8M188 40h8\"/>",
+    "foto": "https://images.pexels.com/photos/39057090/pexels-photo-39057090.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/electrician-installing-residential-battery-storage-39057090/"
   },
   {
     "data": "2026-08-13",
@@ -417,7 +492,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M30 30h90l30 30v130H30z\"/><path d=\"M120 30v30h30\"/><path d=\"M55 70v40M55 90h22M77 70v40\"/><path d=\"M90 104c0-8 14-8 14 0 0 6-14 14-14 14h14\"/><path d=\"M50 140h80M50 156h60\"/><circle cx=\"150\" cy=\"170\" r=\"22\"/><path d=\"M140 170l7 7 14-14\"/>"
+    "arte": "<path d=\"M30 30h90l30 30v130H30z\"/><path d=\"M120 30v30h30\"/><path d=\"M55 70v40M55 90h22M77 70v40\"/><path d=\"M90 104c0-8 14-8 14 0 0 6-14 14-14 14h14\"/><path d=\"M50 140h80M50 156h60\"/><circle cx=\"150\" cy=\"170\" r=\"22\"/><path d=\"M140 170l7 7 14-14\"/>",
+    "foto": "https://images.pexels.com/photos/35855890/pexels-photo-35855890.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/hydrogen-powered-utility-vehicle-in-autumn-setting-35855890/"
   },
   {
     "data": "2026-08-13",
@@ -433,7 +511,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 180h120M30 180v-40a50 50 0 0 1 100 0v40\"/><path d=\"M80 90V64h20v20\"/><path d=\"M100 54c-8-6-4-20 4-26 2 8 10 12 6 22-2 5-6 6-10 4z\"/><path d=\"M170 60c-30 0-40 30-30 60 30 0 40-30 30-60zM140 120l20-30\"/><path d=\"M60 150h40\"/>"
+    "arte": "<path d=\"M20 180h120M30 180v-40a50 50 0 0 1 100 0v40\"/><path d=\"M80 90V64h20v20\"/><path d=\"M100 54c-8-6-4-20 4-26 2 8 10 12 6 22-2 5-6 6-10 4z\"/><path d=\"M170 60c-30 0-40 30-30 60 30 0 40-30 30-60zM140 120l20-30\"/><path d=\"M60 150h40\"/>",
+    "foto": "https://images.pexels.com/photos/36825977/pexels-photo-36825977.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/industrial-pipeline-system-in-saudi-arabian-factory-36825977/"
   },
   {
     "data": "2026-07-09",
@@ -449,7 +530,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M70 40c20-6 50-4 66 6 10 6 18 20 30 26 6 4 4 14-2 20-10 10-14 24-18 38-4 16-14 30-28 40-8 6-18 2-20-8-4-18-12-30-10-48 2-10-8-16-18-22-12-8-16-24-10-36 4-8 6-14 10-16z\"/><path d=\"M92 80a12 12 0 0 1 12 12c0 10-12 22-12 22s-12-12-12-22a12 12 0 0 1 12-12z\"/><circle cx=\"92\" cy=\"92\" r=\"4\"/>"
+    "arte": "<path d=\"M70 40c20-6 50-4 66 6 10 6 18 20 30 26 6 4 4 14-2 20-10 10-14 24-18 38-4 16-14 30-28 40-8 6-18 2-20-8-4-18-12-30-10-48 2-10-8-16-18-22-12-8-16-24-10-36 4-8 6-14 10-16z\"/><path d=\"M92 80a12 12 0 0 1 12 12c0 10-12 22-12 22s-12-12-12-22a12 12 0 0 1 12-12z\"/><circle cx=\"92\" cy=\"92\" r=\"4\"/>",
+    "foto": "https://images.pexels.com/photos/19768241/pexels-photo-19768241.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/pier-and-platform-on-sea-at-harbor-19768241/"
   },
   {
     "data": "2026-07-04",
@@ -465,7 +549,10 @@
       }
     ],
     "video": "",
-    "arte": "<circle cx=\"130\" cy=\"70\" r=\"20\"/><circle cx=\"176\" cy=\"70\" r=\"20\"/><path d=\"M150 70h6\"/><path d=\"M28 120l34-34M46 138l34-34M38 112l26 26M72 78l26 26\"/><path d=\"M64 120l-46 46\"/><path d=\"M10 190h90\"/>"
+    "arte": "<circle cx=\"130\" cy=\"70\" r=\"20\"/><circle cx=\"176\" cy=\"70\" r=\"20\"/><path d=\"M150 70h6\"/><path d=\"M28 120l34-34M46 138l34-34M38 112l26 26M72 78l26 26\"/><path d=\"M64 120l-46 46\"/><path d=\"M10 190h90\"/>",
+    "foto": "https://images.pexels.com/photos/4194/black-and-white-hose-refill-valves.jpg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/black-and-white-hose-refill-valves-4194/"
   },
   {
     "data": "2026-07-03",
@@ -481,7 +568,10 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M30 200l14-100h12l14 100M36 160h28M40 130h20M24 110h52\"/><path d=\"M130 200l14-100h12l14 100M136 160h28M140 130h20M124 110h52\"/><path d=\"M24 110q50 20 100 0M76 110q50 20 100 0\"/>"
+    "arte": "<path d=\"M30 200l14-100h12l14 100M36 160h28M40 130h20M24 110h52\"/><path d=\"M130 200l14-100h12l14 100M136 160h28M140 130h20M124 110h52\"/><path d=\"M24 110q50 20 100 0M76 110q50 20 100 0\"/>",
+    "foto": "https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/transmission-tower-under-blue-sky-10874806/"
   },
   {
     "data": "2026-06-02",
@@ -497,7 +587,10 @@
       }
     ],
     "video": "",
-    "arte": "<rect x=\"30\" y=\"50\" width=\"70\" height=\"130\" rx=\"6\"/><rect x=\"42\" y=\"64\" width=\"46\" height=\"34\" rx=\"3\"/><path d=\"M100 80h16l14 14v56a10 10 0 0 1-20 0v-30h-10\"/><path d=\"M20 180h90\"/><circle cx=\"160\" cy=\"70\" r=\"26\"/><path d=\"M168 56h-12a7 7 0 0 0 0 14h8a7 7 0 0 1 0 14h-12M160 48v8M160 84v8\"/>"
+    "arte": "<rect x=\"30\" y=\"50\" width=\"70\" height=\"130\" rx=\"6\"/><rect x=\"42\" y=\"64\" width=\"46\" height=\"34\" rx=\"3\"/><path d=\"M100 80h16l14 14v56a10 10 0 0 1-20 0v-30h-10\"/><path d=\"M20 180h90\"/><circle cx=\"160\" cy=\"70\" r=\"26\"/><path d=\"M168 56h-12a7 7 0 0 0 0 14h8a7 7 0 0 1 0 14h-12M160 48v8M160 84v8\"/>",
+    "foto": "https://images.pexels.com/photos/3151717/pexels-photo-3151717.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/rusty-oil-barrels-stacked-3151717/"
   },
   {
     "data": "2026-03-18",
@@ -513,6 +606,9 @@
       }
     ],
     "video": "",
-    "arte": "<path d=\"M20 190h170\"/><path d=\"M30 190v-60h60v60M90 190v-90h20v90\"/><path d=\"M130 190c6-30 6-60 0-90h44c-6 30-6 60 0 90\"/><path d=\"M140 80c0-10 10-10 10-20M162 80c0-10 10-10 10-20\"/><path d=\"M50 150h20M50 170h20\"/>"
+    "arte": "<path d=\"M20 190h170\"/><path d=\"M30 190v-60h60v60M90 190v-90h20v90\"/><path d=\"M130 190c6-30 6-60 0-90h44c-6 30-6 60 0 90\"/><path d=\"M140 80c0-10 10-10 10-20M162 80c0-10 10-10 10-20\"/><path d=\"M50 150h20M50 170h20\"/>",
+    "foto": "https://images.pexels.com/photos/29155807/pexels-photo-29155807.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/cooling-tower-emitting-steam-at-power-plant-29155807/"
   }
 ]

@@ -90,6 +90,13 @@ a.extra:hover { color: var(--ink); }
 a.video { color: var(--ink); }
 .video svg { width: 12px; height: 12px; }
 
+
+/* Foto ilustrativa: entra por baixo, com a cor do setor por cima para o texto continuar legível */
+.cover > .photo { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; filter: saturate(.85); }
+.cover > .tint { position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--c) 80%, transparent) 0%, color-mix(in srgb, var(--c) 10%, transparent) 32%, color-mix(in srgb, var(--c) 20%, transparent) 50%, color-mix(in srgb, var(--c) 94%, transparent) 88%); }
+.credit { position: relative; z-index: 2; font-size: 12px; color: var(--muted); }
+.credit:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
 /* Grande */
 .lg .cover { flex: 1; min-height: 460px; padding: 30px 32px; }
 .lg .cover .num { font-size: clamp(72px, 24cqi, 180px); }
@@ -262,7 +269,7 @@ function card(n, tam) {
   return `<${tag} class="card ${tam}" style="--c:${s.c};--t:${s.t}">
     <a class="stretch" href="${f.url}" target="_blank" rel="noopener" aria-label="${n.titulo}. Abrir a notícia em ${f.nome}"></a>
     <div class="cover">
-      ${arteSVG(n)}
+      ${n.foto ? `<img class="photo" src="${n.foto}" alt="" loading="lazy" onerror="this.remove()"><span class="tint"></span>` : arteSVG(n)}
       <div class="row"><span>${s.nome}</span><span class="d">${curta(n.data)} · ${f.nome}</span></div>
       <div>
         <div class="num">${n.destaque}</div>
@@ -275,6 +282,7 @@ function card(n, tam) {
       <h3>${n.titulo}</h3>
       <p>${n.resumo}</p>
       <div class="links"><span class="read">Ler notícia ↗</span>${extras}${video}</div>
+      ${n.foto ? `<a class="credit" href="${n.foto_link || n.foto}" target="_blank" rel="noopener">Foto meramente ilustrativa · ${n.foto_credito || "banco de imagens"}</a>` : ""}
     </div>
   </${tag}>`;
 }
