@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fonte de Energia</title>
 <meta name="description" content="Notícias de petróleo, gás, luz, hidrogênio e renováveis, resumidas em poucas linhas e com o link da fonte.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fonte de Energia">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Fonte de Energia">
+<meta property="og:description" content="Petróleo, gás, luz, hidrogênio e renováveis, explicados de um jeito simples e sempre com a fonte.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -270,7 +275,7 @@ function card(n, tam) {
   const video = n.video ? `<a class="video" href="${n.video}" target="_blank" rel="noopener">${PLAY}Ver vídeo</a>` : (tam === "sm" ? "" : `<span class="video">${PLAY}Vídeo em breve</span>`);
   const tag = tam === "lg" ? "div" : "li";
   return `<${tag} class="card ${tam}" style="--c:${s.c};--t:${s.t}">
-    <a class="stretch" href="${f.url}" target="_blank" rel="noopener" aria-label="${n.titulo}. Abrir a notícia em ${f.nome}"></a>
+    <a class="stretch" href="${n.slug ? "n/" + n.slug + "/" : f.url}"${n.slug ? "" : ' target="_blank" rel="noopener"'} aria-label="${n.titulo}. Abrir a notícia"></a>
     <div class="cover${n.foto ? " has-photo" : ""}">
       ${n.foto ? `<img class="photo" src="${n.foto}" alt="" loading="lazy" onerror="this.remove()"><span class="tint"></span>` : arteSVG(n)}
       <div class="row"><span>${s.nome}</span><span class="d">${curta(n.data)} · ${f.nome}</span></div>

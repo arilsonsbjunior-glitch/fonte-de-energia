@@ -8,6 +8,18 @@ Site de notícias de energia (petróleo, gás, luz, hidrogênio e renováveis), 
 - `noticias.json`: a lista de notícias. **Só esse arquivo muda no dia a dia.**
 - O Netlify publica o site automaticamente a cada alteração neste repositório.
 
+## Página própria de cada notícia
+
+Cada notícia tem uma página em `n/<slug>/` (é esse link que se compartilha no WhatsApp: aparece a foto, o título e o resumo).
+Depois de mexer no `noticias.json`, **sempre rode**:
+
+```
+python3 gerar_paginas.py
+```
+
+O script cria o `slug` das notícias novas (não mude o slug de notícia antiga, senão o link compartilhado quebra) e gera todas as páginas.
+O campo opcional `opiniao` aparece na página como "Minha leitura".
+
 ## Formato de cada notícia (`noticias.json`)
 
 ```json
