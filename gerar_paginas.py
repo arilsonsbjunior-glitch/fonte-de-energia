@@ -119,7 +119,7 @@ a {{ color:inherit; text-decoration:none; }}
 .cover > .tint {{ position:absolute; inset:0; z-index:0; background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.5) 62%,rgba(0,0,0,.9) 100%); }}
 .cover > .art {{ position:absolute; z-index:0; right:-2%; bottom:-6%; width:50%; aspect-ratio:1; opacity:.24; }}
 .cover > .art svg {{ width:100%; height:100%; }}
-.cover.has-photo {{ color:#fff; background:#111; }}
+.cover.has-photo {{ color:#fff; background:var(--c); }}
 .row {{ display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }}
 .has-photo .row {{ text-shadow:0 1px 8px rgba(0,0,0,.7); }}
 .tag {{ background:var(--c); color:var(--t); padding:3px 10px; border-radius:999px; text-shadow:none; }}
