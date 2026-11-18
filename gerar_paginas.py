@@ -31,6 +31,17 @@ def slugify(texto):
     return t[:70].rstrip("-")
 
 
+def com_largura(url, w):
+    """Troca o parâmetro w= da URL do Pexels/Unsplash pela largura pedida."""
+    if re.search(r"[?&]w=\d+", url):
+        return re.sub(r"([?&]w=)\d+", lambda m: m.group(1) + str(w), url)
+    return url
+
+
+def srcset(url):
+    return ", ".join(f"{com_largura(url, w)} {w}w" for w in (800, 1200, 1800, 2400, 3200))
+
+
 def data_longa(iso):
     a, m, d = iso.split("-")
     return f"{int(d)} de {MESES[int(m) - 1]} de {a}"
@@ -53,7 +64,8 @@ def pagina(n, relacionadas):
     opiniao = (f'<section class="leitura"><h2>Minha leitura</h2><p>{e(n["opiniao"])}</p></section>'
                if n.get("opiniao") else "")
     if n.get("foto"):
-        capa_fundo = f'<img class="photo" src="{e(n["foto"])}" alt="" onerror="this.remove()"><span class="tint"></span>'
+        capa_fundo = (f'<img class="photo" src="{e(com_largura(n["foto"], 2400))}" srcset="{e(srcset(n["foto"]))}" '
+                      f'sizes="(max-width: 600px) 100vw, 96vw" alt="" fetchpriority="high" onerror="this.remove()"><span class="tint"></span>')
         capa_cls = "cover has-photo"
         credito = (f'<a class="credit" href="{e(n.get("foto_link") or n["foto"])}" target="_blank" rel="noopener">'
                    f'Foto meramente ilustrativa · {e(n.get("foto_credito") or "banco de imagens")}</a>')
