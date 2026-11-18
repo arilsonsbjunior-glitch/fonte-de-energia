@@ -18,6 +18,7 @@ python3 gerar_paginas.py
 ```
 
 O script cria o `slug` das notícias novas (não mude o slug de notícia antiga, senão o link compartilhado quebra) e gera todas as páginas.
+O campo `explicacao` aparece na página como "O que isso quer dizer": 2 parágrafos curtos (separados por uma linha em branco), em linguagem simples, explicando o contexto e por que a notícia importa. Escreva com palavras próprias, sem copiar a matéria e sem números que não estejam na fonte; a matéria completa fica para o site original.
 O campo opcional `opiniao` aparece na página como "Minha leitura".
 
 ## Formato de cada notícia (`noticias.json`)

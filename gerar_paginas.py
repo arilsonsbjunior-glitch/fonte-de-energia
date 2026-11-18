@@ -48,6 +48,8 @@ def pagina(n, relacionadas):
         for f in n["fontes"][1:])
     video = (f'<a class="btn ghost" href="{e(n["video"])}" target="_blank" rel="noopener">▶ Ver o vídeo</a>'
              if n.get("video") else "")
+    explicacao = "".join(f"<p>{e(p.strip())}</p>" for p in (n.get("explicacao") or "").split("\n\n") if p.strip())
+    explicacao = f'<section class="explica"><h2>O que isso quer dizer</h2>{explicacao}</section>' if explicacao else ""
     opiniao = (f'<section class="leitura"><h2>Minha leitura</h2><p>{e(n["opiniao"])}</p></section>'
                if n.get("opiniao") else "")
     if n.get("foto"):
@@ -117,6 +119,9 @@ h1 {{ font-family:var(--fd); font-weight:400; text-transform:uppercase; font-siz
 .meta {{ font-size:14px; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 14px; }}
 .meta b {{ color:var(--c); filter:brightness(.8); }}
 .resumo {{ font-size:19px; line-height:1.6; margin:20px 0 0; max-width:62ch; }}
+.explica {{ margin-top:28px; max-width:68ch; }}
+.explica h2 {{ font-family:var(--fd); font-weight:400; text-transform:uppercase; font-size:24px; margin:0 0 8px; }}
+.explica p {{ margin:0 0 14px; font-size:17.5px; line-height:1.7; color:#2b2b33; }}
 .leitura {{ margin-top:24px; padding:18px 20px; background:var(--soft); border-left:4px solid var(--c); }}
 .leitura h2 {{ margin:0 0 6px; font-size:13px; letter-spacing:.1em; text-transform:uppercase; }}
 .leitura p {{ margin:0; }}
@@ -154,6 +159,7 @@ h1 {{ font-family:var(--fd); font-weight:400; text-transform:uppercase; font-siz
   <h1>{e(n['titulo'])}</h1>
   <div class="meta"><b>{nome}</b><span>{data_longa(n['data'])}</span><span>Fonte: {e(fonte['nome'])}</span></div>
   <p class="resumo">{e(n['resumo'])}</p>
+  {explicacao}
   {opiniao}
   <div class="acoes">
     <a class="btn" href="{e(fonte['url'])}" target="_blank" rel="noopener">Ler a matéria completa na {e(fonte['nome'])} ↗</a>
