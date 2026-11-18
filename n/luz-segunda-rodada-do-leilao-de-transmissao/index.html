@@ -14,6 +14,9 @@
 <meta name="twitter:image" content="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="article:published_time" content="2026-07-03">
+<link rel="preload" as="image" href="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600" imagesrcset="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800 800w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200 1200w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2400 2400w" imagesizes="(max-width: 600px) 100vw, 96vw" fetchpriority="high">
+<link rel="preconnect" href="https://images.pexels.com">
+<link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -33,7 +36,10 @@ a { color:inherit; text-decoration:none; }
 .cover { position:relative; overflow:hidden; border-radius:20px; background:var(--c); color:var(--t); aspect-ratio:21/8; min-height:380px; max-height:72vh;
   display:flex; flex-direction:column; justify-content:space-between; padding:28px 32px; margin-top:22px; container-type:inline-size; }
 .cover > * { position:relative; z-index:1; }
-.cover > .photo { position:absolute; inset:0; z-index:0; width:100%; height:100%; object-fit:cover; filter:saturate(.85); }
+.cover > .ph { position:absolute; inset:-20px; z-index:0; width:calc(100% + 40px); height:calc(100% + 40px); object-fit:cover; filter:blur(18px) saturate(.85); }
+.cover > .photo { position:absolute; inset:0; z-index:0; width:100%; height:100%; object-fit:cover; filter:saturate(.85); opacity:0; transition:opacity .45s ease; }
+.cover > .photo.ok { opacity:1; }
+@media (prefers-reduced-motion: reduce) { .cover > .photo { transition:none; } }
 .cover > .tint { position:absolute; inset:0; z-index:0; background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.5) 62%,rgba(0,0,0,.9) 100%); }
 .cover > .art { position:absolute; z-index:0; right:-2%; bottom:-6%; width:50%; aspect-ratio:1; opacity:.24; }
 .cover > .art svg { width:100%; height:100%; }
@@ -80,7 +86,7 @@ h1 { font-family:var(--fd); font-weight:400; text-transform:uppercase; font-size
 </div></header>
 <main class="w">
   <div class="cover has-photo">
-    <img class="photo" src="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2400" srcset="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800 800w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200 1200w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800 1800w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2400 2400w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=3200 3200w" sizes="(max-width: 600px) 100vw, 96vw" alt="" fetchpriority="high" onerror="this.remove()"><span class="tint"></span>
+    <img class="ph" src="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=48" alt="" aria-hidden="true"><img class="photo" src="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600" srcset="https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800 800w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200 1200w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600 1600w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2000 2000w, https://images.pexels.com/photos/10874806/pexels-photo-10874806.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=2400 2400w" sizes="(max-width: 600px) 100vw, 96vw" alt="" fetchpriority="high" decoding="async" onload="this.classList.add('ok')" onerror="this.remove()"><span class="tint"></span>
     <div class="row"><span class="tag">Luz</span><span>TAG Law</span></div>
     <div><div class="num">53,2%</div><div class="cap">de deságio médio nesta etapa do leilão</div></div>
   </div>

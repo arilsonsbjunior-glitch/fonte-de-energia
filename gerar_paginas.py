@@ -39,7 +39,7 @@ def com_largura(url, w):
 
 
 def srcset(url):
-    return ", ".join(f"{com_largura(url, w)} {w}w" for w in (800, 1200, 1800, 2400, 3200))
+    return ", ".join(f"{com_largura(url, w)} {w}w" for w in (800, 1200, 1600, 2000, 2400))
 
 
 def data_longa(iso):
@@ -64,8 +64,10 @@ def pagina(n, relacionadas):
     opiniao = (f'<section class="leitura"><h2>Minha leitura</h2><p>{e(n["opiniao"])}</p></section>'
                if n.get("opiniao") else "")
     if n.get("foto"):
-        capa_fundo = (f'<img class="photo" src="{e(com_largura(n["foto"], 2400))}" srcset="{e(srcset(n["foto"]))}" '
-                      f'sizes="(max-width: 600px) 100vw, 96vw" alt="" fetchpriority="high" onerror="this.remove()"><span class="tint"></span>')
+        capa_fundo = (f'<img class="ph" src="{e(com_largura(n["foto"], 48))}" alt="" aria-hidden="true">'
+                      f'<img class="photo" src="{e(com_largura(n["foto"], 1600))}" srcset="{e(srcset(n["foto"]))}" '
+                      f'sizes="(max-width: 600px) 100vw, 96vw" alt="" fetchpriority="high" decoding="async" '
+                      f'onload="this.classList.add(\'ok\')" onerror="this.remove()"><span class="tint"></span>')
         capa_cls = "cover has-photo"
         credito = (f'<a class="credit" href="{e(n.get("foto_link") or n["foto"])}" target="_blank" rel="noopener">'
                    f'Foto meramente ilustrativa · {e(n.get("foto_credito") or "banco de imagens")}</a>')
@@ -79,6 +81,9 @@ def pagina(n, relacionadas):
         f'{SETORES[r["setor"]][0]}</span><b>{e(r["titulo"])}</b><span class="rel-d">{data_longa(r["data"])}</span></a>'
         for r in relacionadas)
     titulo_og = f'{n["titulo"]} | Fonte de Energia'
+    preload = (f'<link rel="preload" as="image" href="{e(com_largura(n["foto"], 1600))}" '
+               f'imagesrcset="{e(srcset(n["foto"]))}" imagesizes="(max-width: 600px) 100vw, 96vw" fetchpriority="high">'
+               if n.get("foto") else "")
     og_img = (f'<meta property="og:image" content="{e(n["foto"])}">\n'
               f'<meta name="twitter:image" content="{e(n["foto"])}">') if n.get("foto") else ""
     return f"""<!DOCTYPE html>
@@ -96,6 +101,9 @@ def pagina(n, relacionadas):
 {og_img}
 <meta name="twitter:card" content="summary_large_image">
 <meta property="article:published_time" content="{e(n['data'])}">
+{preload}
+<link rel="preconnect" href="https://images.pexels.com">
+<link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -115,7 +123,10 @@ a {{ color:inherit; text-decoration:none; }}
 .cover {{ position:relative; overflow:hidden; border-radius:20px; background:var(--c); color:var(--t); aspect-ratio:21/8; min-height:380px; max-height:72vh;
   display:flex; flex-direction:column; justify-content:space-between; padding:28px 32px; margin-top:22px; container-type:inline-size; }}
 .cover > * {{ position:relative; z-index:1; }}
-.cover > .photo {{ position:absolute; inset:0; z-index:0; width:100%; height:100%; object-fit:cover; filter:saturate(.85); }}
+.cover > .ph {{ position:absolute; inset:-20px; z-index:0; width:calc(100% + 40px); height:calc(100% + 40px); object-fit:cover; filter:blur(18px) saturate(.85); }}
+.cover > .photo {{ position:absolute; inset:0; z-index:0; width:100%; height:100%; object-fit:cover; filter:saturate(.85); opacity:0; transition:opacity .45s ease; }}
+.cover > .photo.ok {{ opacity:1; }}
+@media (prefers-reduced-motion: reduce) {{ .cover > .photo {{ transition:none; }} }}
 .cover > .tint {{ position:absolute; inset:0; z-index:0; background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.5) 62%,rgba(0,0,0,.9) 100%); }}
 .cover > .art {{ position:absolute; z-index:0; right:-2%; bottom:-6%; width:50%; aspect-ratio:1; opacity:.24; }}
 .cover > .art svg {{ width:100%; height:100%; }}
