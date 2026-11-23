@@ -101,7 +101,7 @@ function capa(n, foto, w, h, story) {
   pilula(ctx, M, topo, s.nome, s.c, s.t, 30);
   pilula(ctx, w - M, topo, "Fonte de Energia", "#0d0d10", "#fff", 26, "right");
 
-  const fim = story ? h - 400 : h - M;   // story: espaço livre para o adesivo de link
+  const fim = story ? h - 440 : h - M;   // story: espaço livre para o adesivo de link
   ctx.textBaseline = "alphabetic"; ctx.fillStyle = "#fff";
 
   // rodapé
@@ -115,6 +115,18 @@ function capa(n, foto, w, h, story) {
   tt += 4;
   const y = fim - 54 - (lt.length - 1) * tt * 1.02;
   lt.forEach((l, i) => ctx.fillText(l, M, y + i * tt * 1.02));
+
+  if (story) {
+    // espaço reservado para o adesivo de link do Instagram
+    const pw = 600, ph = 120, px = (w - pw) / 2, py = h - 300;
+    ctx.font = `600 30px ${TEXTO}`; ctx.textAlign = "center"; ctx.globalAlpha = .85;
+    ctx.fillText("Explicação completa no link", w / 2, py - 36);
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = "rgba(255,255,255,.14)";
+    ctx.beginPath(); ctx.roundRect(px, py, pw, ph, ph / 2); ctx.fill();
+    ctx.setLineDash([14, 12]); ctx.lineWidth = 3; ctx.strokeStyle = "rgba(255,255,255,.7)"; ctx.stroke(); ctx.setLineDash([]);
+    ctx.textAlign = "left"; ctx.fillStyle = "#fff";
+  }
   return cv;
 }
 
