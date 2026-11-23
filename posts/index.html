@@ -132,7 +132,7 @@ function slideTexto(n, titulo, corpo, numero, final) {
 
   ctx.textBaseline = "alphabetic";
   let y = 200;
-  const rodape = final ? 300 : 150;
+  const rodape = final ? 330 : 150;
   let tam = 58, linhas;
   do { ctx.font = `500 ${tam}px ${TEXTO}`; linhas = quebrar(ctx, corpo, w - M * 2); tam -= 2; }
   while (200 + linhas.length * (tam + 2) * 1.38 > h - rodape && tam > 30);
@@ -141,8 +141,13 @@ function slideTexto(n, titulo, corpo, numero, final) {
   linhas.forEach(l => { y += lh; ctx.fillText(l, M, y); });
 
   if (final) {
-    ctx.fillStyle = "#555"; ctx.font = `500 32px ${TEXTO}`;
-    ctx.fillText(`Li na ${n.fontes[0].nome}. Link na bio.`, M, h - 150);
+    const by = h - 250;
+    ctx.fillStyle = "#0d0d10"; ctx.beginPath(); ctx.roundRect(M, by, w - M * 2, 130, 28); ctx.fill();
+    ctx.fillStyle = "#fff"; ctx.font = `700 34px ${TEXTO}`; ctx.textBaseline = "middle";
+    ctx.fillText("Explicação completa e fonte original", M + 40, by + 46);
+    ctx.font = `500 30px ${TEXTO}`; ctx.globalAlpha = .75;
+    ctx.fillText(`no link da bio · Fonte: ${n.fontes[0].nome}`, M + 40, by + 90);
+    ctx.globalAlpha = 1; ctx.textBaseline = "alphabetic";
   }
   ctx.font = `700 24px ${TEXTO}`; ctx.fillStyle = "#b0b0b0"; ctx.letterSpacing = "2.4px";
   ctx.fillText("FONTE DE ENERGIA", M, h - 70); ctx.letterSpacing = "0px";
@@ -151,7 +156,7 @@ function slideTexto(n, titulo, corpo, numero, final) {
 
 function legenda(n) {
   const url = `${SITE}/n/${n.slug}/`;
-  return `${n.titulo}\n\n${n.resumo}\n\nLi na ${n.fontes[0].nome}. Deixei a explicação completa no site, link na bio.\n\n#energia #${n.setor === "luz" ? "energiaeletrica" : n.setor}\n\n\nLink para o adesivo do story (não colar no post):\n${url}`;
+  return `${n.titulo}\n\n${n.resumo}\n\nExplicação completa e link para a matéria original no site (link na bio).\n\nFonte: ${n.fontes.map(f => f.nome).join(", ")}\n\n#energia #${n.setor === "luz" ? "energiaeletrica" : n.setor}\n\n\nLink para o adesivo do story (não colar no post):\n${url}`;
 }
 
 async function salvar(cv, nome, aviso) {
