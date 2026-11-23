@@ -46,6 +46,8 @@ const DISPLAY = 'Anton, Impact, "Arial Narrow", sans-serif';
 const TEXTO = '"Instrument Sans", system-ui, sans-serif';
 const SITE = location.origin;
 
+const UNIDADES = /^(kWh|MWh|GWh|TWh|kW|MW|GW|TW|kV|m³|km)([.,;:]?)$/;
+const caixaAlta = t => t.split(" ").map(p => UNIDADES.test(p) ? p : p.toUpperCase()).join(" ");
 const largura = (u, w) => /[?&]w=\d+/.test(u) ? u.replace(/([?&]w=)\d+/, "$1" + w) : u;
 const dataCurta = d => { const [a, m, dia] = d.split("-"); return `${+dia} ${["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"][m - 1]} ${a}`; };
 
@@ -110,7 +112,7 @@ function capa(n, foto, w, h, story) {
 
   // título
   let tt = story ? 132 : 118, lt;
-  do { ctx.font = `${tt}px ${DISPLAY}`; lt = quebrar(ctx, n.titulo.toUpperCase(), w - M * 2); tt -= 4; }
+  do { ctx.font = `${tt}px ${DISPLAY}`; lt = quebrar(ctx, caixaAlta(n.titulo), w - M * 2); tt -= 4; }
   while (lt.length > (story ? 5 : 4) && tt > 70);
   tt += 4;
   const y = fim - 54 - (lt.length - 1) * tt * 1.02;
