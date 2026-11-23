@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Posts para o Instagram | Fonte de Energia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0}
+  body{font-family:"Instrument Sans",system-ui,sans-serif;background:#f3f2ef;color:#0d0d10;padding:28px 4vw 80px}
+  h1{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:clamp(34px,5vw,56px);letter-spacing:.01em;text-transform:uppercase}
+  .sub{color:#666;margin:6px 0 26px;max-width:720px;line-height:1.5}
+  .noticia{background:#fff;border-radius:22px;padding:22px;margin-bottom:28px}
+  .noticia h2{font-size:20px;margin-bottom:4px}
+  .meta{color:#777;font-size:14px;margin-bottom:18px}
+  .grupo{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#888;margin:18px 0 10px}
+  .fila{display:flex;gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+  .peca{flex:0 0 auto;scroll-snap-align:start;display:flex;flex-direction:column;gap:8px}
+  .peca canvas{display:block;border-radius:14px;box-shadow:0 2px 14px rgba(0,0,0,.12);background:#ddd}
+  .peca.feed canvas{width:min(300px,72vw);aspect-ratio:4/5;height:auto}
+  .peca.story canvas{width:min(270px,62vw);aspect-ratio:9/16;height:auto}
+  button{font:600 14px "Instrument Sans",sans-serif;border:0;border-radius:999px;padding:10px 16px;background:#0d0d10;color:#fff;cursor:pointer}
+  button.claro{background:#eee;color:#0d0d10}
+  textarea{width:100%;min-height:170px;border:1px solid #ddd;border-radius:14px;padding:14px;font:15px/1.5 "Instrument Sans",sans-serif;resize:vertical}
+  .acoes{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .aviso{font-size:13px;color:#a33;margin-top:6px}
+</style>
+</head>
+<body>
+<h1>Posts para o Instagram</h1>
+<p class="sub">Artes prontas das últimas notícias do site. Toque em <b>Salvar</b> embaixo de cada imagem e poste. Story: adicione o adesivo de link com o endereço da notícia no espaço livre embaixo. Feed: carrossel de 3 imagens + legenda.</p>
+<div id="lista"></div>
+
+<script>
+const SETORES = {
+  petroleo:   { nome: "Petróleo",   c: "#3b2bff", t: "#ffffff" },
+  gas:        { nome: "Gás",        c: "#ff5a1f", t: "#ffffff" },
+  luz:        { nome: "Luz",        c: "#ffd400", t: "#0d0d10" },
+  hidrogenio: { nome: "Hidrogênio", c: "#00c2d8", t: "#0d0d10" },
+  renovaveis: { nome: "Renováveis", c: "#19c37d", t: "#0d0d10" },
+};
+const DISPLAY = 'Anton, Impact, "Arial Narrow", sans-serif';
+const TEXTO = '"Instrument Sans", system-ui, sans-serif';
+const SITE = location.origin;
+
+const largura = (u, w) => /[?&]w=\d+/.test(u) ? u.replace(/([?&]w=)\d+/, "$1" + w) : u;
+const dataCurta = d => { const [a, m, dia] = d.split("-"); return `${+dia} ${["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"][m - 1]} ${a}`; };
+
+function carregarFoto(url) {
+  return new Promise(res => {
+    if (!url) return res(null);
+    const i = new Image(); i.crossOrigin = "anonymous";
+    i.onload = () => res(i); i.onerror = () => res(null);
+    i.src = largura(url, 1600);
+  });
+}
+
+function cobrir(ctx, img, w, h) {
+  const r = Math.max(w / img.width, h / img.height), iw = img.width * r, ih = img.height * r;
+  ctx.drawImage(img, (w - iw) / 2, (h - ih) / 2, iw, ih);
+}
+
+function quebrar(ctx, texto, max) {
+  const linhas = []; let atual = "";
+  for (const p of texto.split(/\s+/)) {
+    const teste = atual ? atual + " " + p : p;
+    if (ctx.measureText(teste).width > max && atual) { linhas.push(atual); atual = p; } else atual = teste;
+  }
+  if (atual) linhas.push(atual);
+  return linhas;
+}
+
+function pilula(ctx, x, y, texto, fundo, cor, tam = 30, alinhar = "left") {
+  ctx.font = `700 ${tam}px ${TEXTO}`;
+  const t = texto.toUpperCase(), padX = tam * .75, h = tam * 1.9;
+  ctx.letterSpacing = `${tam * .1}px`;
+  const w = ctx.measureText(t).width + padX * 2;
+  const x0 = alinhar === "right" ? x - w : x;
+  ctx.fillStyle = fundo; ctx.beginPath(); ctx.roundRect(x0, y, w, h, h / 2); ctx.fill();
+  ctx.fillStyle = cor; ctx.textBaseline = "middle"; ctx.fillText(t, x0 + padX, y + h / 2 + 1);
+  ctx.letterSpacing = "0px";
+  return h;
+}
+
+/* Capa com foto (feed 1080x1350 ou story 1080x1920) */
+function capa(n, foto, w, h, story) {
+  const cv = document.createElement("canvas"); cv.width = w; cv.height = h;
+  const ctx = cv.getContext("2d"), s = SETORES[n.setor], M = 72;
+  ctx.fillStyle = s.c; ctx.fillRect(0, 0, w, h);
+  if (foto) cobrir(ctx, foto, w, h);
+  const g = ctx.createLinearGradient(0, 0, 0, h);
+  g.addColorStop(story ? .3 : .25, "rgba(0,0,0,0)");
+  g.addColorStop(story ? .55 : .55, "rgba(0,0,0,.55)");
+  g.addColorStop(1, "rgba(0,0,0,.94)");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+
+  const topo = story ? 210 : M;
+  pilula(ctx, M, topo, s.nome, s.c, s.t, 30);
+  pilula(ctx, w - M, topo, "Fonte de Energia", "#0d0d10", "#fff", 26, "right");
+
+  const fim = story ? h - 430 : h - M;   // story: espaço livre para o adesivo de link
+  ctx.textBaseline = "alphabetic"; ctx.fillStyle = "#fff";
+
+  // rodapé
+  ctx.font = `600 28px ${TEXTO}`; ctx.globalAlpha = .8;
+  const rod = story ? `${dataCurta(n.data)} · Fonte: ${n.fontes[0].nome}` : `${dataCurta(n.data)} · Fonte: ${n.fontes[0].nome} · arraste →`;
+  ctx.fillText(rod, M, fim); ctx.globalAlpha = 1;
+
+  // título
+  const tt = story ? 92 : 84;
+  ctx.font = `${tt}px ${DISPLAY}`;
+  const lt = quebrar(ctx, n.titulo.toUpperCase(), w - M * 2).slice(0, 4);
+  let y = fim - 56 - (lt.length - 1) * tt * 1.02;
+  lt.forEach((l, i) => ctx.fillText(l, M, y + i * tt * 1.02));
+  y -= tt + 34;
+
+  // legenda
+  ctx.font = `500 32px ${TEXTO}`;
+  const ll = quebrar(ctx, n.legenda, w * .72);
+  y -= (ll.length - 1) * 42;
+  ctx.globalAlpha = .92; ll.forEach((l, i) => ctx.fillText(l, M, y + i * 42)); ctx.globalAlpha = 1;
+  y -= 56;
+
+  // número de destaque
+  let dt = story ? 330 : 290;
+  ctx.font = `${dt}px ${DISPLAY}`;
+  while (ctx.measureText(n.destaque).width > w - M * 2 && dt > 120) { dt -= 10; ctx.font = `${dt}px ${DISPLAY}`; }
+  ctx.fillText(n.destaque, M - 4, y);
+
+  if (story) {
+    ctx.font = `600 30px ${TEXTO}`; ctx.globalAlpha = .75; ctx.textAlign = "center";
+    ctx.fillText("Toque no link para ler a explicação ↓", w / 2, h - 330);
+    ctx.textAlign = "left"; ctx.globalAlpha = 1;
+  }
+  return cv;
+}
+
+/* Slides de texto do carrossel */
+function slideTexto(n, titulo, corpo, numero, final) {
+  const w = 1080, h = 1350, M = 80, s = SETORES[n.setor];
+  const cv = document.createElement("canvas"); cv.width = w; cv.height = h;
+  const ctx = cv.getContext("2d");
+  ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, w, h);
+  ctx.fillStyle = s.c; ctx.fillRect(0, 0, w, 18);
+
+  pilula(ctx, M, 72, s.nome, s.c, s.t, 28);
+  ctx.font = `600 26px ${TEXTO}`; ctx.fillStyle = "#999"; ctx.textAlign = "right"; ctx.textBaseline = "middle";
+  ctx.fillText(`${numero}/3`, w - M, 72 + 27); ctx.textAlign = "left";
+
+  ctx.textBaseline = "alphabetic"; ctx.fillStyle = "#0d0d10";
+  ctx.font = `92px ${DISPLAY}`;
+  const lt = quebrar(ctx, titulo.toUpperCase(), w - M * 2);
+  let y = 270;
+  lt.forEach(l => { ctx.fillText(l, M, y); y += 96; });
+  y += 30;
+
+  const rodape = final ? 330 : 150;
+  let tam = 50, linhas;
+  do { ctx.font = `500 ${tam}px ${TEXTO}`; linhas = quebrar(ctx, corpo, w - M * 2); tam -= 2; }
+  while (y + linhas.length * (tam + 2) * 1.42 > h - rodape && tam > 28);
+  const lh = (tam + 2) * 1.42;
+  ctx.fillStyle = "#26262b";
+  linhas.forEach(l => { y += lh; ctx.fillText(l, M, y); });
+
+  if (final) {
+    const by = h - 250;
+    ctx.fillStyle = "#0d0d10"; ctx.beginPath(); ctx.roundRect(M, by, w - M * 2, 130, 28); ctx.fill();
+    ctx.fillStyle = "#fff"; ctx.font = `700 34px ${TEXTO}`; ctx.textBaseline = "middle";
+    ctx.fillText("Explicação completa e fonte original", M + 40, by + 46);
+    ctx.font = `500 30px ${TEXTO}`; ctx.globalAlpha = .75;
+    ctx.fillText(`no link da bio · Fonte: ${n.fontes[0].nome}`, M + 40, by + 90);
+    ctx.globalAlpha = 1; ctx.textBaseline = "alphabetic";
+  }
+  ctx.font = `700 24px ${TEXTO}`; ctx.fillStyle = "#b0b0b0"; ctx.letterSpacing = "2.4px";
+  ctx.fillText("FONTE DE ENERGIA", M, h - 70); ctx.letterSpacing = "0px";
+  return cv;
+}
+
+function legenda(n) {
+  const url = `${SITE}/n/${n.slug}/`;
+  return `${n.titulo}\n\n${n.resumo}\n\nA explicação completa, em linguagem simples, está no site (link na bio).\n\nFonte: ${n.fontes.map(f => f.nome).join(", ")}\n\n#energia #${n.setor === "luz" ? "energiaeletrica" : n.setor} #setorenergetico\n\n— link da notícia para o adesivo do story: ${url}`;
+}
+
+async function salvar(cv, nome, aviso) {
+  try {
+    const blob = await new Promise((ok, er) => { try { cv.toBlob(b => b ? ok(b) : er(), "image/png"); } catch (e) { er(e); } });
+    const arq = new File([blob], nome, { type: "image/png" });
+    if (navigator.canShare && navigator.canShare({ files: [arq] })) { await navigator.share({ files: [arq] }); return; }
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = nome; a.click();
+  } catch (e) {
+    if (e && e.name === "AbortError") return;
+    aviso.textContent = "Não deu para salvar automaticamente. Tire um print da imagem.";
+  }
+}
+
+function peca(cv, tipo, nome, rotulo) {
+  const d = document.createElement("div"); d.className = "peca " + tipo;
+  const av = document.createElement("div"); av.className = "aviso";
+  const b = document.createElement("button"); b.textContent = "Salvar " + rotulo; b.onclick = () => salvar(cv, nome, av);
+  d.append(cv, b, av); return d;
+}
+
+(async () => {
+  await Promise.all([document.fonts.load(`80px Anton`), document.fonts.load(`500 40px "Instrument Sans"`), document.fonts.load(`700 40px "Instrument Sans"`)]).catch(() => {});
+  const todas = await (await fetch("../noticias.json", { cache: "no-store" })).json();
+  todas.sort((a, b) => b.data.localeCompare(a.data));
+  const alvo = new URLSearchParams(location.search).get("n");
+  const lista = alvo ? todas.filter(n => n.slug === alvo) : todas.slice(0, 3);
+  const raiz = document.getElementById("lista");
+
+  for (const n of lista) {
+    const foto = await carregarFoto(n.foto);
+    const [p1, p2 = ""] = (n.explicacao || n.resumo).split("\n\n");
+    const box = document.createElement("section"); box.className = "noticia";
+    box.innerHTML = `<h2>${n.titulo}</h2><div class="meta">${SETORES[n.setor].nome} · ${dataCurta(n.data)}</div>`;
+
+    const g1 = document.createElement("div"); g1.className = "grupo"; g1.textContent = "Story";
+    const f1 = document.createElement("div"); f1.className = "fila";
+    f1.append(peca(capa(n, foto, 1080, 1920, true), "story", `${n.slug}-story.png`, "story"));
+
+    const g2 = document.createElement("div"); g2.className = "grupo"; g2.textContent = "Feed · carrossel";
+    const f2 = document.createElement("div"); f2.className = "fila";
+    f2.append(
+      peca(capa(n, foto, 1080, 1350, false), "feed", `${n.slug}-1.png`, "1/3"),
+      peca(slideTexto(n, "O que isso quer dizer", p1, 2, !p2), "feed", `${n.slug}-2.png`, "2/3"),
+      peca(slideTexto(n, "Por que isso importa", p2 || n.resumo, 3, true), "feed", `${n.slug}-3.png`, "3/3"),
+    );
+
+    const g3 = document.createElement("div"); g3.className = "grupo"; g3.textContent = "Legenda";
+    const ta = document.createElement("textarea"); ta.value = legenda(n);
+    const ac = document.createElement("div"); ac.className = "acoes";
+    const bc = document.createElement("button"); bc.className = "claro"; bc.textContent = "Copiar legenda";
+    bc.onclick = async () => { await navigator.clipboard.writeText(ta.value); bc.textContent = "Copiada ✓"; setTimeout(() => bc.textContent = "Copiar legenda", 1800); };
+    ac.append(bc);
+
+    box.append(g1, f1, g2, f2, g3, ta, ac);
+    raiz.append(box);
+  }
+})();
+</script>
+</body>
+</html>
