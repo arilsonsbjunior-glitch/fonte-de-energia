@@ -211,11 +211,11 @@ const RENDER = Q.get("render"), AUTO = Q.get("auto") === "1";
   const raiz = document.getElementById("lista");
 
   // modo usado pelo GitHub Actions para gerar o JPEG do story (1080x1920, sem nada em volta)
-  if (RENDER === "story" && lista[0]) {
+  if ((RENDER === "story" || RENDER === "feed") && lista[0]) {
     document.body.innerHTML = ""; document.body.style.cssText = "margin:0;padding:0;background:#000";
-    const n = lista[0], foto = await carregarFoto(n.foto);
-    const cv = capa(n, foto, 1080, 1920, true);
-    cv.style.cssText = "display:block;width:1080px;height:1920px";
+    const n = lista[0], foto = await carregarFoto(n.foto), st = RENDER === "story";
+    const cv = capa(n, foto, 1080, st ? 1920 : 1350, st);
+    cv.style.cssText = `display:block;width:1080px;height:${st ? 1920 : 1350}px`;
     document.body.append(cv); document.title = "pronto";
     return;
   }
