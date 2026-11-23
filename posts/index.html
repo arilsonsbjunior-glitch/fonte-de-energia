@@ -116,7 +116,16 @@ function capa(n, foto, w, h, story) {
   const y = fim - 54 - (lt.length - 1) * tt * 1.02;
   lt.forEach((l, i) => ctx.fillText(l, M, y + i * tt * 1.02));
 
-  if (story) {
+  if (story && AUTO) {
+    // versão publicada automaticamente: a API não permite adesivo de link
+    const txt = "Explicação completa no link da bio";
+    ctx.font = `700 34px ${TEXTO}`; const tw = ctx.measureText(txt).width;
+    const pw = tw + 96, ph = 104, px = (w - pw) / 2, py = h - 300;
+    ctx.fillStyle = "#ffffff"; ctx.beginPath(); ctx.roundRect(px, py, pw, ph, ph / 2); ctx.fill();
+    ctx.fillStyle = "#0d0d10"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    ctx.fillText(txt, w / 2, py + ph / 2 + 1);
+    ctx.textAlign = "left"; ctx.textBaseline = "alphabetic"; ctx.fillStyle = "#fff";
+  } else if (story) {
     // espaço reservado para o adesivo de link do Instagram
     const pw = 600, ph = 120, px = (w - pw) / 2, py = h - 300;
     ctx.font = `600 30px ${TEXTO}`; ctx.textAlign = "center"; ctx.globalAlpha = .85;
@@ -190,6 +199,9 @@ function peca(cv, tipo, nome, rotulo) {
   d.append(cv, b, av); return d;
 }
 
+const Q = new URLSearchParams(location.search);
+const RENDER = Q.get("render"), AUTO = Q.get("auto") === "1";
+
 (async () => {
   await Promise.all([document.fonts.load(`80px Anton`), document.fonts.load(`500 40px "Instrument Sans"`), document.fonts.load(`700 40px "Instrument Sans"`)]).catch(() => {});
   const todas = await (await fetch("../noticias.json", { cache: "no-store" })).json();
@@ -197,6 +209,16 @@ function peca(cv, tipo, nome, rotulo) {
   const alvo = new URLSearchParams(location.search).get("n");
   const lista = alvo ? todas.filter(n => n.slug === alvo) : todas.slice(0, 3);
   const raiz = document.getElementById("lista");
+
+  // modo usado pelo GitHub Actions para gerar o JPEG do story (1080x1920, sem nada em volta)
+  if (RENDER === "story" && lista[0]) {
+    document.body.innerHTML = ""; document.body.style.cssText = "margin:0;padding:0;background:#000";
+    const n = lista[0], foto = await carregarFoto(n.foto);
+    const cv = capa(n, foto, 1080, 1920, true);
+    cv.style.cssText = "display:block;width:1080px;height:1920px";
+    document.body.append(cv); document.title = "pronto";
+    return;
+  }
 
   for (const n of lista) {
     const foto = await carregarFoto(n.foto);

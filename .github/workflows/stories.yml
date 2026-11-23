@@ -1,0 +1,41 @@
+name: Gerar imagens dos stories
+
+on:
+  push:
+    branches: [main]
+    paths: [noticias.json, posts/index.html, .github/workflows/stories.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stories
+  cancel-in-progress: false
+
+jobs:
+  stories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar JPEG dos stories das 5 notícias mais recentes
+        run: |
+          python3 -m http.server 8000 >/dev/null 2>&1 &
+          sleep 2
+          mkdir -p stories
+          for slug in $(python3 -c "import json;d=sorted(json.load(open('noticias.json')),key=lambda n:n['data'],reverse=True);print(' '.join(n['slug'] for n in d[:5]))"); do
+            if [ -f "stories/$slug.jpg" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then continue; fi
+            google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
+              --window-size=1080,1920 --virtual-time-budget=15000 \
+              --screenshot="/tmp/$slug.png" "http://localhost:8000/posts/?render=story&auto=1&n=$slug"
+            convert "/tmp/$slug.png" -resize 1080x1920! -quality 90 "stories/$slug.jpg"
+            echo "gerado: stories/$slug.jpg"
+          done
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stories
+          git diff --cached --quiet && exit 0
+          git commit -m "Imagens dos stories"
+          git push
