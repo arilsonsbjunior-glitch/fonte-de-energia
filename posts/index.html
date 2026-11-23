@@ -31,7 +31,7 @@
 </head>
 <body>
 <h1>Posts para o Instagram</h1>
-<p class="sub">Artes prontas das últimas notícias do site. Toque em <b>Salvar</b> embaixo de cada imagem e poste. Story: adicione o adesivo de link com o endereço da notícia no espaço livre embaixo. Feed: carrossel de 3 imagens + legenda.</p>
+<p class="sub">Artes prontas das últimas notícias do site. Toque em <b>Salvar</b> embaixo de cada imagem e poste. No story, cole o adesivo de link no espaço livre embaixo. No feed, poste as 3 imagens juntas.</p>
 <div id="lista"></div>
 
 <script>
@@ -101,40 +101,20 @@ function capa(n, foto, w, h, story) {
   pilula(ctx, M, topo, s.nome, s.c, s.t, 30);
   pilula(ctx, w - M, topo, "Fonte de Energia", "#0d0d10", "#fff", 26, "right");
 
-  const fim = story ? h - 430 : h - M;   // story: espaço livre para o adesivo de link
+  const fim = story ? h - 400 : h - M;   // story: espaço livre para o adesivo de link
   ctx.textBaseline = "alphabetic"; ctx.fillStyle = "#fff";
 
   // rodapé
-  ctx.font = `600 28px ${TEXTO}`; ctx.globalAlpha = .8;
-  const rod = story ? `${dataCurta(n.data)} · Fonte: ${n.fontes[0].nome}` : `${dataCurta(n.data)} · Fonte: ${n.fontes[0].nome} · arraste →`;
-  ctx.fillText(rod, M, fim); ctx.globalAlpha = 1;
+  ctx.font = `500 28px ${TEXTO}`; ctx.globalAlpha = .75;
+  ctx.fillText(`${dataCurta(n.data)} · ${n.fontes[0].nome}`, M, fim); ctx.globalAlpha = 1;
 
   // título
-  const tt = story ? 92 : 84;
-  ctx.font = `${tt}px ${DISPLAY}`;
-  const lt = quebrar(ctx, n.titulo.toUpperCase(), w - M * 2).slice(0, 4);
-  let y = fim - 56 - (lt.length - 1) * tt * 1.02;
+  let tt = story ? 132 : 118, lt;
+  do { ctx.font = `${tt}px ${DISPLAY}`; lt = quebrar(ctx, n.titulo.toUpperCase(), w - M * 2); tt -= 4; }
+  while (lt.length > (story ? 5 : 4) && tt > 70);
+  tt += 4;
+  const y = fim - 54 - (lt.length - 1) * tt * 1.02;
   lt.forEach((l, i) => ctx.fillText(l, M, y + i * tt * 1.02));
-  y -= tt + 34;
-
-  // legenda
-  ctx.font = `500 32px ${TEXTO}`;
-  const ll = quebrar(ctx, n.legenda, w * .72);
-  y -= (ll.length - 1) * 42;
-  ctx.globalAlpha = .92; ll.forEach((l, i) => ctx.fillText(l, M, y + i * 42)); ctx.globalAlpha = 1;
-  y -= 56;
-
-  // número de destaque
-  let dt = story ? 330 : 290;
-  ctx.font = `${dt}px ${DISPLAY}`;
-  while (ctx.measureText(n.destaque).width > w - M * 2 && dt > 120) { dt -= 10; ctx.font = `${dt}px ${DISPLAY}`; }
-  ctx.fillText(n.destaque, M - 4, y);
-
-  if (story) {
-    ctx.font = `600 30px ${TEXTO}`; ctx.globalAlpha = .75; ctx.textAlign = "center";
-    ctx.fillText("Toque no link para ler a explicação ↓", w / 2, h - 330);
-    ctx.textAlign = "left"; ctx.globalAlpha = 1;
-  }
   return cv;
 }
 
@@ -150,29 +130,19 @@ function slideTexto(n, titulo, corpo, numero, final) {
   ctx.font = `600 26px ${TEXTO}`; ctx.fillStyle = "#999"; ctx.textAlign = "right"; ctx.textBaseline = "middle";
   ctx.fillText(`${numero}/3`, w - M, 72 + 27); ctx.textAlign = "left";
 
-  ctx.textBaseline = "alphabetic"; ctx.fillStyle = "#0d0d10";
-  ctx.font = `92px ${DISPLAY}`;
-  const lt = quebrar(ctx, titulo.toUpperCase(), w - M * 2);
-  let y = 270;
-  lt.forEach(l => { ctx.fillText(l, M, y); y += 96; });
-  y += 30;
-
-  const rodape = final ? 330 : 150;
-  let tam = 50, linhas;
+  ctx.textBaseline = "alphabetic";
+  let y = 200;
+  const rodape = final ? 300 : 150;
+  let tam = 58, linhas;
   do { ctx.font = `500 ${tam}px ${TEXTO}`; linhas = quebrar(ctx, corpo, w - M * 2); tam -= 2; }
-  while (y + linhas.length * (tam + 2) * 1.42 > h - rodape && tam > 28);
-  const lh = (tam + 2) * 1.42;
-  ctx.fillStyle = "#26262b";
+  while (200 + linhas.length * (tam + 2) * 1.38 > h - rodape && tam > 30);
+  const lh = (tam + 2) * 1.38;
+  ctx.fillStyle = "#0d0d10";
   linhas.forEach(l => { y += lh; ctx.fillText(l, M, y); });
 
   if (final) {
-    const by = h - 250;
-    ctx.fillStyle = "#0d0d10"; ctx.beginPath(); ctx.roundRect(M, by, w - M * 2, 130, 28); ctx.fill();
-    ctx.fillStyle = "#fff"; ctx.font = `700 34px ${TEXTO}`; ctx.textBaseline = "middle";
-    ctx.fillText("Explicação completa e fonte original", M + 40, by + 46);
-    ctx.font = `500 30px ${TEXTO}`; ctx.globalAlpha = .75;
-    ctx.fillText(`no link da bio · Fonte: ${n.fontes[0].nome}`, M + 40, by + 90);
-    ctx.globalAlpha = 1; ctx.textBaseline = "alphabetic";
+    ctx.fillStyle = "#555"; ctx.font = `500 32px ${TEXTO}`;
+    ctx.fillText(`Li na ${n.fontes[0].nome}. Link na bio.`, M, h - 150);
   }
   ctx.font = `700 24px ${TEXTO}`; ctx.fillStyle = "#b0b0b0"; ctx.letterSpacing = "2.4px";
   ctx.fillText("FONTE DE ENERGIA", M, h - 70); ctx.letterSpacing = "0px";
@@ -181,7 +151,7 @@ function slideTexto(n, titulo, corpo, numero, final) {
 
 function legenda(n) {
   const url = `${SITE}/n/${n.slug}/`;
-  return `${n.titulo}\n\n${n.resumo}\n\nA explicação completa, em linguagem simples, está no site (link na bio).\n\nFonte: ${n.fontes.map(f => f.nome).join(", ")}\n\n#energia #${n.setor === "luz" ? "energiaeletrica" : n.setor} #setorenergetico\n\n— link da notícia para o adesivo do story: ${url}`;
+  return `${n.titulo}\n\n${n.resumo}\n\nLi na ${n.fontes[0].nome}. Deixei a explicação completa no site, link na bio.\n\n#energia #${n.setor === "luz" ? "energiaeletrica" : n.setor}\n\n\nLink para o adesivo do story (não colar no post):\n${url}`;
 }
 
 async function salvar(cv, nome, aviso) {
@@ -225,8 +195,8 @@ function peca(cv, tipo, nome, rotulo) {
     const f2 = document.createElement("div"); f2.className = "fila";
     f2.append(
       peca(capa(n, foto, 1080, 1350, false), "feed", `${n.slug}-1.png`, "1/3"),
-      peca(slideTexto(n, "O que isso quer dizer", p1, 2, !p2), "feed", `${n.slug}-2.png`, "2/3"),
-      peca(slideTexto(n, "Por que isso importa", p2 || n.resumo, 3, true), "feed", `${n.slug}-3.png`, "3/3"),
+      peca(slideTexto(n, "", p1, 2, !p2), "feed", `${n.slug}-2.png`, "2/3"),
+      peca(slideTexto(n, "", p2 || n.resumo, 3, true), "feed", `${n.slug}-3.png`, "3/3"),
     );
 
     const g3 = document.createElement("div"); g3.className = "grupo"; g3.textContent = "Legenda";
