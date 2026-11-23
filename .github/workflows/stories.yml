@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths: [noticias.json, posts/index.html, .github/workflows/stories.yml]
   workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Slugs separados por espaço (vazio = 5 mais recentes)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -25,7 +30,9 @@ jobs:
           python3 -m http.server 8000 >/dev/null 2>&1 &
           sleep 2
           mkdir -p stories
-          for slug in $(python3 -c "import json;d=sorted(json.load(open('noticias.json')),key=lambda n:n['data'],reverse=True);print(' '.join(n['slug'] for n in d[:5]))"); do
+          LISTA="${{ github.event.inputs.slugs }}"
+          [ -z "$LISTA" ] && LISTA=$(python3 -c "import json;d=sorted(json.load(open('noticias.json')),key=lambda n:n['data'],reverse=True);print(' '.join(n['slug'] for n in d[:5]))")
+          for slug in $LISTA; do
             if [ -f "stories/$slug.jpg" ] && [ -f "stories/$slug-feed.jpg" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then continue; fi
             google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
               --window-size=1080,1920 --virtual-time-budget=15000 \
