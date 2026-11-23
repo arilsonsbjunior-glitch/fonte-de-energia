@@ -2,10 +2,10 @@
   {
     "data": "2026-11-23",
     "setor": "petroleo",
-    "titulo": "Petrobras prepara plano de investimento de até US$ 125 bilhões",
-    "resumo": "A Petrobras deve divulgar nesta semana quanto pretende investir entre 2027 e 2031. A expectativa do mercado é de US$ 120 bilhões a US$ 125 bilhões, acima dos US$ 109 bilhões do plano anterior. Cerca de 80% desse valor deve ir para a busca e a produção de petróleo, com prioridade para o pré-sal, a Margem Equatorial e as refinarias.",
-    "destaque": "125 bi",
-    "legenda": "de dólares é o teto esperado para o plano 2027–2031",
+    "titulo": "Petrobras deve ampliar investimentos no plano 2027-2031",
+    "resumo": "A Petrobras deve divulgar nesta semana quanto pretende investir entre 2027 e 2031. As estimativas publicadas pela imprensa variam de US$ 115 bilhões a US$ 125 bilhões, acima dos US$ 109 bilhões do plano anterior. A maior parte do valor deve ir para a busca e a produção de petróleo, com prioridade para o pré-sal, a Margem Equatorial e as refinarias.",
+    "destaque": "US$ 109 bi",
+    "legenda": "era o valor do plano anterior; o novo deve ser maior",
     "fontes": [
       {
         "nome": "Cenário Energia",
@@ -14,6 +14,10 @@
       {
         "nome": "Money Times",
         "url": "https://www.moneytimes.com.br/rd-saude-radl3-brava-energia-brav3-jbs-jbss32-e-outros-destaques-desta-segunda-feira-mlem/"
+      },
+      {
+        "nome": "Estadão, via brapi",
+        "url": "https://brapi.dev/news/conselho-da-petrobras-avalia-plano-de-us-115-bi-a-us-120-da539749"
       }
     ],
     "video": "",
@@ -21,7 +25,7 @@
     "foto": "https://images.pexels.com/photos/15961091/pexels-photo-15961091.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/platform-with-helipad-on-sea-15961091/",
-    "explicacao": "Todo ano a Petrobras divulga um plano de negócios com o que pretende investir nos cinco anos seguintes. O documento mostra quanto a empresa vai gastar em novos poços, plataformas, refinarias e outras áreas. Investidores, governo e fornecedores usam esse plano para tomar as próprias decisões.\n\nO pré-sal é a área no fundo do mar de onde sai hoje a maior parte do petróleo do Brasil. A Margem Equatorial é uma região nova, no litoral do Norte e do Nordeste, onde a empresa ainda procura petróleo. O investimento em refinarias tem outro objetivo: produzir mais diesel no país e comprar menos do exterior. Os valores oficiais só serão conhecidos na divulgação do plano.",
+    "explicacao": "Todo ano a Petrobras divulga um plano de negócios com o que pretende investir nos cinco anos seguintes. O documento mostra quanto a empresa vai gastar em novos poços, plataformas, refinarias e outras áreas. Investidores, governo e fornecedores usam esse plano para tomar as próprias decisões.\n\nO pré-sal é a área no fundo do mar de onde sai hoje a maior parte do petróleo do Brasil. A Margem Equatorial é uma região nova, no litoral do Norte e do Nordeste, onde a empresa ainda procura petróleo. O investimento em refinarias tem outro objetivo: produzir mais diesel no país e comprar menos do exterior. Os valores oficiais só serão conhecidos quando o plano for divulgado.",
     "slug": "petroleo-a-petrobras-vai-mostrar-onde-quer-gastar-ate-2031"
   },
   {
