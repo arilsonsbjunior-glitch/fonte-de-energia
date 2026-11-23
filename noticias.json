@@ -136,8 +136,8 @@
   {
     "data": "2026-11-17",
     "setor": "gas",
-    "titulo": "O pedágio do gás vai ficar mais barato?",
-    "resumo": "A ANP decide quanto as empresas donas dos gasodutos podem cobrar para transportar gás até 2030. A proposta corta mais de 30% a tarifa de uma das maiores. Se o pedágio cai, o gás chega mais barato na indústria, e isso pode aparecer no preço de muita coisa.",
+    "titulo": "ANP pode reduzir em mais de 30% a tarifa de transporte de gás",
+    "resumo": "A ANP, agência que regula o petróleo e o gás no Brasil, está definindo quanto as empresas donas dos gasodutos poderão cobrar pelo transporte de gás até 2030. A proposta reduz em mais de 30% a tarifa de uma das maiores transportadoras. Com um transporte mais barato, o gás pode chegar com preço menor às indústrias.",
     "destaque": "−32%",
     "legenda": "a −35% na tarifa proposta para uma transportadora de gás",
     "fontes": [
@@ -152,13 +152,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/iron-poles-in-a-forest-23878948/",
     "slug": "gas-o-pedagio-do-gas-vai-ficar-mais-barato",
-    "explicacao": "O gás natural sai dos campos de produção e viaja por gasodutos até chegar às distribuidoras e às fábricas. As empresas donas desses dutos cobram uma tarifa pelo transporte, como um pedágio. Quem define o valor máximo desse pedágio é a ANP, a agência que regula o setor.\n\nSe a tarifa cai, o custo de levar o gás até a indústria diminui. Isso tende a ajudar setores que usam muito gás, como fertilizantes, vidro e cerâmica. O desafio da agência é achar o equilíbrio: um pedágio barato demais pode desestimular as empresas a construir novos gasodutos."
+    "explicacao": "O gás natural sai dos campos de produção e percorre gasodutos até chegar às distribuidoras e às fábricas. As empresas donas desses dutos cobram uma tarifa pelo transporte, que funciona como um pedágio. Quem define o valor máximo dessa tarifa é a ANP.\n\nUma tarifa menor reduz o custo de levar o gás até a indústria. Isso beneficia principalmente setores que usam muito gás, como os de fertilizantes, vidro e cerâmica. A agência, porém, precisa manter uma remuneração suficiente para que as empresas continuem investindo em novos gasodutos."
   },
   {
     "data": "2026-11-17",
     "setor": "luz",
-    "titulo": "A Enel pode perder a conta de luz de São Paulo",
-    "resumo": "A ANEEL vota se recomenda tirar da Enel o direito de distribuir energia em São Paulo, depois dos apagões. Duas diretoras já votaram a favor. A palavra final é do Ministério de Minas e Energia.",
+    "titulo": "Aneel vota se recomenda o fim do contrato da Enel em São Paulo",
+    "resumo": "A Aneel, agência que fiscaliza o setor elétrico, está votando se recomenda retirar da Enel o direito de distribuir energia em São Paulo, depois de uma série de apagões. Duas diretoras já votaram a favor. A decisão final cabe ao Ministério de Minas e Energia.",
     "destaque": "2 votos",
     "legenda": "de diretoras da ANEEL já a favor de encerrar a concessão",
     "fontes": [
@@ -173,13 +173,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/city-skyline-on-an-afterglow-6420227/",
     "slug": "luz-a-enel-pode-perder-a-conta-de-luz-de-sao-paulo",
-    "explicacao": "As distribuidoras de energia, como a Enel em São Paulo, funcionam por concessão: o governo autoriza a empresa a levar luz até as casas e, em troca, ela precisa cumprir metas de qualidade. Quando a empresa falha de forma grave, a ANEEL pode recomendar a caducidade, que é o fim antecipado do contrato.\n\nA decisão final é do Ministério de Minas e Energia. Na prática, se a concessão for encerrada, outra empresa precisa assumir o serviço. O debate maior é como cobrar das distribuidoras uma rede mais preparada para temporais e eventos extremos."
+    "explicacao": "Distribuidoras de energia, como a Enel em São Paulo, operam por concessão, que é a autorização do governo para prestar o serviço por um período determinado em troca do cumprimento de metas de qualidade. Quando a empresa falha de forma grave, a Aneel pode recomendar a caducidade, que é o encerramento do contrato antes do prazo.\n\nSe a concessão for encerrada, outra empresa terá de assumir a distribuição de energia na região. O caso também amplia a discussão sobre como exigir das distribuidoras redes mais preparadas para temporais e outros eventos climáticos extremos."
   },
   {
     "data": "2026-11-17",
     "setor": "petroleo",
-    "titulo": "OPEP+ se reúne no fim do mês para rever capacidade",
-    "resumo": "Com o petróleo em queda, os países da OPEP+ marcaram para 29 de novembro a reunião que revisa a capacidade de produção de cada membro. A decisão pode mexer no preço do barril.",
+    "titulo": "Opep+ se reúne no fim do mês para rever capacidade de produção",
+    "resumo": "Com o preço do petróleo em queda, os países da Opep+ marcaram para 29 de novembro a reunião que revisa a capacidade de produção de cada membro. A decisão pode influenciar o preço do barril no mercado internacional.",
     "destaque": "29 nov",
     "legenda": "data da reunião da OPEP+ sobre capacidade de produção",
     "fontes": [
@@ -194,13 +194,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/stacked-red-industrial-oil-barrels-38150961/",
     "slug": "petroleo-opep-se-reune-no-fim-do-mes-para-rever-capacidade",
-    "explicacao": "A OPEP+ reúne grandes países produtores de petróleo, como Arábia Saudita e Rússia. Eles combinam quanto cada um pode produzir, e essas decisões mexem diretamente no preço do barril no mundo inteiro.\n\nCom o preço em queda, a reunião é acompanhada de perto pelo mercado. Se os países decidirem segurar a produção, o preço tende a subir. Se liberarem mais petróleo, a tendência é de queda. Para o Brasil, isso afeta a arrecadação com petróleo e, indiretamente, o preço dos combustíveis."
+    "explicacao": "A Opep+ é um grupo que reúne grandes países produtores de petróleo, como Arábia Saudita e Rússia. Os integrantes combinam quanto cada um pode produzir, e essas decisões afetam diretamente o preço do barril no mundo inteiro.\n\nSe os países decidirem limitar a produção, o preço tende a subir. Se liberarem mais petróleo, a tendência é de queda. Para o Brasil, o resultado influencia a arrecadação com petróleo e, de forma indireta, o preço dos combustíveis."
   },
   {
     "data": "2026-11-16",
     "setor": "petroleo",
-    "titulo": "O petróleo caiu mais de 3% em um dia",
-    "resumo": "Com o petróleo voltando a passar pelo Oriente Médio, o mundo deve ter mais petróleo do que compradores no fim do ano. Resultado: o preço do barril despencou na segunda-feira.",
+    "titulo": "Petróleo cai mais de 3% em um dia com expectativa de excesso de oferta",
+    "resumo": "Com a retomada do fluxo de petróleo pelo Oriente Médio, o mercado passou a prever mais petróleo disponível do que compradores no fim do ano. Com isso, o preço do barril caiu mais de 3% na segunda-feira.",
     "destaque": "1,7 mi",
     "legenda": "barris por dia de sobra no fim de 2026, segundo a IEA",
     "fontes": [
@@ -215,13 +215,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/stock-market-illustration-on-the-screen-7567223/",
     "slug": "petroleo-o-petroleo-caiu-mais-de-3-em-um-dia",
-    "explicacao": "O preço do petróleo funciona como qualquer mercadoria: quando sobra produto, o preço cai. Com o fluxo de petróleo voltando a passar pelo Oriente Médio, a expectativa é de mais oferta do que demanda no fim do ano.\n\nPara quem produz, como o Brasil, preço mais baixo significa menos receita e menos royalties para estados e municípios. Para quem consome, pode abrir espaço para combustíveis mais baratos, mas isso depende também do dólar e da política de preços da Petrobras."
+    "explicacao": "O preço do petróleo segue a mesma lógica de outras mercadorias: quando a oferta supera a procura, o preço cai. Com o petróleo voltando a circular pelo Oriente Médio, a expectativa é de mais produto disponível do que consumo no fim do ano.\n\nPara países produtores, como o Brasil, um preço menor significa menos receita e menos royalties, que são os valores pagos a estados e municípios pela exploração do petróleo. Para os consumidores, a queda pode abrir espaço para combustíveis mais baratos, mas isso também depende do dólar e da política de preços da Petrobras."
   },
   {
     "data": "2026-11-13",
     "setor": "petroleo",
-    "titulo": "A Petrobras produzindo mais sem construir nada novo",
-    "resumo": "Onze plataformas que já existiam ganharam capacidade para quase 300 mil barris a mais por dia, só com engenharia e ajustes. E isso chega justo quando o preço do petróleo começa a cair no mundo.",
+    "titulo": "Petrobras amplia capacidade de 11 plataformas sem construir unidades novas",
+    "resumo": "Onze plataformas da Petrobras que já estavam em operação ganharam capacidade para produzir quase 300 mil barris a mais por dia, apenas com ajustes de engenharia. O aumento ocorre em um momento de queda do preço do petróleo no mundo.",
     "destaque": "+282 mil",
     "legenda": "barris por dia de capacidade em 11 plataformas, sem obra nova",
     "fontes": [
@@ -240,13 +240,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/oil-platform-3192662/",
     "slug": "petroleo-a-petrobras-produzindo-mais-sem-construir-nada-novo",
-    "explicacao": "Uma plataforma de petróleo tem um limite de quanto consegue processar por dia. Com ajustes de engenharia nos equipamentos, a Petrobras conseguiu aumentar esse limite em onze plataformas que já estavam operando.\n\nÉ como fazer uma fábrica produzir mais sem construir um prédio novo. Esse tipo de ganho costuma ser mais barato e mais rápido do que um projeto novo. Vale lembrar que isso é aumento de capacidade, ou seja, quanto a plataforma pode produzir, e não necessariamente produção extra todos os dias."
+    "explicacao": "Cada plataforma de petróleo tem um limite de quanto consegue processar por dia. Com ajustes nos equipamentos, a Petrobras conseguiu elevar esse limite em onze plataformas que já estavam produzindo, de forma semelhante a uma fábrica que aumenta a produção sem construir um prédio novo.\n\nEsse tipo de ganho costuma ser mais barato e mais rápido do que um projeto novo. É importante notar que se trata de aumento de capacidade, ou seja, do quanto as plataformas podem produzir, e não necessariamente de produção extra todos os dias."
   },
   {
     "data": "2026-11-10",
     "setor": "petroleo",
-    "titulo": "Petrobras aumenta a previsão de produção do ano",
-    "resumo": "A empresa revisou para cima quanto vai produzir em 2026: de 3,1 para até 3,4 milhões de barris de óleo e gás por dia. Mais plataformas novas funcionando e mais sondas disponíveis ajudaram.",
+    "titulo": "Petrobras eleva previsão de produção de 2026",
+    "resumo": "A Petrobras revisou para cima a estimativa de produção para 2026, de 3,1 para até 3,4 milhões de barris de óleo e gás por dia. A revisão foi motivada pela entrada em operação de novas plataformas e pela maior disponibilidade de sondas.",
     "destaque": "3,4 mi",
     "legenda": "barris de óleo e gás por dia: o novo teto da previsão para 2026",
     "fontes": [
@@ -261,13 +261,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/offshore-oil-rig-in-calm-ocean-waters-37703372/",
     "slug": "petroleo-petrobras-aumenta-a-previsao-de-producao-do-ano",
-    "explicacao": "Todo ano a Petrobras divulga quanto espera produzir de petróleo e gás. Agora ela revisou essa previsão para cima, porque plataformas novas começaram a operar e mais sondas ficaram disponíveis.\n\nProduzir mais significa mais receita para a empresa e mais arrecadação para o país, por meio de royalties e impostos. Com o preço do petróleo em queda no mundo, aumentar o volume ajuda a compensar parte dessa perda."
+    "explicacao": "Todo ano a Petrobras divulga quanto espera produzir de petróleo e gás. As sondas são os equipamentos usados para perfurar os poços, e as plataformas são as unidades que extraem e processam o petróleo no mar. Com mais desses equipamentos disponíveis, a empresa elevou a previsão.\n\nUma produção maior significa mais receita para a empresa e mais arrecadação para o país, por meio de royalties e impostos. Com o preço do petróleo em queda no mundo, o aumento de volume ajuda a compensar parte dessa perda."
   },
   {
     "data": "2026-11-10",
     "setor": "renovaveis",
-    "titulo": "O sol colocou mais 3,75 GW na matriz elétrica em 2026",
-    "resumo": "A energia solar segue sendo a fonte que mais cresce no Brasil. Só neste ano, as novas usinas somaram mais de 3,7 gigawatts de capacidade.",
+    "titulo": "Energia solar adiciona 3,75 GW à matriz elétrica em 2026",
+    "resumo": "A energia solar continua sendo a fonte que mais cresce no Brasil. Neste ano, as novas usinas solares somaram mais de 3,7 gigawatts de capacidade instalada.",
     "destaque": "3,75 GW",
     "legenda": "de energia solar adicionados à matriz elétrica em 2026",
     "fontes": [
@@ -282,13 +282,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/photography-of-solar-energy-farm-9893727/",
     "slug": "renovaveis-o-sol-colocou-mais-3-75-gw-na-matriz-eletrica-em-2026",
-    "explicacao": "A matriz elétrica é o conjunto de fontes que geram a energia do país: hidrelétricas, eólicas, solares, térmicas e outras. A solar é a que mais cresce, com usinas grandes e com painéis em casas e empresas.\n\nO desafio agora é que muita energia solar é gerada ao mesmo tempo, no meio do dia, e a rede nem sempre consegue escoar tudo. Por isso cresce a discussão sobre baterias e novas linhas de transmissão."
+    "explicacao": "A matriz elétrica é o conjunto de fontes que geram a eletricidade do país, como hidrelétricas, eólicas, solares e térmicas. A solar é a que mais cresce, tanto em grandes usinas quanto em painéis instalados em casas e empresas. Gigawatt é a unidade usada para medir a capacidade de geração dessas usinas.\n\nO desafio é que grande parte dessa energia é gerada ao mesmo tempo, no meio do dia, e a rede nem sempre consegue transportar tudo. Por isso cresce a discussão sobre baterias e novas linhas de transmissão."
   },
   {
     "data": "2026-11-10",
     "setor": "hidrogenio",
-    "titulo": "O hidrogênio verde do Ceará ainda está no papel",
-    "resumo": "Cinco anos depois dos primeiros anúncios, os projetos de hidrogênio verde no Porto do Pecém somam R$ 63 bilhões prometidos em seis pré-contratos, mas nenhuma usina saiu do chão.",
+    "titulo": "Projetos de hidrogênio verde no Pecém seguem sem obras",
+    "resumo": "Cinco anos depois dos primeiros anúncios, os projetos de hidrogênio verde no Porto do Pecém, no Ceará, somam R$ 63 bilhões em seis pré-contratos. Nenhuma usina, porém, começou a ser construída.",
     "destaque": "R$ 63 bi",
     "legenda": "em investimentos prometidos no hub de hidrogênio do Pecém",
     "fontes": [
@@ -303,13 +303,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/industrial-port-crane-at-a-busy-harbor-33885284/",
     "slug": "hidrogenio-o-hidrogenio-verde-do-ceara-ainda-esta-no-papel",
-    "explicacao": "O Porto do Pecém, no Ceará, virou símbolo do hidrogênio verde no Brasil, com vários acordos assinados para produzir hidrogênio usando energia renovável. Esses acordos são pré-contratos: mostram interesse, mas ainda não são obras.\n\nPara os projetos saírem do papel, as empresas precisam de compradores garantidos, regras claras e custo competitivo. É por isso que o setor acompanha de perto os incentivos do governo e a regulamentação do mercado de hidrogênio."
+    "explicacao": "O hidrogênio verde é produzido a partir da água com eletricidade de fontes renováveis e pode substituir combustíveis fósseis na indústria. O Porto do Pecém se tornou referência no tema no Brasil, com vários acordos assinados. Esses acordos são pré-contratos, que demonstram interesse, mas ainda não representam obras.\n\nPara que os projetos avancem, as empresas precisam de compradores garantidos, regras claras e custos competitivos. Por isso o setor acompanha de perto os incentivos do governo e a regulamentação do mercado de hidrogênio."
   },
   {
     "data": "2026-11-10",
     "setor": "luz",
-    "titulo": "Decreto dos data centers deve sair ainda em novembro",
-    "resumo": "O regime especial para data centers, o Redata, deve ser regulamentado até o fim do mês. Um dos pontos em debate é se essas empresas terão que contratar energia nova para abastecer as próprias instalações.",
+    "titulo": "Decreto do regime especial para data centers deve sair em novembro",
+    "resumo": "O Redata, regime especial de incentivos para data centers, deve ser regulamentado até o fim do mês. Um dos pontos em discussão é se essas empresas terão de contratar energia nova para abastecer as próprias instalações.",
     "destaque": "Redata",
     "legenda": "decreto esperado para o fim de novembro",
     "fontes": [
@@ -324,13 +324,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/server-racks-on-data-center-5480781/",
     "slug": "luz-decreto-dos-data-centers-deve-sair-ainda-em-novembro",
-    "explicacao": "Data centers são prédios cheios de servidores que guardam e processam dados, inclusive para inteligência artificial. Eles consomem muita energia, o tempo todo. O Redata é um regime especial que dá incentivos fiscais para atrair esses investimentos ao Brasil.\n\nO decreto vai definir as regras na prática. Um ponto em discussão é se os data centers terão que trazer energia nova para o sistema, em vez de só usar a que já existe, para não pesar na conta de todo mundo."
+    "explicacao": "Data centers são instalações com milhares de servidores que armazenam e processam dados, inclusive para inteligência artificial. Eles consomem grandes quantidades de energia de forma contínua. O Redata oferece incentivos fiscais para atrair esse tipo de investimento ao Brasil.\n\nO decreto vai definir como as regras funcionarão na prática. Uma das discussões é se os data centers deverão trazer energia nova para o sistema, em vez de usar apenas a já existente, para que esse consumo não pese na conta dos demais consumidores."
   },
   {
     "data": "2026-11-07",
     "setor": "luz",
-    "titulo": "A concessão da Enel no Rio também está em jogo",
-    "resumo": "O contrato da Enel no Rio de Janeiro está perto de vencer, e ANEEL e Ministério de Minas e Energia trocaram cobranças sobre a análise da renovação.",
+    "titulo": "Renovação do contrato da Enel no Rio entra em discussão",
+    "resumo": "O contrato da Enel para distribuir energia no Rio de Janeiro está perto do fim, e a Aneel e o Ministério de Minas e Energia trocaram cobranças sobre a análise da renovação.",
     "destaque": "Renovação",
     "legenda": "da concessão da Enel Rio em análise",
     "fontes": [
@@ -345,13 +345,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/sugarloaf-mountain-off-the-coast-of-rio-de-janeiro-in-the-evening-23938273/",
     "slug": "luz-a-concessao-da-enel-no-rio-tambem-esta-em-jogo",
-    "explicacao": "Assim como em São Paulo, a Enel também distribui energia em parte do estado do Rio de Janeiro, por meio de um contrato de concessão com prazo para acabar. Quando o contrato se aproxima do fim, o governo decide se renova, com novas exigências, ou se faz uma nova licitação.\n\nA ANEEL e o Ministério de Minas e Energia participam dessa análise. A decisão importa para quem mora na área atendida, porque define quem vai cuidar da rede e com quais metas de qualidade."
+    "explicacao": "Além de São Paulo, a Enel distribui energia em parte do estado do Rio de Janeiro, por meio de uma concessão, que é a autorização do governo para prestar o serviço por um prazo determinado. Quando o contrato se aproxima do fim, o governo decide se renova, com novas exigências, ou se faz uma nova licitação para escolher outra empresa.\n\nA Aneel, agência que fiscaliza o setor elétrico, e o Ministério de Minas e Energia participam dessa análise. A decisão afeta diretamente quem mora na área atendida, porque define quem será responsável pela rede e com quais metas de qualidade."
   },
   {
     "data": "2026-11-06",
     "setor": "hidrogenio",
-    "titulo": "Hidrogênio verde ficou mais caro no Brasil",
-    "resumo": "Produzir um quilo de hidrogênio verde passou de US$ 5,19 para US$ 6,58 em um ano. O vilão é a energia elétrica, que pesa de 60% a 80% no custo dos projetos.",
+    "titulo": "Custo do hidrogênio verde sobe no Brasil",
+    "resumo": "O custo para produzir um quilo de hidrogênio verde passou de US$ 5,19 para US$ 6,58 em um ano. O principal fator é a energia elétrica, que representa de 60% a 80% do custo dos projetos.",
     "destaque": "+26,9%",
     "legenda": "no custo de produção do hidrogênio verde em 12 meses",
     "fontes": [
@@ -366,13 +366,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/clear-glass-bottle-on-table-7722670/",
     "slug": "hidrogenio-hidrogenio-verde-ficou-mais-caro-no-brasil",
-    "explicacao": "O hidrogênio verde é produzido quebrando a molécula da água com eletricidade de fontes renováveis, num equipamento chamado eletrolisador. Por isso, o preço da energia elétrica é o que mais pesa no custo final.\n\nQuando a energia fica mais cara, o hidrogênio também fica. Isso torna mais difícil competir com o hidrogênio feito a partir de gás natural, que é mais barato hoje. Contratos de energia de longo prazo e financiamento mais barato são apontados como caminhos para baixar esse custo."
+    "explicacao": "O hidrogênio verde é produzido separando a molécula da água com eletricidade de fontes renováveis, em um equipamento chamado eletrolisador. Por isso, o preço da energia elétrica é o item que mais pesa no custo final.\n\nQuando a energia encarece, o hidrogênio também fica mais caro. Isso dificulta a competição com o hidrogênio produzido a partir do gás natural, que hoje é mais barato. Contratos de energia de longo prazo e financiamento com juros menores são apontados como caminhos para reduzir esse custo."
   },
   {
     "data": "2026-11-06",
     "setor": "renovaveis",
-    "titulo": "O Brasil aprovou o seu plano de transição energética",
-    "resumo": "O Conselho Nacional de Política Energética aprovou o Plante, o plano que organiza como o país vai mudar a sua matriz de energia nos próximos anos.",
+    "titulo": "Brasil aprova plano nacional de transição energética",
+    "resumo": "O Conselho Nacional de Política Energética aprovou o Plante, plano que organiza como o país vai mudar sua matriz de energia nos próximos anos.",
     "destaque": "81%",
     "legenda": "de matriz renovável prevista pelo plano",
     "fontes": [
@@ -387,13 +387,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/aerial-view-of-wind-turbines-at-sunset-30037318/",
     "slug": "renovaveis-o-brasil-aprovou-o-seu-plano-de-transicao-energetica",
-    "explicacao": "Transição energética é a mudança gradual de fontes que emitem muito carbono para fontes mais limpas. O Plante é o plano que organiza como o Brasil pretende fazer essa mudança nos próximos anos.\n\nO Brasil já parte de uma matriz com muita energia renovável, principalmente por causa das hidrelétricas. O plano serve como guia para decisões de governo e investimentos, mostrando para onde o país quer ir."
+    "explicacao": "Transição energética é a substituição gradual de fontes que emitem muito carbono, como petróleo e carvão, por fontes mais limpas. O Plante reúne as metas e os caminhos que o Brasil pretende seguir nessa mudança. O Conselho Nacional de Política Energética é o órgão que assessora a Presidência da República nas decisões sobre energia.\n\nO Brasil já tem uma matriz com grande participação de energia renovável, principalmente por causa das hidrelétricas. O plano serve como referência para as decisões do governo e para os investimentos das empresas."
   },
   {
     "data": "2026-11-06",
     "setor": "luz",
-    "titulo": "Governo cria grupo para planejar os carros elétricos",
-    "resumo": "Um grupo de trabalho vai propor a estratégia nacional de eletromobilidade, da rede de recarga até os minerais das baterias.",
+    "titulo": "Governo cria grupo para planejar a expansão dos veículos elétricos",
+    "resumo": "Um grupo de trabalho vai propor a estratégia nacional de eletromobilidade, que inclui desde a rede de recarga até os minerais usados nas baterias.",
     "destaque": "120 dias",
     "legenda": "de prazo para o grupo apresentar a proposta",
     "fontes": [
@@ -408,13 +408,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/electric-car-while-charging-24376862/",
     "slug": "luz-governo-cria-grupo-para-planejar-os-carros-eletricos",
-    "explicacao": "Eletromobilidade é o uso de energia elétrica para mover veículos, como carros, ônibus e caminhões elétricos. Para isso crescer, o país precisa de pontos de recarga, de uma rede elétrica preparada e de uma cadeia de baterias.\n\nO grupo de trabalho vai propor uma estratégia nacional. A ideia é organizar o crescimento dos elétricos de forma planejada, aproveitando que a eletricidade brasileira é em boa parte renovável."
+    "explicacao": "Eletromobilidade é o uso de energia elétrica para mover veículos, como carros, ônibus e caminhões. Para que esse mercado cresça, o país precisa de pontos de recarga, de uma rede elétrica preparada e de uma indústria de baterias.\n\nO grupo de trabalho vai propor uma estratégia nacional para organizar esse crescimento de forma planejada. Um ponto favorável é que a eletricidade brasileira vem, em grande parte, de fontes renováveis."
   },
   {
     "data": "2026-11-06",
     "setor": "renovaveis",
-    "titulo": "Governo quer transformar lixo em energia",
-    "resumo": "O Conselho Nacional de Política Energética criou um grupo para estudar a geração de energia a partir de resíduos. O país produz mais de 80 milhões de toneladas por ano, segundo o ministério.",
+    "titulo": "Governo cria grupo para estudar geração de energia a partir do lixo",
+    "resumo": "O Conselho Nacional de Política Energética criou um grupo para estudar a produção de energia a partir de resíduos. Segundo o ministério, o país produz mais de 80 milhões de toneladas de lixo por ano.",
     "destaque": "80 mi t",
     "legenda": "de resíduos gerados por ano no Brasil",
     "fontes": [
@@ -429,12 +429,12 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/top-view-of-an-excavator-of-a-garbage-dump-4454065/",
     "slug": "renovaveis-governo-quer-transformar-lixo-em-energia",
-    "explicacao": "O lixo pode virar energia de algumas formas: queimado em usinas próprias, ou decomposto para gerar biogás, que pode ser usado para produzir eletricidade ou virar biometano.\n\nCom a enorme quantidade de resíduos gerada no país, isso resolve dois problemas ao mesmo tempo: reduz o que vai para aterros e cria uma nova fonte de energia. O grupo criado vai estudar como tornar esses projetos viáveis."
+    "explicacao": "O lixo pode ser transformado em energia de diferentes formas. Ele pode ser queimado em usinas próprias ou decomposto para gerar biogás, que pode produzir eletricidade ou ser purificado e transformado em biometano, um substituto do gás natural.\n\nCom o volume de resíduos gerado no país, esse aproveitamento reduz a quantidade de lixo enviada a aterros e cria uma nova fonte de energia. O grupo vai estudar como tornar esses projetos economicamente viáveis."
   },
   {
     "data": "2026-11-06",
     "setor": "renovaveis",
-    "titulo": "Brasil vai organizar os seus dados de energia",
+    "titulo": "Brasil aprova estratégia para padronizar dados do setor de energia",
     "resumo": "Foi aprovada uma estratégia nacional para integrar e padronizar as informações dos órgãos de energia, seguindo recomendações da Agência Internacional de Energia.",
     "destaque": "2027–2031",
     "legenda": "período da Estratégia Nacional de Dados Energéticos",
@@ -450,13 +450,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/computer-server-in-data-center-room-17489163/",
     "slug": "renovaveis-brasil-vai-organizar-os-seus-dados-de-energia",
-    "explicacao": "Hoje as informações sobre energia no Brasil estão espalhadas em vários órgãos, cada um com seu formato. Isso dificulta comparar números, planejar e fiscalizar.\n\nA estratégia aprovada busca padronizar e integrar esses dados, seguindo recomendações da Agência Internacional de Energia. Dados melhores ajudam o governo a planejar, as empresas a investir e as pessoas a entender o setor."
+    "explicacao": "Hoje, as informações sobre energia no Brasil estão distribuídas entre vários órgãos, cada um com seu próprio formato. Isso dificulta a comparação de números, o planejamento e a fiscalização. A Agência Internacional de Energia é uma organização que reúne dados e orienta políticas de energia em diversos países.\n\nA estratégia busca padronizar e integrar esses dados. Informações mais organizadas ajudam o governo a planejar, as empresas a investir e a sociedade a acompanhar o setor."
   },
   {
     "data": "2026-11-03",
     "setor": "petroleo",
-    "titulo": "Querosene de avião ficou 7,2% mais caro",
-    "resumo": "A Petrobras reajustou o combustível de aviação em novembro, uma alta de R$ 0,45 por litro, puxada pela volatilidade do refino no mundo.",
+    "titulo": "Querosene de aviação sobe 7,2% em novembro",
+    "resumo": "A Petrobras reajustou o preço do querosene de aviação em novembro, com alta de R$ 0,45 por litro. O aumento foi motivado pela instabilidade dos preços de refino no mercado internacional.",
     "destaque": "+7,2%",
     "legenda": "no preço do querosene de aviação em novembro",
     "fontes": [
@@ -471,13 +471,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/airport-ground-crew-refueling-klm-airplane-36581522/",
     "slug": "petroleo-querosene-de-aviao-ficou-7-2-mais-caro",
-    "explicacao": "O querosene de aviação é o combustível dos aviões e um dos maiores custos das companhias aéreas. A Petrobras reajusta esse preço periodicamente, acompanhando o mercado internacional de combustíveis.\n\nQuando o combustível sobe, a pressão sobre o preço das passagens aumenta. O repasse não é automático, porque depende da estratégia de cada empresa aérea, mas o custo de voar fica mais alto."
+    "explicacao": "O querosene de aviação é o combustível usado pelos aviões e um dos maiores custos das companhias aéreas. A Petrobras reajusta esse preço periodicamente, acompanhando o mercado internacional de combustíveis.\n\nQuando o combustível sobe, aumenta a pressão sobre o preço das passagens. O repasse não é automático, porque depende da estratégia de cada companhia, mas o custo das viagens aéreas fica mais alto."
   },
   {
     "data": "2026-10-30",
     "setor": "luz",
     "titulo": "Leilão contrata R$ 8,9 bilhões em linhas de transmissão",
-    "resumo": "Oito lotes foram arrematados por cinco empresas, com previsão de 1.866 km de novas linhas. Os vencedores aceitaram receber, em média, metade do valor máximo previsto.",
+    "resumo": "Oito lotes foram arrematados por cinco empresas, com previsão de 1.866 km de novas linhas de transmissão. Os vencedores aceitaram receber, em média, metade do valor máximo previsto.",
     "destaque": "R$ 8,9 bi",
     "legenda": "em investimentos na rede de transmissão",
     "fontes": [
@@ -492,13 +492,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/high-voltage-power-lines-in-rural-landscape-39398551/",
     "slug": "luz-leilao-contrata-r-8-9-bilhoes-em-linhas-de-transmissao",
-    "explicacao": "As linhas de transmissão são as grandes estradas da energia: levam a eletricidade das usinas até as cidades. Para construir novas linhas, a ANEEL faz leilões, e vence quem aceita receber a menor remuneração anual pelo serviço.\n\nQuando os vencedores oferecem descontos grandes, o custo para o consumidor tende a ser menor ao longo dos anos. Mais linhas também ajudam a escoar a energia solar e eólica do Nordeste para o resto do país."
+    "explicacao": "As linhas de transmissão levam a eletricidade das usinas até as cidades, funcionando como as grandes rodovias da energia. Para contratar a construção de novas linhas, a Aneel, agência que regula o setor elétrico, realiza leilões, e vence a empresa que aceita receber a menor remuneração anual pelo serviço.\n\nQuando os vencedores oferecem descontos grandes, o custo para o consumidor tende a ser menor ao longo dos anos. As novas linhas também ajudam a transportar a energia solar e eólica do Nordeste para o restante do país."
   },
   {
     "data": "2026-10-30",
     "setor": "luz",
-    "titulo": "Data centers vão consumir muita energia até 2036",
-    "resumo": "O plano decenal de energia estima que os data centers vão consumir 30 TWh de eletricidade em 2036. As novas regras devem exigir eficiência no uso de água e energia de fontes limpas.",
+    "titulo": "Data centers devem consumir 30 TWh de energia em 2036",
+    "resumo": "O Plano Decenal de Energia estima que os data centers vão consumir 30 TWh de eletricidade em 2036. As novas regras para o setor devem exigir uso eficiente de água e energia de fontes limpas.",
     "destaque": "30 TWh",
     "legenda": "de consumo previsto para data centers em 2036",
     "fontes": [
@@ -513,13 +513,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/black-server-racks-5203849/",
     "slug": "luz-data-centers-vao-consumir-muita-energia-ate-2036",
-    "explicacao": "O plano decenal é um estudo oficial que projeta como será o consumo e a oferta de energia no Brasil nos próximos dez anos. Ele mostra que os data centers devem se tornar grandes consumidores de eletricidade.\n\nIsso exige planejar novas usinas e linhas com antecedência. As regras também devem exigir que esses empreendimentos usem água e energia de forma eficiente e contratem energia de fontes limpas."
+    "explicacao": "O Plano Decenal de Energia é um estudo oficial que projeta o consumo e a oferta de energia no Brasil para os próximos dez anos. TWh, ou terawatt-hora, é a unidade usada para medir grandes volumes de consumo de eletricidade. O estudo indica que os data centers vão se tornar grandes consumidores.\n\nIsso exige planejar novas usinas e linhas de transmissão com antecedência. As regras também devem exigir que esses empreendimentos usem água e energia de forma eficiente e contratem eletricidade de fontes limpas."
   },
   {
     "data": "2026-10-30",
     "setor": "petroleo",
-    "titulo": "Terceira descoberta de petróleo na Foz do Amazonas",
-    "resumo": "A Petrobras terminou a perfuração do poço Morpho, na costa do Amapá, e confirmou um novo reservatório com petróleo. A sonda segue agora para a Bacia Potiguar.",
+    "titulo": "Petrobras confirma terceira descoberta de petróleo na Foz do Amazonas",
+    "resumo": "A Petrobras concluiu a perfuração do poço Morpho, na costa do Amapá, e confirmou um novo reservatório com petróleo. A sonda segue agora para a Bacia Potiguar.",
     "destaque": "3ª",
     "legenda": "descoberta no poço Morpho, na Margem Equatorial",
     "fontes": [
@@ -534,13 +534,13 @@
     "foto_credito": "Gabriel Xavier / Unsplash",
     "foto_link": "https://unsplash.com/photos/an-oil-rig-in-the-middle-of-the-ocean-XquCLVbTYLE",
     "slug": "petroleo-terceira-descoberta-de-petroleo-na-foz-do-amazonas",
-    "explicacao": "A Foz do Amazonas fica na Margem Equatorial, uma faixa do litoral norte do Brasil vista como uma possível nova fronteira de petróleo. A Petrobras perfurou o poço Morpho, na costa do Amapá, e encontrou petróleo em diferentes camadas.\n\nUma descoberta não significa produção imediata. Agora é preciso avaliar o tamanho e a qualidade das reservas para saber se vale a pena produzir ali, o que costuma levar anos. O tema também envolve um debate ambiental importante sobre a exploração na região."
+    "explicacao": "A Foz do Amazonas fica na Margem Equatorial, faixa do litoral norte do Brasil considerada uma possível nova fronteira de petróleo. No poço Morpho, na costa do Amapá, a Petrobras encontrou petróleo em diferentes camadas de rocha.\n\nUma descoberta não significa produção imediata. A empresa ainda precisa avaliar o tamanho e a qualidade das reservas para saber se a produção é viável, processo que costuma levar anos. A exploração na região também envolve um debate ambiental relevante."
   },
   {
     "data": "2026-10-29",
     "setor": "renovaveis",
-    "titulo": "Os portos ainda não estão prontos para a eólica no mar",
-    "resumo": "Um estudo apresentado pelo governo aponta que nenhum dos portos analisados está apto hoje a receber a montagem de eólicas offshore em grande escala sem obras e investimentos.",
+    "titulo": "Portos brasileiros ainda não estão prontos para a eólica no mar",
+    "resumo": "Um estudo apresentado pelo governo aponta que nenhum dos portos analisados tem hoje condições de receber a montagem de eólicas offshore em grande escala sem obras e investimentos.",
     "destaque": "0 portos",
     "legenda": "prontos hoje para eólica offshore em grande escala",
     "fontes": [
@@ -555,13 +555,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/silhouette-of-hamburg-port-cranes-at-sunset-33520381/",
     "slug": "renovaveis-os-portos-ainda-nao-estao-prontos-para-a-eolica-no-mar",
-    "explicacao": "As eólicas offshore são turbinas instaladas no mar, onde os ventos são mais fortes e constantes. As peças são gigantes, então precisam de portos especiais para serem montadas e levadas até o local.\n\nO estudo aponta que os portos brasileiros ainda precisam de obras e investimentos para isso. Sem essa estrutura, os projetos de eólica no mar ficam mais caros e demorados, mesmo com o enorme potencial de vento na costa."
+    "explicacao": "As eólicas offshore são turbinas instaladas no mar, onde os ventos são mais fortes e constantes. Como as peças são muito grandes, elas precisam de portos com estrutura especial para a montagem e o transporte até o local de instalação.\n\nSegundo o estudo, os portos brasileiros ainda precisam de obras e investimentos para atender a essa demanda. Sem essa estrutura, os projetos de eólica no mar ficam mais caros e demorados, apesar do grande potencial de vento no litoral."
   },
   {
     "data": "2026-10-28",
     "setor": "petroleo",
     "titulo": "Brasil bate recorde de produção de petróleo e gás",
-    "resumo": "Em setembro o país produziu 6,116 milhões de barris de óleo equivalente por dia. O pré-sal respondeu por mais de 83% desse total.",
+    "resumo": "Em setembro, o país produziu 6,116 milhões de barris de óleo equivalente por dia. O pré-sal respondeu por mais de 83% desse total.",
     "destaque": "6,1 mi",
     "legenda": "barris de óleo equivalente por dia em setembro",
     "fontes": [
@@ -576,13 +576,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/stunning-offshore-oil-rigs-at-sunset-34442635/",
     "slug": "petroleo-brasil-bate-recorde-de-producao-de-petroleo-e-gas",
-    "explicacao": "A ANP divulga todo mês quanto o país produziu de petróleo e gás. A produção atingiu um recorde, puxada principalmente pelo pré-sal, a camada de rochas no fundo do mar onde estão as maiores reservas brasileiras.\n\nProdução maior significa mais receita com exportações e mais royalties para União, estados e municípios. Também fortalece a posição do Brasil entre os grandes produtores de petróleo do mundo."
+    "explicacao": "A ANP, agência que regula o setor, divulga todo mês quanto o país produziu de petróleo e gás. Barril de óleo equivalente é a unidade que soma petróleo e gás em uma mesma medida. O recorde foi puxado pelo pré-sal, camada de rochas no fundo do mar onde estão as maiores reservas brasileiras.\n\nUma produção maior significa mais receita com exportações e mais royalties para União, estados e municípios. O resultado também fortalece a posição do Brasil entre os grandes produtores de petróleo do mundo."
   },
   {
     "data": "2026-10-19",
     "setor": "renovaveis",
-    "titulo": "Eólica e solar desaceleraram no Brasil",
-    "resumo": "A instalação de novas usinas eólicas e solares caiu 27% de 2024 para 2025. A rede elétrica não está dando conta de escoar tanta energia nos horários de pico de geração.",
+    "titulo": "Instalação de usinas eólicas e solares desacelera no Brasil",
+    "resumo": "A instalação de novas usinas eólicas e solares caiu 27% de 2024 para 2025. Um dos motivos é que a rede elétrica não consegue transportar toda a energia gerada nos horários de maior produção.",
     "destaque": "−27%",
     "legenda": "na instalação de novas usinas eólicas e solares",
     "fontes": [
@@ -597,13 +597,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/white-windmill-during-cloudy-day-744347/",
     "slug": "renovaveis-eolica-e-solar-desaceleraram-no-brasil",
-    "explicacao": "Depois de anos de crescimento forte, a instalação de novas usinas eólicas e solares diminuiu. Um dos motivos é que a rede elétrica nem sempre consegue escoar toda a energia gerada nos horários de pico, e parte da produção acaba sendo cortada.\n\nEsses cortes reduzem a receita das usinas e deixam os investidores mais cautelosos. Novas linhas de transmissão e baterias para guardar energia são vistas como soluções para retomar o ritmo."
+    "explicacao": "Depois de anos de crescimento forte, o ritmo de instalação de novas usinas eólicas e solares diminuiu. Nos horários de maior geração, a rede elétrica nem sempre consegue transportar toda a energia produzida, e parte da produção acaba sendo cortada por ordem do operador do sistema.\n\nEsses cortes reduzem a receita das usinas e deixam os investidores mais cautelosos. Novas linhas de transmissão e baterias para armazenar energia são apontadas como soluções para retomar o ritmo de investimentos."
   },
   {
     "data": "2026-10-07",
     "setor": "petroleo",
     "titulo": "Leilão do pré-sal vende 7 de 13 áreas",
-    "resumo": "Petrobras e Prio levaram duas áreas cada, e a norueguesa Equinor também saiu com duas. Foi o maior leilão do pré-sal do ano.",
+    "resumo": "Petrobras, Prio e a norueguesa Equinor arremataram duas áreas cada. Foi o maior leilão do pré-sal do ano.",
     "destaque": "7 de 13",
     "legenda": "blocos do pré-sal arrematados no leilão",
     "fontes": [
@@ -618,13 +618,13 @@
     "foto_credito": "J.f Manzanero / Unsplash",
     "foto_link": "https://unsplash.com/photos/an-oil-rig-being-serviced-by-a-supply-ship-3J2FB7BItdA",
     "slug": "petroleo-leilao-do-pre-sal-vende-7-de-13-areas",
-    "explicacao": "Nos leilões do pré-sal, o governo oferece áreas onde pode haver petróleo, e as empresas disputam o direito de explorá-las. No regime de partilha, vence quem oferece a maior parte do petróleo produzido para a União.\n\nÁreas vendidas significam novos investimentos e, no futuro, mais produção e arrecadação. As áreas que não recebem ofertas podem voltar em leilões futuros."
+    "explicacao": "Nos leilões do pré-sal, o governo oferece áreas onde pode haver petróleo, e as empresas disputam o direito de explorá-las. No regime de partilha, usado nessas áreas, vence a empresa que oferece à União a maior parte do petróleo que for produzido.\n\nAs áreas vendidas representam novos investimentos e, no futuro, mais produção e arrecadação. As áreas que não receberam ofertas podem ser incluídas em leilões futuros."
   },
   {
     "data": "2026-09-25",
     "setor": "hidrogenio",
-    "titulo": "Pecém como laboratório da transição energética",
-    "resumo": "Para a Casa dos Ventos, que vai abastecer o data center do TikTok no Ceará, o que acontecer no Pecém deve se repetir no resto do mundo alguns anos depois.",
+    "titulo": "Pecém é apontado como laboratório da transição energética",
+    "resumo": "Para a Casa dos Ventos, empresa que vai fornecer energia ao data center do TikTok no Ceará, o que acontecer no Pecém deve se repetir em outras partes do mundo alguns anos depois.",
     "destaque": "5 a 7 anos",
     "legenda": "à frente do mundo, segundo a Casa dos Ventos",
     "fontes": [
@@ -639,13 +639,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/person-in-white-scrub-suit-looking-at-the-microscope-8539517/",
     "slug": "hidrogenio-pecem-como-laboratorio-da-transicao-energetica",
-    "explicacao": "O Complexo do Pecém, no Ceará, reúne porto, indústria e muita energia eólica e solar por perto. Por isso atrai projetos de hidrogênio verde e de data centers, que precisam de muita energia limpa.\n\nPara empresas do setor, o que está sendo testado ali pode indicar caminhos que outras regiões do mundo vão seguir depois. É uma vitrine do potencial do Nordeste na transição energética."
+    "explicacao": "O Complexo do Pecém, no Ceará, reúne porto, indústrias e grande oferta de energia eólica e solar nas proximidades. Por isso atrai projetos de hidrogênio verde e de data centers, que dependem de muita energia limpa. Transição energética é a substituição gradual de fontes poluentes por fontes limpas.\n\nPara empresas do setor, as experiências desenvolvidas no Pecém podem indicar caminhos que outras regiões vão seguir. O complexo funciona como vitrine do potencial do Nordeste nessa mudança."
   },
   {
     "data": "2026-08-27",
     "setor": "luz",
-    "titulo": "Leilões de baterias podem destravar R$ 10 bilhões",
-    "resumo": "O Brasil prepara os primeiros leilões para contratar grandes baterias que guardam energia solar e eólica. Contratar 2 GW poderia movimentar cerca de R$ 10 bilhões em investimentos.",
+    "titulo": "Leilões de baterias podem gerar R$ 10 bilhões em investimentos",
+    "resumo": "O Brasil prepara os primeiros leilões para contratar grandes sistemas de baterias que armazenam energia solar e eólica. A contratação de 2 GW poderia movimentar cerca de R$ 10 bilhões em investimentos.",
     "destaque": "R$ 10 bi",
     "legenda": "em investimentos com 2 GW de baterias",
     "fontes": [
@@ -660,12 +660,12 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/electrician-installing-residential-battery-storage-39057090/",
     "slug": "luz-leiloes-de-baterias-podem-destravar-r-10-bilhoes",
-    "explicacao": "Baterias de grande porte funcionam como caixas d'água da eletricidade: guardam a energia quando sobra, como no meio do dia com muito sol, e devolvem quando falta, no começo da noite.\n\nO Brasil prepara os primeiros leilões para contratar esse tipo de sistema. Isso ajuda a aproveitar melhor a energia solar e eólica, reduzindo os cortes de geração e dando mais segurança ao sistema elétrico."
+    "explicacao": "Baterias de grande porte funcionam como reservatórios de eletricidade. Elas armazenam energia quando há sobra, como no meio do dia com muito sol, e devolvem essa energia quando a demanda aumenta, como no início da noite.\n\nCom os leilões, o governo vai contratar esse tipo de sistema pela primeira vez em grande escala. Isso permite aproveitar melhor a energia solar e eólica, reduz os cortes de geração e aumenta a segurança do sistema elétrico."
   },
   {
     "data": "2026-08-13",
     "setor": "hidrogenio",
-    "titulo": "Saiu o decreto do hidrogênio de baixo carbono",
+    "titulo": "Governo publica decreto que regulamenta o hidrogênio de baixo carbono",
     "resumo": "O governo regulamentou o marco legal do hidrogênio, com regras de certificação e de disputa pelos créditos fiscais do setor.",
     "destaque": "R$ 18,3 bi",
     "legenda": "em créditos fiscais previstos para o hidrogênio",
@@ -681,13 +681,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/hydrogen-powered-utility-vehicle-in-autumn-setting-35855890/",
     "slug": "hidrogenio-saiu-o-decreto-do-hidrogenio-de-baixo-carbono",
-    "explicacao": "O marco legal do hidrogênio é a lei que organiza esse novo mercado no Brasil. O decreto detalha como ela funciona na prática: como certificar que o hidrogênio é de baixa emissão e como as empresas vão disputar os incentivos.\n\nOs créditos fiscais servem para reduzir a diferença de preço entre o hidrogênio limpo e os combustíveis fósseis que ele substitui. Com regras claras, os investidores ganham mais segurança para tirar projetos do papel."
+    "explicacao": "O marco legal do hidrogênio é a lei que organiza esse novo mercado no Brasil. O decreto detalha como ela funcionará na prática, incluindo como certificar que o hidrogênio foi produzido com baixa emissão de carbono e como as empresas vão disputar os incentivos.\n\nOs créditos fiscais são descontos em impostos que reduzem a diferença de preço entre o hidrogênio limpo e os combustíveis fósseis que ele substitui. Com regras definidas, os investidores ganham mais segurança para tirar os projetos do papel."
   },
   {
     "data": "2026-08-13",
     "setor": "gas",
-    "titulo": "A produção de biometano cresceu 75%",
-    "resumo": "O biometano, gás feito a partir de resíduos, avança no país. Já são 21 plantas autorizadas a vender, com capacidade de cerca de 1,33 milhão de metros cúbicos por dia.",
+    "titulo": "Produção de biometano cresce 75% no Brasil",
+    "resumo": "O biometano, gás produzido a partir de resíduos, avança no país. Já são 21 usinas autorizadas a vender o produto, com capacidade de cerca de 1,33 milhão de metros cúbicos por dia.",
     "destaque": "+75%",
     "legenda": "de crescimento na produção de biometano",
     "fontes": [
@@ -702,13 +702,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/industrial-pipeline-system-in-saudi-arabian-factory-36825977/",
     "slug": "gas-a-producao-de-biometano-cresceu-75",
-    "explicacao": "O biometano é um gás feito a partir do biogás que sai da decomposição de resíduos, como lixo, esgoto e restos agrícolas. Depois de purificado, ele funciona igual ao gás natural e pode até ser injetado nos mesmos dutos.\n\nComo vem de resíduos, ele é renovável e ajuda a reduzir emissões. A produção cresce com novas usinas e com regras que incentivam o uso de gás renovável no mercado."
+    "explicacao": "O biometano é obtido a partir do biogás, gerado pela decomposição de resíduos como lixo, esgoto e restos agrícolas. Depois de purificado, ele tem as mesmas características do gás natural e pode ser injetado nos mesmos gasodutos.\n\nPor vir de resíduos, o biometano é renovável e ajuda a reduzir emissões. A produção cresce com a entrada de novas usinas e com regras que incentivam o uso de gás renovável."
   },
   {
     "data": "2026-07-09",
     "setor": "petroleo",
-    "titulo": "Petrobras ganha bloco de petróleo na África",
-    "resumo": "A estatal concluiu a compra de um bloco exploratório em São Tomé e Príncipe e será a operadora, como parte da estratégia de repor reservas.",
+    "titulo": "Petrobras conclui compra de bloco exploratório na África",
+    "resumo": "A Petrobras concluiu a compra de um bloco exploratório em São Tomé e Príncipe e será a operadora da área, como parte da estratégia de repor reservas.",
     "destaque": "75%",
     "legenda": "de participação da Petrobras no bloco",
     "fontes": [
@@ -723,13 +723,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/pier-and-platform-on-sea-at-harbor-19768241/",
     "slug": "petroleo-petrobras-ganha-bloco-de-petroleo-na-africa",
-    "explicacao": "Um bloco exploratório é uma área no mar ou em terra onde a empresa ganha o direito de procurar petróleo. A Petrobras entrou num bloco em São Tomé e Príncipe, na costa oeste da África, e será a operadora.\n\nPetroleiras precisam encontrar novas reservas para substituir o petróleo que produzem. Buscar áreas fora do Brasil é uma forma de garantir produção para as próximas décadas."
+    "explicacao": "Um bloco exploratório é uma área, no mar ou em terra, onde a empresa recebe o direito de procurar petróleo. Ser operadora significa que a Petrobras será a responsável por conduzir os trabalhos no bloco, localizado na costa oeste da África.\n\nPetroleiras precisam encontrar novas reservas para substituir o petróleo que já produziram. A busca por áreas fora do Brasil é uma forma de garantir produção para as próximas décadas."
   },
   {
     "data": "2026-07-04",
     "setor": "hidrogenio",
-    "titulo": "Primeiro leilão do hidrogênio verde vem aí",
-    "resumo": "O leilão do programa de hidrogênio de baixo carbono deve acontecer entre o fim de 2026 e janeiro de 2027, com créditos fiscais que começam em 2028.",
+    "titulo": "Primeiro leilão de incentivos ao hidrogênio verde deve ocorrer até janeiro",
+    "resumo": "O leilão do programa de hidrogênio de baixo carbono deve acontecer entre o fim de 2026 e janeiro de 2027. Os créditos fiscais concedidos começam a valer em 2028.",
     "destaque": "R$ 1,7 bi",
     "legenda": "em crédito fiscal em 2028, subindo até R$ 5 bi em 2032",
     "fontes": [
@@ -744,13 +744,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/black-and-white-hose-refill-valves-4194/",
     "slug": "hidrogenio-primeiro-leilao-do-hidrogenio-verde-vem-ai",
-    "explicacao": "Hoje o hidrogênio verde ainda é mais caro do que as alternativas fósseis. Para ajudar o setor a começar, o governo vai fazer um leilão de créditos fiscais, e os projetos que pedirem menos incentivo por unidade produzida têm vantagem.\n\nEsse leilão é visto como o primeiro grande teste do hidrogênio verde no Brasil, porque vai mostrar quais projetos estão realmente prontos para sair do papel."
+    "explicacao": "O hidrogênio verde ainda custa mais do que as alternativas de origem fóssil. Para estimular o setor, o governo vai leiloar créditos fiscais, que são descontos em impostos. Terão vantagem os projetos que pedirem menos incentivo por unidade produzida.\n\nO leilão é considerado o primeiro grande teste do hidrogênio verde no Brasil, porque vai mostrar quais projetos estão de fato prontos para sair do papel."
   },
   {
     "data": "2026-07-03",
     "setor": "luz",
-    "titulo": "Segunda rodada do leilão de transmissão",
-    "resumo": "A segunda etapa do primeiro leilão de transmissão do ano teve a Axia, antiga Eletrobras, como grande vencedora, levando três dos quatro lotes.",
+    "titulo": "Axia vence três de quatro lotes na segunda etapa do leilão de transmissão",
+    "resumo": "Na segunda etapa do primeiro leilão de transmissão do ano, a Axia, antiga Eletrobras, foi a principal vencedora, com três dos quatro lotes.",
     "destaque": "53,2%",
     "legenda": "de deságio médio nesta etapa do leilão",
     "fontes": [
@@ -765,7 +765,7 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/transmission-tower-under-blue-sky-10874806/",
     "slug": "luz-segunda-rodada-do-leilao-de-transmissao",
-    "explicacao": "Algumas linhas de transmissão leiloadas no passado não foram construídas, porque a empresa vencedora teve problemas. Nesses casos, a ANEEL faz um novo leilão para outra empresa assumir a obra.\n\nNa segunda etapa do leilão, os vencedores aceitaram receber bem menos do que o valor máximo previsto. Isso tende a baratear o custo da transmissão para os consumidores ao longo dos anos."
+    "explicacao": "Algumas linhas de transmissão leiloadas no passado não foram construídas porque as empresas vencedoras enfrentaram problemas. Nesses casos, a Aneel, agência que regula o setor elétrico, faz um novo leilão para que outra empresa assuma a obra.\n\nNesta etapa, os vencedores aceitaram receber bem menos do que o valor máximo previsto. Isso tende a reduzir o custo da transmissão para os consumidores ao longo dos anos."
   },
   {
     "data": "2026-06-02",
@@ -786,13 +786,13 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/rusty-oil-barrels-stacked-3151717/",
     "slug": "petroleo-diesel-recebe-subsidio-de-r-1-12-por-litro",
-    "explicacao": "Subvenção é um subsídio: o governo paga uma parte do custo para que o produto chegue mais barato ao mercado. Nesse caso, o apoio vai para quem produz e importa diesel usado nas estradas.\n\nO diesel move caminhões e ônibus, então o preço dele afeta o frete e o custo de quase tudo que é transportado no país. O subsídio busca segurar esse impacto em momentos de preço alto."
+    "explicacao": "Subvenção é um tipo de subsídio, em que o governo paga parte do custo para que o produto chegue mais barato ao mercado. Nesse caso, o apoio é destinado a quem produz ou importa o diesel usado nas estradas.\n\nO diesel abastece caminhões e ônibus, por isso seu preço influencia o frete e o custo de grande parte dos produtos transportados no país. O subsídio busca reduzir esse impacto em períodos de preço alto."
   },
   {
     "data": "2026-03-18",
     "setor": "gas",
-    "titulo": "Petrobras garante 8 térmicas em leilão de capacidade",
-    "resumo": "A estatal contratou oito usinas termelétricas no leilão de reserva de capacidade, somando mais de 2 mil MW por 10 anos.",
+    "titulo": "Petrobras garante oito térmicas em leilão de reserva de capacidade",
+    "resumo": "A Petrobras contratou oito usinas termelétricas no leilão de reserva de capacidade, somando mais de 2 mil MW por dez anos.",
     "destaque": "8 usinas",
     "legenda": "termelétricas da Petrobras contratadas no leilão",
     "fontes": [
@@ -807,6 +807,6 @@
     "foto_credito": "Pexels",
     "foto_link": "https://www.pexels.com/photo/cooling-tower-emitting-steam-at-power-plant-29155807/",
     "slug": "gas-petrobras-garante-8-termicas-em-leilao-de-capacidade",
-    "explicacao": "Usinas termelétricas geram energia queimando combustível, como gás natural, e podem ser ligadas a qualquer hora. Por isso funcionam como reserva para quando falta chuva nas hidrelétricas ou quando o sol e o vento diminuem.\n\nNo leilão de reserva de capacidade, o governo contrata usinas para ficarem disponíveis e garantirem a segurança do sistema. A Petrobras garantiu contratos para oito térmicas por dez anos."
+    "explicacao": "Usinas termelétricas geram energia a partir da queima de combustíveis, como o gás natural, e podem ser acionadas a qualquer momento. Por isso funcionam como reserva quando falta chuva para as hidrelétricas ou quando a geração solar e eólica diminui.\n\nNo leilão de reserva de capacidade, o governo contrata usinas para ficarem disponíveis e garantirem a segurança do sistema elétrico. A Petrobras assegurou contratos para oito térmicas pelos próximos dez anos."
   }
 ]
