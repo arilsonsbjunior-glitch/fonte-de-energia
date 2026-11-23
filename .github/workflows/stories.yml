@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Instalar Pillow
+        run: pip install pillow
       - name: Gerar JPEG dos stories das 5 notícias mais recentes
         run: |
           python3 -m http.server 8000 >/dev/null 2>&1 &
@@ -27,8 +29,8 @@ jobs:
             if [ -f "stories/$slug.jpg" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then continue; fi
             google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
               --window-size=1080,1920 --virtual-time-budget=15000 \
-              --screenshot="/tmp/$slug.png" "http://localhost:8000/posts/?render=story&auto=1&n=$slug"
-            convert "/tmp/$slug.png" -resize 1080x1920! -quality 90 "stories/$slug.jpg"
+              --log-level=3 --screenshot="/tmp/$slug.png" "http://localhost:8000/posts/?render=story&auto=1&n=$slug"
+            python3 -c "from PIL import Image;import sys;Image.open(sys.argv[1]).convert('RGB').resize((1080,1920)).save(sys.argv[2],quality=90)" "/tmp/$slug.png" "stories/$slug.jpg"
             echo "gerado: stories/$slug.jpg"
           done
       - name: Salvar no repositório
