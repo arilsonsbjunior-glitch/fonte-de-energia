@@ -6,18 +6,24 @@
     "noticias": [
       {
         "slug": "petroleo-a-petrobras-vai-mostrar-onde-quer-gastar-ate-2031",
-        "texto": "A Petrobras deve apresentar nesta semana um plano de investimento maior que o anterior, de US$ 115 a 125 bilhões segundo a imprensa, num mês em que o Brent recuou mais de 20%."
+        "texto": "A Petrobras deve apresentar nesta semana um plano de investimento maior que o anterior, de US$ 115 a 125 bilhões segundo a imprensa, num mês em que o Brent recuou mais de 20%.",
+        "numero": "US$ 125 bi",
+        "legenda": "é o teto das estimativas para o plano 2027-2031, contra US$ 109 bi no plano anterior"
       },
       {
         "slug": "renovaveis-o-brasil-jogou-fora-36-bilhoes-de-kwh-de-sol-e-vento",
-        "texto": "O curtailment de solar e eólica chegou a 36 bilhões de kWh até 19 de novembro, praticamente o mesmo volume de 2025. Faltou consumo ou transmissão nos horários de maior geração."
+        "texto": "O curtailment de solar e eólica chegou a 36 bilhões de kWh até 19 de novembro, praticamente o mesmo volume de 2025. Faltou consumo ou transmissão nos horários de maior geração.",
+        "numero": "36 bi kWh",
+        "legenda": "de geração solar e eólica cortados entre janeiro e 19 de novembro"
       },
       {
         "slug": "gas-a-anp-manteve-o-corte-no-pedagio-do-gas",
-        "texto": "A ANP manteve o valor dos gasodutos antigos zerado no cálculo da tarifa de transporte. Se a última etapa da revisão confirmar, o gás chega mais barato à indústria."
+        "texto": "A ANP manteve o valor dos gasodutos antigos zerado no cálculo da tarifa de transporte. Se a última etapa da revisão confirmar, o gás chega mais barato à indústria.",
+        "numero": "R$ 0",
+        "legenda": "é o valor que a ANP atribui aos gasodutos antigos no cálculo da tarifa de transporte"
       }
     ],
-    "leitura": "As três notícias apontam para o mesmo lugar. O Brasil tem oferta de energia em várias frentes, e o que vai definir se ela chega mais barata à indústria e ao consumidor é a infraestrutura de transporte e a regulação: linhas de transmissão, gasodutos, armazenamento e regras tarifárias.",
+    "leitura": "Nas três frentes, a oferta de energia existe. O que vai definir se ela chega mais barata à indústria e ao consumidor é a infraestrutura de transporte e a regra tarifária: transmissão, gasodutos, armazenamento e regulação.",
     "acompanhar": [
       [
         "Esta semana",
@@ -35,6 +41,8 @@
         "Próximos meses",
         "Última etapa da revisão tarifária do gás na ANP"
       ]
-    ]
+    ],
+    "capa_numero": "36 bi kWh",
+    "capa_texto": "de energia solar e eólica deixaram de ser gerados no Brasil em 2026. Junto com as notícias de petróleo e gás, o dado mostra que o custo da energia depende cada vez mais da infraestrutura."
   }
 ]

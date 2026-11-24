@@ -37,9 +37,15 @@ function texto(c,t,x,y,max,tam,lh,cor){c.font=`500 ${tam}px ${T}`;c.fillStyle=co
 function capa(tema,total){
   const [cv,c]=novo("#0d0d10");
   pilula(c,M,M,`Tema do dia · ${dataLonga(tema.data)}`,"#ffffff","#0d0d10",26);
-  let tt=150,l;do{c.font=`${tt}px ${D}`;l=quebrar(c,alta(tema.titulo),W-M*2);tt-=6;}while(l.length>5&&tt>80);tt+=6;
-  c.fillStyle="#fff";const y0=H/2-(l.length*tt*1.02)/2+tt*.8;l.forEach((s,i)=>c.fillText(s,M,y0+i*tt*1.02));
-  const cores=tema.noticias.map(n=>SETORES[n.setor].c);cores.forEach((k,i)=>{c.fillStyle=k;c.fillRect(M+i*90,H-250,70,10);});
+  if(tema.capa_numero){
+    let nt=300;c.font=`${nt}px ${D}`;while(c.measureText(tema.capa_numero).width>W-M*2&&nt>120){nt-=10;c.font=`${nt}px ${D}`;}
+    c.fillStyle="#fff";c.fillText(tema.capa_numero,M-4,520);
+    texto(c,tema.capa_texto,M,610,W-M*2,46,64,"rgba(255,255,255,.9)");
+  }else{
+    let tt=150,l;do{c.font=`${tt}px ${D}`;l=quebrar(c,alta(tema.titulo),W-M*2);tt-=6;}while(l.length>5&&tt>80);tt+=6;
+    c.fillStyle="#fff";const y0=H/2-(l.length*tt*1.02)/2+tt*.8;l.forEach((s,i)=>c.fillText(s,M,y0+i*tt*1.02));
+  }
+  tema.noticias.map(n=>SETORES[n.setor].c).forEach((k,i)=>{c.fillStyle=k;c.fillRect(M+i*90,H-250,70,10);});
   c.font=`500 32px ${T}`;c.fillStyle="rgba(255,255,255,.8)";c.fillText(`3 notícias e uma leitura · por ${tema.autor}`,M,H-150);
   rodape(c,1,total,true);return cv;}
 
@@ -51,13 +57,19 @@ async function noticia(tema,i,total){
   c.fillStyle="rgba(255,255,255,.92)";lt.forEach((x,k)=>c.fillText(x,M,yt+k*44));
   let tt=96,l;do{c.font=`${tt}px ${D}`;l=quebrar(c,alta(n.titulo),W-M*2);tt-=4;}while(l.length>4&&tt>60);tt+=4;
   c.fillStyle="#fff";const yb=yt-60-(l.length-1)*tt*1.02;l.forEach((x,k)=>c.fillText(x,M,yb+k*tt*1.02));
+  if(n.numero){
+    c.font=`500 30px ${T}`;const ll=quebrar(c,n.legenda||"",W-M*2);let yl=yb-tt-30-(ll.length-1)*42;
+    c.fillStyle="rgba(255,255,255,.88)";ll.forEach((x,k)=>c.fillText(x,M,yl+k*42));
+    let nt=220;c.font=`${nt}px ${D}`;while(c.measureText(n.numero).width>W-M*2&&nt>100){nt-=10;c.font=`${nt}px ${D}`;}
+    c.fillStyle="#fff";c.fillText(n.numero,M-4,yl-50);
+  }
   rodape(c,i+2,total,true);return cv;}
 
 function leitura(tema,total){
   const [cv,c]=novo("#ffffff");c.fillStyle="#0d0d10";c.fillRect(0,0,W,18);
   pilula(c,M,M,"A leitura","#0d0d10","#fff",26);
   c.font=`96px ${D}`;c.fillStyle="#0d0d10";c.fillText("O QUE LIGA AS TRÊS",M,300);
-  let tam=50;let fim;do{fim=texto(c,"",0,0,1,tam,1,"#fff");c.font=`500 ${tam}px ${T}`;fim=quebrar(c,tema.leitura,W-M*2).length*tam*1.4;tam-=2;}while(380+fim>H-180&&tam>30);tam+=2;
+  let tam=58;let fim;do{fim=texto(c,"",0,0,1,tam,1,"#fff");c.font=`500 ${tam}px ${T}`;fim=quebrar(c,tema.leitura,W-M*2).length*tam*1.4;tam-=2;}while(380+fim>H-180&&tam>30);tam+=2;
   texto(c,tema.leitura,M,400,W-M*2,tam,tam*1.4,"#1f1f23");
   rodape(c,total-1,total,false);return cv;}
 
