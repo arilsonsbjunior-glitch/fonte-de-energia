@@ -1,0 +1,22 @@
+[
+  {
+    "data": "2026-11-23",
+    "titulo": "Energia em oferta, gargalo na infraestrutura",
+    "autor": "Arilson Júnior",
+    "noticias": [
+      {"slug": "petroleo-a-petrobras-vai-mostrar-onde-quer-gastar-ate-2031",
+       "texto": "A Petrobras deve apresentar nesta semana um plano de investimento maior que o anterior, de US$ 115 a 125 bilhões segundo a imprensa, num mês em que o Brent recuou mais de 20%."},
+      {"slug": "renovaveis-o-brasil-jogou-fora-36-bilhoes-de-kwh-de-sol-e-vento",
+       "texto": "O curtailment de solar e eólica chegou a 36 bilhões de kWh até 19 de novembro, praticamente o mesmo volume de 2025. Faltou consumo ou transmissão nos horários de maior geração."},
+      {"slug": "gas-a-anp-manteve-o-corte-no-pedagio-do-gas",
+       "texto": "A ANP manteve o valor dos gasodutos antigos zerado no cálculo da tarifa de transporte. Se a última etapa da revisão confirmar, o gás chega mais barato à indústria."}
+    ],
+    "leitura": "As três notícias apontam para o mesmo lugar. O Brasil tem oferta de energia em várias frentes, e o que vai definir se ela chega mais barata à indústria e ao consumidor é a infraestrutura de transporte e a regulação: linhas de transmissão, gasodutos, armazenamento e regras tarifárias.",
+    "acompanhar": [
+      ["Esta semana", "Plano de negócios 2027-2031 da Petrobras"],
+      ["29 de novembro", "Reunião da Opep+ sobre capacidade de produção"],
+      ["Dezembro", "Primeiro leilão de baterias do país"],
+      ["Próximos meses", "Última etapa da revisão tarifária do gás na ANP"]
+    ]
+  }
+]

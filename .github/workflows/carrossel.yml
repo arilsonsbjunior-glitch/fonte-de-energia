@@ -1,0 +1,57 @@
+name: Gerar carrossel do LinkedIn
+
+on:
+  push:
+    branches: [main]
+    paths: [posts/temas.json, posts/carrossel.html, .github/workflows/carrossel.yml]
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data do tema (AAAA-MM-DD); vazio = último"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stories
+  cancel-in-progress: false
+
+jobs:
+  carrossel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - name: Gerar PDF do carrossel
+        run: |
+          python3 -m http.server 8000 >/dev/null 2>&1 &
+          sleep 2
+          DATA="${{ github.event.inputs.data }}"
+          [ -z "$DATA" ] && DATA=$(python3 -c "import json;print(json.load(open('posts/temas.json'))[-1]['data'])")
+          N=$(python3 -c "import json,sys;t=[x for x in json.load(open('posts/temas.json')) if x['data']=='$DATA'][0];print(3+len(t['noticias']))")
+          mkdir -p stories /tmp/c
+          for s in $(seq 1 $N); do
+            google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
+              --window-size=1080,1350 --virtual-time-budget=15000 --log-level=3 \
+              --screenshot="/tmp/c/$s.png" "http://localhost:8000/posts/carrossel.html?d=$DATA&slide=$s"
+          done
+          python3 - "$DATA" "$N" <<'PY'
+          import sys
+          from PIL import Image
+          d, n = sys.argv[1], int(sys.argv[2])
+          ims = [Image.open(f"/tmp/c/{i}.png").convert("RGB").resize((1080, 1350)) for i in range(1, n + 1)]
+          ims[0].save(f"stories/carrossel-{d}.pdf", save_all=True, append_images=ims[1:], resolution=150)
+          ims[0].save(f"stories/carrossel-{d}-capa.jpg", quality=90)
+          print("gerado", d)
+          PY
+      - name: Salvar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stories
+          git diff --cached --quiet && exit 0
+          git commit -m "Carrossel do LinkedIn"
+          git pull --rebase
+          git push
