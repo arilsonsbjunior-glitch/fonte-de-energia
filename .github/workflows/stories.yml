@@ -36,12 +36,12 @@ jobs:
             if [ -f "stories/$slug.jpg" ] && [ -f "stories/$slug-feed.jpg" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then continue; fi
             google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
               --window-size=1080,1920 --virtual-time-budget=15000 \
-              --log-level=3 --screenshot="/tmp/$slug.png" "http://localhost:8000/posts/?render=story&auto=1&n=$slug"
-            python3 -c "from PIL import Image;import sys;Image.open(sys.argv[1]).convert('RGB').resize((1080,1920)).save(sys.argv[2],quality=90)" "/tmp/$slug.png" "stories/$slug.jpg"
+              --log-level=3 --screenshot="/tmp/$slug.png" "http://localhost:8000/posts/?render=story&n=$slug"
+            python3 -c "from PIL import Image;import sys;Image.open(sys.argv[1]).convert('RGB').resize((1080,1920)).save(sys.argv[2],quality=100,subsampling=0)" "/tmp/$slug.png" "stories/$slug.jpg"
             google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
               --window-size=1080,1350 --virtual-time-budget=15000 \
               --log-level=3 --screenshot="/tmp/$slug-feed.png" "http://localhost:8000/posts/?render=feed&n=$slug"
-            python3 -c "from PIL import Image;import sys;Image.open(sys.argv[1]).convert('RGB').resize((1080,1350)).save(sys.argv[2],quality=90)" "/tmp/$slug-feed.png" "stories/$slug-feed.jpg"
+            python3 -c "from PIL import Image;import sys;Image.open(sys.argv[1]).convert('RGB').resize((1080,1350)).save(sys.argv[2],quality=100,subsampling=0)" "/tmp/$slug-feed.png" "stories/$slug-feed.jpg"
             echo "gerado: stories/$slug.jpg e stories/$slug-feed.jpg"
           done
       - name: Salvar no repositório
