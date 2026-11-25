@@ -27,9 +27,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><circle cx=\"100\" cy=\"95\" r=\"55\"/><path d=\"M100 95V55M100 95l30 18\"/><path d=\"M100 40v8M100 142v8M45 95h8M147 95h8\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1684684383508-261dd0e8f467?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/PeGyRpDKQy4",
     "slug": "luz-aneel-prepara-tarifa-de-luz-que-muda-conforme-o-horario"
   },
   {
@@ -56,9 +56,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><path d=\"M10 120h60c10 0 10-20 20-20h40c10 0 10 20 20 20h40\"/><path d=\"M10 135h60c10 0 10-20 20-20h40c10 0 10 20 20 20h40\"/><rect x=\"150\" y=\"80\" width=\"40\" height=\"90\"/><path d=\"M160 80V50h8v30M175 80V60h8v20\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1697281679290-ad7be1b10682?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/P8jEvckndSE",
     "slug": "gas-gas-de-vaca-muerta-comeca-a-chegar-a-csn-no-rio"
   },
   {
@@ -85,9 +85,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><path d=\"M30 170V120M60 170V90M90 170V60M120 170V100M150 170V130\"/><path d=\"M20 80h160\"/><circle cx=\"100\" cy=\"40\" r=\"15\"/><path d=\"M100 55v25\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1781359502905-22bcd2353ab2?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/R23QkrwYm7c",
     "slug": "gas-anp-debate-regras-do-gas-release-em-audiencia-publica"
   },
   {
@@ -114,9 +114,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><path d=\"M40 170V90h120v80\"/><path d=\"M30 90l70-40 70 40\"/><path d=\"M60 170v-60M85 170v-60M115 170v-60M140 170v-60\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1550478702-f1f0b3a5c30c?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/QzG1CKIXH2k",
     "slug": "luz-abeeolica-vai-ao-stf-contra-regra-de-custeio-das-baterias"
   },
   {
@@ -143,9 +143,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><path d=\"M20 150l30-20 25 10 30-40 25 15 30-60 20-10\"/><path d=\"M150 45h30v30\"/><path d=\"M40 170v-15M80 170v-25M120 170v-40M160 170v-60\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.pexels.com/photos/3334038/pexels-photo-3334038.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/3334038/",
     "slug": "luz-demanda-por-energia-bate-recorde-de-108-7-gw-no-pais"
   },
   {
@@ -168,9 +168,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><rect x=\"30\" y=\"100\" width=\"70\" height=\"70\"/><path d=\"M50 100V50h12v50M75 100V65h12v35\"/><path d=\"M56 40c-6-8 6-12 0-20M81 55c-6-8 6-12 0-20\"/><path d=\"M100 140h40l10-30 10 50 10-20h20\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1760378105099-968c06b9b4bd?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/l-zTZjqsfM8",
     "slug": "gas-petrobras-relata-recordes-de-pedidos-de-despacho-de-termicas"
   },
   {
@@ -201,9 +201,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><path d=\"M40 170V110h50v60M40 130h50M65 110V70M55 80h20\"/><path d=\"M120 170v-40M140 170v-65M160 170v-90M180 170v-115\"/><path d=\"M115 120l25-30 20 10 25-45\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1578356058390-f58c575337a2?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/guADzpF9pDI",
     "slug": "petroleo-petrobras-aprova-plano-de-us-122-bilhoes-para-2027-a-2031"
   },
   {
@@ -230,9 +230,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><rect x=\"40\" y=\"70\" width=\"50\" height=\"100\"/><rect x=\"110\" y=\"70\" width=\"50\" height=\"100\"/><path d=\"M55 70V60h20v10M125 70V60h20v10\"/><path d=\"M68 95l-10 20h14l-10 20M138 95l-10 20h14l-10 20\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1589276534126-adef63a95e05?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/itv-MC5S6cU",
     "slug": "luz-leiloes-de-baterias-estao-marcados-para-2-e-4-de-dezembro"
   },
   {
@@ -259,9 +259,9 @@
     ],
     "video": "",
     "arte": "<path d=\"M0 170h200\"/><circle cx=\"70\" cy=\"100\" r=\"40\"/><path d=\"M70 75v50M82 85c-4-6-24-6-24 4s24 6 24 16-20 10-24 4\"/><path d=\"M130 170v-30M150 170v-50M170 170v-70\"/>",
-    "foto": "",
-    "foto_credito": "",
-    "foto_link": "",
+    "foto": "https://images.unsplash.com/photo-1654089670624-0db58288cd01?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/3SR040CKpB0",
     "slug": "petroleo-petrobras-vai-pagar-r-15-6-bilhoes-em-dividendos-em-dezembro"
   },
   {
