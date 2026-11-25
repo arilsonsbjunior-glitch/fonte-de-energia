@@ -1,5 +1,270 @@
 [
   {
+    "data": "2026-11-25",
+    "setor": "luz",
+    "titulo": "Aneel prepara tarifa de luz que muda conforme o horário",
+    "resumo": "As áreas técnicas da Aneel propõem transformar a tarifa branca na Tarifa Hora Certa, com preços diferentes ao longo do dia. Pela proposta, unidades de baixa tensão que consomem em média 500 kWh por mês ou mais entrariam automaticamente, em três etapas a partir de abril de 2028. A expectativa da agência é levar o tema à votação da diretoria até dezembro.",
+    "explicacao": "A proposta prevê três períodos. A ponta, com a tarifa mais alta, tem três horas seguidas, em geral no início da noite; o intermediário é a hora antes e a hora depois da ponta; e o fora de ponta, com tarifa menor, vale nas demais horas e nos fins de semana e feriados. A Aneel, Agência Nacional de Energia Elétrica, diz que o custo de atender o consumo é mais alto na ponta e que, com a tarifa única, quem consome fora desse horário ajuda a pagar por quem consome nele.\n\nA primeira etapa alcançaria cerca de 1 milhão de unidades com consumo a partir de 1.800 kWh por mês, e o total chegaria a cerca de 5,7 milhões em 2031. Consumidores de baixa renda ficariam de fora. Associações de energia solar lançaram um abaixo-assinado pedindo o adiamento da votação e a divulgação dos cálculos de impacto na conta.",
+    "destaque": "5,7 milhões",
+    "legenda": "de unidades seriam enquadradas automaticamente até 2031, pela proposta",
+    "fontes": [
+      {
+        "nome": "Aneel",
+        "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026/tarifa-hora-certa-proposta-preve-enquadramento-automatico-de-consumidores-que-usam-mais-de-500-kwh-mes"
+      },
+      {
+        "nome": "Canal Solar",
+        "url": "https://canalsolar.com.br/tarifa-hora-certa-aneel-sistemas-solares-veiculos-eletricos/"
+      },
+      {
+        "nome": "Canal Solar",
+        "url": "https://canalsolar.com.br/associacoes-abaixo-assinado-votacao-tarifa-hora-certa/"
+      },
+      {
+        "nome": "Folha de S.Paulo, via CanalEnergia",
+        "url": "https://www.canalenergia.com.br/clippings/53361173/aneel-propoe-variar-preco-da-energia-eletrica-conforme-o-horario-do-dia"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><circle cx=\"100\" cy=\"95\" r=\"55\"/><path d=\"M100 95V55M100 95l30 18\"/><path d=\"M100 40v8M100 142v8M45 95h8M147 95h8\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "luz-aneel-prepara-tarifa-de-luz-que-muda-conforme-o-horario"
+  },
+  {
+    "data": "2026-11-24",
+    "setor": "gas",
+    "titulo": "Gás de Vaca Muerta começa a chegar à CSN no Rio",
+    "resumo": "A PAE do Brasil, braço de comercialização da argentina Pan American Energy, começou a entregar gás natural de Vaca Muerta a unidades da CSN no Rio de Janeiro. O contrato é de 12 meses, na modalidade interruptível, e foi fechado no mercado livre de gás. Os volumes serão definidos conforme o consumo da siderúrgica.",
+    "explicacao": "O gás sai dos campos Aguada Pichana Oeste e Aguada de Castro, na província de Neuquén, e é transportado por gasodutos na Argentina, na Bolívia e no Brasil. A PAE do Brasil tem autorização da ANP, a Agência Nacional do Petróleo, Gás Natural e Biocombustíveis, para importar até 15 milhões de metros cúbicos por dia da Argentina e da Bolívia, por dois anos.\n\nNo mercado livre de gás, a própria indústria escolhe de quem compra o combustível, em vez de depender só da oferta da distribuidora local. O acordo amplia o número de vendedores atuando no Sudeste, num momento em que a ANP discute regras para reduzir a concentração na venda de gás no país.",
+    "destaque": "12 meses",
+    "legenda": "de duração do contrato interruptível entre PAE e CSN",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/gas-natural/mercado-de-gas/pan-american-poe-o-pe-no-mercado-livre-em-acordo-para-venda-de-gas-da-argentina-a-csn/"
+      },
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/24/pae-inicia-fornecimento-de-gas-natural-de-vaca-muerta-a-csn-no-rio-de-janeiro/"
+      },
+      {
+        "nome": "ABEGÁS (PetróleoHoje)",
+        "url": "https://www.abegas.org.br/arquivos/103024"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><path d=\"M10 120h60c10 0 10-20 20-20h40c10 0 10 20 20 20h40\"/><path d=\"M10 135h60c10 0 10-20 20-20h40c10 0 10 20 20 20h40\"/><rect x=\"150\" y=\"80\" width=\"40\" height=\"90\"/><path d=\"M160 80V50h8v30M175 80V60h8v20\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "gas-gas-de-vaca-muerta-comeca-a-chegar-a-csn-no-rio"
+  },
+  {
+    "data": "2026-11-24",
+    "setor": "gas",
+    "titulo": "ANP debate regras do Gas Release em audiência pública",
+    "resumo": "A ANP realizou em 19 de novembro a audiência pública sobre o Gas Release, programa que prevê leilões de gás natural para reduzir a concentração na comercialização. A proposta usa o índice HHI, que mede a concentração de mercado, com limite de 2.500 pontos. A Petrobras questionou a metodologia do índice.",
+    "explicacao": "O nome oficial é Programa de Redução da Concentração no Mercado de Gás Natural, previsto na Nova Lei do Gás, de 2021. A consulta pública reuniu 655 sugestões, e a versão revisada torna o programa permanente, com reavaliação anual dos índices de concentração para decidir se haverá leilões em cada ciclo. O diretor da ANP Pietro Mendes disse que, se a Petrobras chegar a 2027 com o índice abaixo de 2.500, não haveria motivo para fazer o leilão.\n\nNa audiência, a Petrobras defendeu que concentração, por si só, não caracteriza abuso de poder econômico, e pediu indicadores complementares ao HHI. A minuta final ainda passa pela Procuradoria Federal junto à ANP e depois pela Diretoria Colegiada, sem data definida.",
+    "destaque": "2.500",
+    "legenda": "pontos no índice HHI é o limite de concentração proposto pela ANP",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/24/anp-discute-regras-gas-release-audiencia-publica-mercado-gas-natural"
+      },
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/anp-considera-realizar-os-leiloes-do-gas-release-em-parceria-com-a-ppsa/"
+      },
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/23/petrobras-questiona-metodologia-do-hhi-no-gas-release-e-cobra-regulamentacao-integral-da-lei-do-gas/"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><path d=\"M30 170V120M60 170V90M90 170V60M120 170V100M150 170V130\"/><path d=\"M20 80h160\"/><circle cx=\"100\" cy=\"40\" r=\"15\"/><path d=\"M100 55v25\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "gas-anp-debate-regras-do-gas-release-em-audiencia-publica"
+  },
+  {
+    "data": "2026-11-24",
+    "setor": "luz",
+    "titulo": "ABEEólica vai ao STF contra regra de custeio das baterias",
+    "resumo": "A ABEEólica, associação das empresas de energia eólica, entrou com uma ação direta de inconstitucionalidade no Supremo Tribunal Federal contra o trecho da lei que manda dividir o custo dos leilões de baterias apenas entre os geradores. A entidade pede uma medida cautelar que suspenda a regra antes dos leilões de 2 e 4 de dezembro.",
+    "explicacao": "O trecho questionado foi incluído pela Lei 15.269/2025, da reforma do setor elétrico. Para a associação, a potência contratada nos leilões beneficia todos os usuários do sistema elétrico, e por isso o custo não deveria recair só sobre os geradores. Três dias antes, a entidade já havia entrado com uma ação civil pública na Justiça Federal do Distrito Federal pedindo a suspensão dos leilões.\n\nEm paralelo, a Câmara dos Deputados analisa em regime de urgência o PL 3.716/2026, que revoga o mesmo dispositivo. Os leilões contratam potência de sistemas de armazenamento em baterias por 15 anos, com início do suprimento em agosto de 2028.",
+    "destaque": "2 e 4 dez",
+    "legenda": "datas dos leilões de baterias alvo do pedido no STF",
+    "fontes": [
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/abeeolica-aciona-stf-contra-custeio-de-baterias-por-geradores-em-leilao/"
+      },
+      {
+        "nome": "Canal Solar",
+        "url": "https://canalsolar.com.br/abeeolica-stf-baterias-geradores/"
+      },
+      {
+        "nome": "JOTA",
+        "url": "https://www.jota.info/stf/do-supremo/abeeolica-aciona-stf-contra-lei-que-impoe-custo-de-contratacao-de-baterias-para-geradores-de-energia"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><path d=\"M40 170V90h120v80\"/><path d=\"M30 90l70-40 70 40\"/><path d=\"M60 170v-60M85 170v-60M115 170v-60M140 170v-60\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "luz-abeeolica-vai-ao-stf-contra-regra-de-custeio-das-baterias"
+  },
+  {
+    "data": "2026-11-24",
+    "setor": "luz",
+    "titulo": "Demanda por energia bate recorde de 108,7 GW no país",
+    "resumo": "A demanda instantânea de energia elétrica no Sistema Interligado Nacional chegou a 108,7 GW às 10h47 de terça-feira (24), segundo dados do ONS, o Operador Nacional do Sistema Elétrico. Na véspera, o sistema já tinha marcado 106,6 GW às 15h39, superando a máxima de 106,5 GW registrada em 26 de fevereiro.",
+    "explicacao": "A demanda instantânea mostra quanta energia todo o país está consumindo ao mesmo tempo, num determinado minuto. O Sistema Interligado Nacional é a rede que liga usinas e consumidores de quase todo o Brasil, e cabe ao ONS decidir, a cada momento, quais usinas vão gerar para atender esse consumo.\n\nO recorde desta terça chamou atenção pelo horário. Os picos de demanda costumam ocorrer no meio da tarde, quando se somam a atividade da indústria, do comércio e o uso de refrigeração, e desta vez a máxima veio ainda de manhã. Isso exige do operador ajustes rápidos entre fontes que variam ao longo do dia, como a solar, e usinas que podem ser acionadas sob demanda, como hidrelétricas e termelétricas.",
+    "destaque": "108,7 GW",
+    "legenda": "de demanda instantânea às 10h47 de 24 de novembro",
+    "fontes": [
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/demanda-por-energia-registra-recorde-com-1087-gw/"
+      },
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/25/consumo-de-energia-no-sin-alcanca-recorde-de-1087-gw-e-antecipa-horario-de-pico/"
+      },
+      {
+        "nome": "CanalEnergia",
+        "url": "https://www.canalenergia.com.br/noticias/53361129/ons-registra-dois-recordes-de-carga-instantanea-seguidos"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><path d=\"M20 150l30-20 25 10 30-40 25 15 30-60 20-10\"/><path d=\"M150 45h30v30\"/><path d=\"M40 170v-15M80 170v-25M120 170v-40M160 170v-60\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "luz-demanda-por-energia-bate-recorde-de-108-7-gw-no-pais"
+  },
+  {
+    "data": "2026-11-24",
+    "setor": "gas",
+    "titulo": "Petrobras relata recordes de pedidos de despacho de térmicas",
+    "resumo": "O diretor de Transição Energética da Petrobras, William Nozaki, disse que a empresa tem batido a cada dia novos recordes de pedidos de despacho de termelétricas vindos do Sistema Interligado Nacional. A fala foi feita em teleconferência com analistas sobre o Plano de Negócios 2027-2031. O parque térmico a gás da companhia soma cerca de 4,6 GW.",
+    "explicacao": "Despacho é a ordem do ONS, o Operador Nacional do Sistema Elétrico, para que uma usina comece a gerar. As termelétricas a gás podem ser ligadas quando o sistema precisa, e por isso são chamadas em momentos de consumo alto. Nozaki atribuiu o aumento dos acionamentos às mudanças climáticas.\n\nOs contratos do parque a gás da Petrobras garantem uma receita fixa anual de cerca de US$ 4,3 bilhões, e a empresa tem receita adicional quando as usinas são acionadas. Segundo o diretor, isso dá à companhia a opção de vender o gás como combustível ou transformá-lo em energia elétrica.",
+    "destaque": "4,6 GW",
+    "legenda": "é a capacidade do parque térmico a gás da Petrobras",
+    "fontes": [
+      {
+        "nome": "Times Brasil",
+        "url": "https://timesbrasil.com.br/empresas-e-negocios/energia/petrobras-registra-recordes-de-acionamento-de-termeletricas-pelo-ons-diz-nozaki/"
+      },
+      {
+        "nome": "Diário do Grande ABC",
+        "url": "https://www.dgabc.com.br/Noticia/4370566/temos-batidorecordes-de-despachos-de-termeletricas-pedidos-pelo-ons-diz-william-nozaki"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><rect x=\"30\" y=\"100\" width=\"70\" height=\"70\"/><path d=\"M50 100V50h12v50M75 100V65h12v35\"/><path d=\"M56 40c-6-8 6-12 0-20M81 55c-6-8 6-12 0-20\"/><path d=\"M100 140h40l10-30 10 50 10-20h20\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "gas-petrobras-relata-recordes-de-pedidos-de-despacho-de-termicas"
+  },
+  {
+    "data": "2026-11-23",
+    "setor": "petroleo",
+    "titulo": "Petrobras aprova plano de US$ 122 bilhões para 2027 a 2031",
+    "resumo": "O conselho de administração da Petrobras aprovou na segunda-feira (23) o plano de negócios 2027-2031, com US$ 122 bilhões em investimentos, cerca de 12% acima dos US$ 109 bilhões do plano anterior. Mais de 70% do valor vai para exploração e produção, e a empresa prevê 3,2 milhões de barris de óleo equivalente por dia entre 2028 e 2031.",
+    "explicacao": "O plano de negócios mostra quanto a Petrobras pretende investir nos cinco anos seguintes e em quais áreas. Exploração e produção é a parte da empresa que procura petróleo e o retira dos reservatórios, e o pré-sal fica com a maior fatia. Para decidir se um projeto compensa, a empresa usa um preço de referência para o barril, chamado de premissa. Neste plano, a premissa do Brent, o petróleo usado como referência internacional, é de US$ 74 em 2027 e de US$ 70 entre 2028 e 2031.\n\nA maior parte do dinheiro vai para projetos que já estão em implantação, o que beneficia fornecedores de plataformas, navios e serviços no mar. A verba de exploração sobe para US$ 10 bilhões, com cerca de 50 poços, e a capacidade de refino cresce sem a construção de refinaria nova. A transição energética, por outro lado, fica com US$ 13,5 bilhões, pouco mais de 11% do total.",
+    "destaque": "US$ 122 bi",
+    "legenda": "em investimentos previstos entre 2027 e 2031",
+    "fontes": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/"
+      },
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/petroleo-e-gas/o-que-tem-de-novo-no-plano-de-us-122-bilhoes-da-petrobras/"
+      },
+      {
+        "nome": "Times Brasil",
+        "url": "https://timesbrasil.com.br/brasil/petrobras-aprova-plano-de-us-122-bilhoes-ate-2031-e-promete-producao-recorde-de-32-milhoes-de-barris/"
+      },
+      {
+        "nome": "ClimaInfo",
+        "url": "https://climainfo.org.br/2026/11/24/plano-de-negocios-27-31-da-petrobras-preve-us-122-bilhoes-em-investimentos/"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><path d=\"M40 170V110h50v60M40 130h50M65 110V70M55 80h20\"/><path d=\"M120 170v-40M140 170v-65M160 170v-90M180 170v-115\"/><path d=\"M115 120l25-30 20 10 25-45\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "petroleo-petrobras-aprova-plano-de-us-122-bilhoes-para-2027-a-2031"
+  },
+  {
+    "data": "2026-11-23",
+    "setor": "luz",
+    "titulo": "Leilões de baterias estão marcados para 2 e 4 de dezembro",
+    "resumo": "A ABSAE, associação que reúne empresas de armazenamento de energia, defendeu que os dois leilões de baterias aconteçam nas datas previstas, 2 e 4 de dezembro. O Congresso discute o PL 3.716/2026, que muda quem paga por esses contratos. Se o projeto virar lei antes das disputas, os editais podem ter de ser refeitos e as datas mudarem.",
+    "explicacao": "Os leilões contratam potência de novos sistemas de armazenamento em baterias, que guardam energia quando há sobra e devolvem ao sistema quando ela é necessária. O leilão de 2 de dezembro é para sistemas com conteúdo nacional, e o de 4 de dezembro aceita os demais projetos. Os contratos duram 15 anos, o suprimento começa em agosto de 2028 e o pagamento é uma receita fixa anual que depende da disponibilidade dos sistemas.\n\nPela lei atual, o custo desses contratos é dividido entre os geradores de energia. O projeto em discussão na Câmara transfere esse custo para os consumidores finais. A ABSAE considera a regra atual uma distorção, mas pede que a mudança seja feita pelo Congresso sem adiar os leilões.",
+    "destaque": "2 e 4 dez",
+    "legenda": "datas previstas dos dois leilões de baterias",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/23/absae-defende-leiloes-de-baterias-em-dezembro-e-ajuste-via-pl-3-716-2026/"
+      },
+      {
+        "nome": "Movimento Econômico",
+        "url": "https://movimentoeconomico.com.br/economia/energia/2026/10/29/aneel-aprova-leiloes-de-baterias-mas-mudanca-na-lei-pode-alterar-datas-e-custos/"
+      },
+      {
+        "nome": "Hub PPP",
+        "url": "https://hubppp.com.br/leiloes-de-baterias-aneel-editais-dezembro/"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><rect x=\"40\" y=\"70\" width=\"50\" height=\"100\"/><rect x=\"110\" y=\"70\" width=\"50\" height=\"100\"/><path d=\"M55 70V60h20v10M125 70V60h20v10\"/><path d=\"M68 95l-10 20h14l-10 20M138 95l-10 20h14l-10 20\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "luz-leiloes-de-baterias-estao-marcados-para-2-e-4-de-dezembro"
+  },
+  {
+    "data": "2026-11-23",
+    "setor": "petroleo",
+    "titulo": "Petrobras vai pagar R$ 15,6 bilhões em dividendos em dezembro",
+    "resumo": "Junto com o plano de negócios 2027-2031, a Petrobras aprovou o pagamento de R$ 15,6 bilhões em dividendos aos acionistas, previsto para 23 de dezembro. O plano também estima entre US$ 55 bilhões e US$ 60 bilhões em dividendos ordinários até 2031, cerca de US$ 10 bilhões acima do previsto no plano anterior.",
+    "explicacao": "Dividendos são a parte do lucro que a empresa distribui aos acionistas. Como a União é a maior acionista da Petrobras, uma parte desse dinheiro vai para o governo federal, e o restante vai para investidores privados, incluindo pessoas físicas.\n\nA política de dividendos foi mantida no novo plano, e a previsão maior vem da expectativa de mais produção e mais geração de caixa. A empresa estima gerar entre US$ 230 bilhões e US$ 250 bilhões com as operações nos cinco anos, e manter a dívida bruta abaixo de US$ 75 bilhões.",
+    "destaque": "R$ 15,6 bi",
+    "legenda": "em dividendos com pagamento previsto para 23 de dezembro",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/petroleo-e-gas/o-que-tem-de-novo-no-plano-de-us-122-bilhoes-da-petrobras/"
+      },
+      {
+        "nome": "Atlas Público",
+        "url": "https://atlaspublico.com.br/cvm/noticias/petrobras-preve-us-122-bilhoes-em-investimentos-de-2027-a-104381"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/"
+      }
+    ],
+    "video": "",
+    "arte": "<path d=\"M0 170h200\"/><circle cx=\"70\" cy=\"100\" r=\"40\"/><path d=\"M70 75v50M82 85c-4-6-24-6-24 4s24 6 24 16-20 10-24 4\"/><path d=\"M130 170v-30M150 170v-50M170 170v-70\"/>",
+    "foto": "",
+    "foto_credito": "",
+    "foto_link": "",
+    "slug": "petroleo-petrobras-vai-pagar-r-15-6-bilhoes-em-dividendos-em-dezembro"
+  },
+  {
     "data": "2026-11-23",
     "setor": "petroleo",
     "titulo": "Petrobras deve ampliar investimentos no plano 2027-2031",

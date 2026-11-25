@@ -44,5 +44,51 @@
     ],
     "capa_numero": "36 bi kWh",
     "capa_texto": "de energia solar e eólica deixaram de ser gerados no Brasil em 2026. Junto com as notícias de petróleo e gás, o dado mostra que o custo da energia depende cada vez mais da infraestrutura."
+  },
+  {
+    "data": "2026-11-25",
+    "titulo": "Consumo recorde coloca o horário da energia no centro do debate",
+    "autor": "Arilson Júnior",
+    "capa_numero": "108,7 GW",
+    "capa_texto": "foi a demanda instantânea de energia no país às 10h47 de 24 de novembro, novo recorde. Junto com o aumento dos acionamentos de térmicas e a proposta de tarifa por horário da Aneel, o dado mostra que o momento do consumo pesa cada vez mais no custo da energia.",
+    "noticias": [
+      {
+        "slug": "luz-demanda-por-energia-bate-recorde-de-108-7-gw-no-pais",
+        "numero": "108,7 GW",
+        "legenda": "de demanda instantânea no Sistema Interligado Nacional às 10h47 de 24 de novembro",
+        "texto": "O ONS registrou recorde de demanda pelo segundo dia seguido. Desta vez o pico veio de manhã, quando esses recordes costumam ocorrer no meio da tarde."
+      },
+      {
+        "slug": "gas-petrobras-relata-recordes-de-pedidos-de-despacho-de-termicas",
+        "numero": "4,6 GW",
+        "legenda": "é a capacidade do parque térmico a gás da Petrobras",
+        "texto": "A Petrobras diz que bate a cada dia novos recordes de pedidos de despacho de térmicas pelo sistema. Os contratos garantem receita fixa anual de cerca de US$ 4,3 bilhões."
+      },
+      {
+        "slug": "luz-aneel-prepara-tarifa-de-luz-que-muda-conforme-o-horario",
+        "numero": "500 kWh",
+        "legenda": "de consumo médio mensal é o corte para o enquadramento automático proposto",
+        "texto": "A proposta da Aneel cria a Tarifa Hora Certa, mais cara em três horas no início da noite e mais barata no restante do dia, com início em abril de 2028."
+      }
+    ],
+    "leitura": "O sistema elétrico precisa de cada vez mais potência nos momentos de maior consumo. Térmicas acionadas sob demanda, armazenamento em baterias e um preço que varia conforme o horário são as formas em discussão para atender esses picos.",
+    "acompanhar": [
+      [
+        "2 e 4 de dezembro",
+        "Leilões de potência de armazenamento em baterias"
+      ],
+      [
+        "Até dezembro",
+        "Votação da Tarifa Hora Certa na diretoria da Aneel"
+      ],
+      [
+        "Fim de 2027",
+        "Prazo para os medidores da primeira etapa da tarifa por horário"
+      ],
+      [
+        "Abril de 2028",
+        "Início previsto da primeira etapa da Tarifa Hora Certa"
+      ]
+    ]
   }
 ]
