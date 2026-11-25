@@ -120,20 +120,20 @@ a.video { color: var(--ink); }
 .credit:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
 /* Grande */
 .lg .cover { flex: 1; min-height: 460px; padding: 30px 32px; }
-.lg .cover .num { font-size: clamp(72px, 24cqi, 180px); }
+.lg .cover .num { font-size: min(clamp(72px, 24cqi, 180px), calc(170cqi / var(--n, 4))); }
 .lg .cover h2 { font-size: clamp(30px, 7cqi, 60px); }
 .lg .info h3 { display: none; }
 .lg .info p { font-size: 16.5px; color: #34343c; -webkit-line-clamp: 3; }
 /* Médio */
 .md .cover { height: clamp(210px, 15vw, 290px); }
-.md .cover .num { font-size: clamp(48px, 22cqi, 110px); }
+.md .cover .num { font-size: min(clamp(48px, 22cqi, 110px), calc(160cqi / var(--n, 4))); }
 .md .info h3 { font-size: 21px; }
 .md .info p { font-size: 15px; -webkit-line-clamp: 2; }
 /* Pequeno */
 .sm .cover { height: clamp(150px, 10vw, 190px); padding: 16px 18px; border-radius: 14px; }
 .sm .stretch { border-radius: 14px; }
 .sm .cover .row { font-size: 11px; }
-.sm .cover .num { font-size: clamp(36px, 20cqi, 72px); }
+.sm .cover .num { font-size: min(clamp(36px, 20cqi, 72px), calc(150cqi / var(--n, 4))); }
 .sm .cover .cap { display: none; }
 .sm .info h3 { font-size: 17px; }
 .sm .info p { font-size: 14px; -webkit-line-clamp: 2; }
@@ -176,7 +176,7 @@ a.video { color: var(--ink); }
   .search { flex: none; }
   .top3 { grid-template-columns: minmax(0, 1fr); gap: 26px; margin-top: 12px; }
   .lg .cover { flex: none; min-height: 0; aspect-ratio: 1 / 1; padding: 22px; }
-  .lg .cover .num { font-size: clamp(64px, 26cqi, 110px); }
+  .lg .cover .num { font-size: min(clamp(40px, 26cqi, 110px), calc(165cqi / var(--n, 4))); }
   .lg .cover h2 { font-size: 32px; }
   .md .cover { height: auto; aspect-ratio: 16 / 10; padding: 18px; border-radius: 16px; }
   .month { margin-top: 36px; }
@@ -296,7 +296,7 @@ function card(n, tam) {
       ${n.foto ? `<img class="ph" src="${largura(n.foto, 48)}" alt="" aria-hidden="true"><img class="photo" src="${largura(n.foto, 1200)}" srcset="${srcset(n.foto)}" sizes="${TAMANHOS[tam] || TAMANHOS.md}" alt="" loading="${tam === "sm" ? "lazy" : "eager"}" decoding="async" onload="this.classList.add('ok')" onerror="this.remove()"><span class="tint"></span>` : arteSVG(n)}
       <div class="row"><span>${s.nome}</span><span class="d">${curta(n.data)} · ${f.nome}</span></div>
       <div>
-        <div class="num">${n.destaque}</div>
+        <div class="num" style="--n:${Math.max(4,[...String(n.destaque)].length)}">${n.destaque}</div>
         <div class="cap">${n.legenda}</div>
         ${tam === "lg" ? `<h2>${n.titulo}</h2>` : ""}
       </div>
