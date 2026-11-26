@@ -1,5 +1,88 @@
 [
   {
+    "data": "2026-11-26",
+    "setor": "luz",
+    "titulo": "Conta de luz mais barata segura a prévia da inflação",
+    "resumo": "O IPCA-15, prévia da inflação oficial, ficou em 0,22% em novembro, abaixo dos 0,32% de outubro, segundo o IBGE. A energia elétrica residencial caiu 0,85% e foi a principal contribuição para baixo no grupo Habitação, com a bandeira tarifária verde mantida no mês.",
+    "explicacao": "O IPCA-15 é calculado pelo IBGE, o Instituto Brasileiro de Geografia e Estatística, e funciona como uma prévia do IPCA, o índice oficial de inflação do país. A bandeira tarifária é um sinal na conta de luz: quando está verde, não há cobrança extra; nas cores amarela e vermelha, o consumidor paga um adicional porque a geração de energia ficou mais cara.\n\nEm novembro, o grupo Habitação recuou 0,14%, puxado pela energia elétrica residencial. No ano, o IPCA-15 acumula alta de 4,38% e, em 12 meses, de 4,64%. Os alimentos foram o principal fator de alta no mês, com variação de 1,51%.",
+    "destaque": "−0,85%",
+    "legenda": "foi a variação da energia elétrica residencial na prévia da inflação de novembro",
+    "fontes": [
+      {
+        "nome": "IBGE",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48750-ipca15novrelease"
+      },
+      {
+        "nome": "CanalEnergia",
+        "url": "https://www.canalenergia.com.br/noticias/53361307/ipca-15-de-novembro-fica-em-022-com-efeito-da-energia-eletrica"
+      },
+      {
+        "nome": "Agência Gov",
+        "url": "https://agenciagov.ebc.com.br/noticias/202611/ibge-inflacao-perde-ritmo-na-previa-de-novembro"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.unsplash.com/photo-1504972090022-6edb81e4e534?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/pTc2p_5Qbrk",
+    "slug": "luz-conta-de-luz-mais-barata-segura-a-previa-da-inflacao"
+  },
+  {
+    "data": "2026-11-26",
+    "setor": "petroleo",
+    "titulo": "ANP distribui R$ 9,23 bilhões em royalties de setembro",
+    "resumo": "A ANP concluiu nesta quinta-feira (26) a distribuição de R$ 9,23 bilhões em royalties da produção de petróleo e gás natural de setembro. Desse total, R$ 3,12 bilhões foram transferidos diretamente a 989 municípios e R$ 2,42 bilhões a 11 estados. O restante foi para a União e para o Fundo Especial.",
+    "explicacao": "Royalties são uma compensação paga pelas empresas que produzem petróleo e gás ao poder público, calculada sobre o valor da produção. A ANP, Agência Nacional do Petróleo, Gás Natural e Biocombustíveis, calcula e repassa os valores para estados, municípios e União, seguindo as regras da Lei do Petróleo e de leis anteriores. Os pagamentos cobrem os três tipos de contrato: concessão, cessão onerosa e partilha de produção.\n\nNo mês anterior, a distribuição referente à produção de agosto somou R$ 7,32 bilhões, com R$ 2,48 bilhões para as prefeituras. Para muitos municípios produtores, como os do litoral do Espírito Santo e do Rio de Janeiro, esses repasses são uma parte importante da receita.",
+    "destaque": "R$ 9,23 bi",
+    "legenda": "em royalties da produção de setembro foram distribuídos pela ANP",
+    "fontes": [
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/26/anp-distribui-r-923-bilhoes-em-royalties-da-producao-de-petroleo-e-gas-de-setembro/"
+      },
+      {
+        "nome": "Brasil 61 (mês anterior)",
+        "url": "https://brasil61.com/n/municipios-recebem-r-2-48-bilhoes-em-royalties-do-petroleo-disputa-sobre-distribuicao-aguarda-decisao-do-stf-bras2617411"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.unsplash.com/photo-1633829131104-e2134f75c6e5?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/rqWWhKzVCaU",
+    "slug": "petroleo-anp-distribui-r-9-23-bilhoes-em-royalties-de-setembro"
+  },
+  {
+    "data": "2026-11-26",
+    "setor": "hidrogenio",
+    "titulo": "Associação leva propostas de hidrogênio verde à Comissão Europeia",
+    "resumo": "A ABIHV, Associação Brasileira da Indústria do Hidrogênio Verde, apresentou à Comissão Europeia recomendações para a revisão da estratégia europeia de hidrogênio. A entidade defende contratos de compra de longo prazo, a manutenção de metas obrigatórias de uso, o fortalecimento do Banco Europeu do Hidrogênio e o reconhecimento da certificação brasileira.",
+    "explicacao": "A Europa é vista como um dos principais compradores do hidrogênio verde e de derivados, como a amônia, que o Brasil pretende produzir. Por isso, as regras europeias pesam na decisão de investir aqui. O Banco Europeu do Hidrogênio é o mecanismo da União Europeia que paga um valor por quilo de hidrogênio renovável produzido, por até dez anos, para reduzir a diferença de custo em relação aos combustíveis fósseis.\n\nSegundo a associação, os projetos brasileiros somam mais de R$ 117 bilhões em investimentos potenciais em seis estados e 10,5 GW de capacidade de eletrólise. Contratos de longo prazo dão ao produtor a garantia de venda que os bancos pedem para financiar as obras.",
+    "destaque": "R$ 117 bi",
+    "legenda": "em investimentos potenciais somam os projetos brasileiros de hidrogênio verde, segundo a ABIHV",
+    "fontes": [
+      {
+        "nome": "CanalEnergia",
+        "url": "https://canalenergia.com.br/noticias/53361300/abihv-apresenta-a-comissao-europeia-propostas-para-viabilizar-projetos-no-brasil"
+      },
+      {
+        "nome": "Click Petróleo e Gás",
+        "url": "https://clickpetroleoegas.com.br/brasil-mira-mercado-europeu-de-hidrogenio-verde-com-projetos-de-mais-de-r-117-bilhoes-em-seis-estados-capacidade-de-eletrolise-de-105-gw-e-proposta-de-reconhecimento-internacional-da-vacs75/"
+      },
+      {
+        "nome": "Energia Limpa",
+        "url": "https://energialimpa.live/brasil-mira-mercado-europeu-com-r-117-bilhoes-em-projetos-de-hidrogenio-verde/"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.unsplash.com/photo-1608817576152-26bbdb00afb7?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/C241mbgtgys",
+    "slug": "hidrogenio-associacao-leva-propostas-de-hidrogenio-verde-a-comissao-europeia"
+  },
+  {
     "data": "2026-11-25",
     "setor": "luz",
     "titulo": "Aneel prepara tarifa de luz que muda conforme o horário",
