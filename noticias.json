@@ -33,6 +33,68 @@
     "slug": "luz-aneel-prepara-tarifa-de-luz-que-muda-conforme-o-horario"
   },
   {
+    "data": "2026-11-25",
+    "setor": "petroleo",
+    "titulo": "Governo deve renovar subsídio de R$ 2,12 no litro do diesel",
+    "resumo": "O ministro do Planejamento e Orçamento, Bruno Moretti, anunciou na quarta-feira (25) que o governo vai renovar por mais 30 dias a subvenção de R$ 2,12 por litro de diesel vendido no país. A prorrogação deve custar entre R$ 8 bilhões e R$ 10,5 bilhões, e a portaria que formaliza a medida ainda precisa ser validada pelo governo.",
+    "explicacao": "Subvenção é um tipo de subsídio em que o governo paga parte do custo para que o produto chegue mais barato ao mercado. O diesel abastece caminhões e ônibus, por isso seu preço pesa no frete e no custo de grande parte dos produtos transportados no país. Segundo Rogério Ceron, secretário-executivo do Ministério da Fazenda, a inflação seria pelo menos 1 ponto percentual maior sem as medidas.\n\nSomadas, as ações do governo para conter o preço dos combustíveis em 2026 podem chegar a um impacto de cerca de R$ 85 bilhões. O Congresso autorizou que até R$ 10,5 bilhões em gastos com a subvenção ao diesel fiquem fora da meta fiscal, e a lei foi sancionada na terça-feira (24).",
+    "destaque": "R$ 2,12",
+    "legenda": "por litro é a subvenção ao diesel que deve ser renovada por 30 dias",
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-deve-renovar-subsidio-ao-diesel-por-mais-30-dias"
+      },
+      {
+        "nome": "Imirante",
+        "url": "https://imirante.com/noticias/brasil/2026/11/25/governo-deve-renovar-subsidio-diesel-30-dias"
+      },
+      {
+        "nome": "Mix Vale",
+        "url": "https://www.mixvale.com.br/2026/11/25/subsidio-do-diesel-de-r-212-segue-por-mais-30-dias-no-brasil-e-custa-ate-r-105-bilhoes-por-mes-ao-governo/"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/9739039/pexels-photo-9739039.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/fuel-truck-9739039/",
+    "slug": "petroleo-governo-deve-renovar-subsidio-de-r-2-12-no-litro-do-diesel"
+  },
+  {
+    "data": "2026-11-25",
+    "setor": "gas",
+    "titulo": "Indústria do vidro pede apuração de pressão sobre a ANP",
+    "resumo": "A Abividro, associação que reúne as indústrias de vidro, pediu na quarta-feira (25) à Comissão de Ética Pública da Presidência da República que apure supostas tentativas da Petrobras de interferir em processos da ANP por meio do Ministério de Minas e Energia. O pedido chega enquanto a agência conclui a revisão das tarifas dos gasodutos para o ciclo de 2026 a 2030.",
+    "explicacao": "A ANP, Agência Nacional do Petróleo, Gás Natural e Biocombustíveis, define quanto as transportadoras podem cobrar pelo uso dos gasodutos. No dia 18, a diretoria negou os pedidos de ATGás, NTS e TAG para suspender a revisão e abriu uma consulta pública de dez dias corridos, a última etapa do processo. A simulação preliminar indica queda média de cerca de 35% nas tarifas da NTS, e a agência prevê tarifas novas a partir de 1º de janeiro de 2027.\n\nO diretor relator, Pietro Mendes, afirmou que os números são indicativos e não constituem decisão tarifária definitiva. No começo do mês, a Abividro, a Abrace e a Abegás já tinham pedido à ANP que abrisse essa última fase. O custo do transporte pesa no preço do gás que chega às fábricas, principalmente nos setores que usam muito gás, como vidro, cerâmica e fertilizantes.",
+    "destaque": "35%",
+    "legenda": "de queda média nas tarifas da NTS, pela simulação preliminar da ANP",
+    "fontes": [
+      {
+        "nome": "Brasil em Folhas",
+        "url": "https://brasilemfolhas.com.br/2026/11/abividro-pede-apuracao-de-interferencia-da-petrobras-na-anp/"
+      },
+      {
+        "nome": "El Fondo",
+        "url": "https://www.el-fondo.com/pt/news/abividro-pede-apuracao-de-suposta-pressao-da-petrobras-na-anp"
+      },
+      {
+        "nome": "eixos, via TAGD Advogados",
+        "url": "https://tagdlaw.com.br/anp-abre-consulta-de-dez-dias-sobre-tarifas-dos-gasodutos-e-nega-suspender-revisao/"
+      },
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/13/anp-retoma-revisao-tarifaria-do-transporte-de-gas-natural-apos-fim-de-negociacao-entre-petrobras-e-nts/"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/220990/pexels-photo-220990.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/person-in-black-shirt-holding-glass-rod-220990/",
+    "slug": "gas-industria-do-vidro-pede-apuracao-de-pressao-sobre-a-anp"
+  },
+  {
     "data": "2026-11-24",
     "setor": "gas",
     "titulo": "Gás de Vaca Muerta começa a chegar à CSN no Rio",
@@ -411,6 +473,31 @@
     "slug": "gas-a-anp-manteve-o-corte-no-pedagio-do-gas"
   },
   {
+    "data": "2026-11-18",
+    "setor": "gas",
+    "titulo": "Oferta de gás no Brasil pode crescer mais de 80% até 2036",
+    "resumo": "O Caderno de Gás Natural do Plano Decenal de Expansão de Energia 2036, publicado pelo MME e pela EPE, projeta que a oferta potencial nacional de gás passe de 61 para 112 milhões de metros cúbicos por dia entre 2026 e 2036. O estudo também prevê cerca de R$ 15,9 bilhões em obras de infraestrutura de gás no período.",
+    "explicacao": "O Plano Decenal é o planejamento de energia do governo para os próximos dez anos, feito pela EPE, a Empresa de Pesquisa Energética, com o Ministério de Minas e Energia. Oferta potencial é a quantidade de gás que pode estar disponível, uma projeção que depende de novos projetos saírem do papel. O pré-sal responde por cerca de 74% da oferta média da malha integrada, a rede de gasodutos que liga a maior parte do país.\n\nO estudo prevê que a fatia do Nordeste na oferta potencial nacional suba de 19% para 34%, e que o gás importado da Bolívia caia de 13 para 5 milhões de metros cúbicos por dia a partir de 2030. A demanda total deve passar de 71 para 104 milhões de metros cúbicos por dia.",
+    "destaque": "+80%",
+    "legenda": "de oferta potencial de gás natural até 2036, pela projeção do plano decenal",
+    "fontes": [
+      {
+        "nome": "Agência Gov, via MME",
+        "url": "https://agenciagov.ebc.com.br/noticias/202611/pde-2036-relatorio-aponta-crescimento-de-mais-de-80-na-oferta-potencial-de-gas-natural-no-brasil"
+      },
+      {
+        "nome": "Cenário Energia",
+        "url": "https://cenarioenergia.com.br/2026/11/17/pde-2036-projeta-salto-de-80-na-oferta-nacional-de-gas-natural-e-r-159-bilhoes-em-infraestrutura/"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/16067732/pexels-photo-16067732.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/a-gas-pipeline-in-the-forest-16067732/",
+    "slug": "gas-oferta-de-gas-no-brasil-pode-crescer-mais-de-80-ate-2036"
+  },
+  {
     "data": "2026-11-17",
     "setor": "gas",
     "titulo": "ANP pode reduzir em mais de 30% a tarifa de transporte de gás",
@@ -518,6 +605,31 @@
     "foto_link": "https://www.pexels.com/photo/oil-platform-3192662/",
     "slug": "petroleo-a-petrobras-produzindo-mais-sem-construir-nada-novo",
     "explicacao": "Cada plataforma de petróleo tem um limite de quanto consegue processar por dia. Com ajustes nos equipamentos, a Petrobras conseguiu elevar esse limite em onze plataformas que já estavam produzindo, de forma semelhante a uma fábrica que aumenta a produção sem construir um prédio novo.\n\nEsse tipo de ganho costuma ser mais barato e mais rápido do que um projeto novo. É importante notar que se trata de aumento de capacidade, ou seja, do quanto as plataformas podem produzir, e não necessariamente de produção extra todos os dias."
+  },
+  {
+    "data": "2026-11-12",
+    "setor": "hidrogenio",
+    "titulo": "Hidrogênio verde no Pecém garante 645 MW na rede",
+    "resumo": "A Aneel autorizou a Pecém VDB 1, projeto de hidrogênio verde da Casa dos Ventos no Ceará, a contratar 645 MW de demanda da Rede Básica do Sistema Interligado Nacional, a partir de dezembro de 2028. A projeção de investimento é de R$ 25 bilhões, valor que ainda não foi formalizado pela empresa.",
+    "explicacao": "A Rede Básica é a parte da rede elétrica em alta tensão que leva energia entre regiões. O projeto vai se conectar à Subestação Pecém III, de 500 kV, em Caucaia, e a autorização saiu no Despacho nº 4.249 da Aneel, a Agência Nacional de Energia Elétrica, publicado no Diário Oficial em 10 de novembro. É o primeiro projeto de hidrogênio a obter acesso à rede de alta tensão no país.\n\nO hidrogênio verde é produzido em eletrolisadores, que quebram a molécula da água usando eletricidade, por isso garantir uma conexão grande à rede é um passo importante. As outras unidades do complexo ainda aguardam parecer do ONS, o Operador Nacional do Sistema Elétrico, e a empresa não comentou prazos.",
+    "destaque": "645 MW",
+    "legenda": "de demanda contratável na rede para o projeto, a partir de dezembro de 2028",
+    "fontes": [
+      {
+        "nome": "Movimento Econômico",
+        "url": "https://movimentoeconomico.com.br/economia/energia/2026/11/12/aneel-autoriza-amonia-verde-do-ceara-como-1o-hidrogenio-na-rede-de-alta-tensao/"
+      },
+      {
+        "nome": "Diário do Nordeste",
+        "url": "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/mariana-lemos/casa-dos-ventos-obtem-acesso-a-rede-basica-para-projeto-de-h2v-no-pecem-orcado-em-r-25-bi-1.3805088"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/18468536/pexels-photo-18468536.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Pexels",
+    "foto_link": "https://www.pexels.com/photo/power-distribution-substation-18468536/",
+    "slug": "hidrogenio-hidrogenio-verde-no-pecem-garante-645-mw-na-rede"
   },
   {
     "data": "2026-11-10",

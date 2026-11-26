@@ -90,5 +90,51 @@
         "Início previsto da primeira etapa da Tarifa Hora Certa"
       ]
     ]
+  },
+  {
+    "data": "2026-11-26",
+    "titulo": "Mais gás à vista e a disputa pelo custo do transporte",
+    "autor": "Arilson Júnior",
+    "capa_numero": "+80%",
+    "capa_texto": "é quanto a oferta potencial de gás natural no Brasil pode crescer até 2036, pela projeção do plano decenal. Enquanto isso, a ANP fecha a revisão das tarifas dos gasodutos, e a indústria do vidro pediu apuração de supostas pressões sobre a agência.",
+    "noticias": [
+      {
+        "slug": "gas-oferta-de-gas-no-brasil-pode-crescer-mais-de-80-ate-2036",
+        "numero": "112 milhões",
+        "legenda": "de metros cúbicos por dia de oferta potencial em 2036, contra 61 milhões em 2026",
+        "texto": "O Caderno de Gás do plano decenal, do MME e da EPE, prevê cerca de R$ 15,9 bilhões em obras e uma fatia maior do Nordeste na oferta."
+      },
+      {
+        "slug": "gas-a-anp-manteve-o-corte-no-pedagio-do-gas",
+        "numero": "10 dias",
+        "legenda": "de consulta pública na última etapa da revisão das tarifas dos gasodutos",
+        "texto": "A ANP negou os pedidos das transportadoras para suspender a revisão. A simulação preliminar indica queda média de cerca de 35% nas tarifas da NTS."
+      },
+      {
+        "slug": "gas-industria-do-vidro-pede-apuracao-de-pressao-sobre-a-anp",
+        "numero": "25/11",
+        "legenda": "foi o dia em que a Abividro acionou a Comissão de Ética Pública da Presidência",
+        "texto": "A associação pede apuração de supostas tentativas da Petrobras de interferir em processos da ANP por meio do Ministério de Minas e Energia."
+      }
+    ],
+    "leitura": "A oferta de gás tende a crescer com o pré-sal e o Nordeste, mas o preço que chega às fábricas depende também do custo de transporte. A forma como a revisão das tarifas terminar vai pesar na competitividade de setores que usam muito gás.",
+    "acompanhar": [
+      [
+        "Fim de novembro",
+        "Encerramento da consulta pública sobre as tarifas dos gasodutos"
+      ],
+      [
+        "Até o fim do ano",
+        "Decisão final da ANP sobre a revisão tarifária"
+      ],
+      [
+        "1º de janeiro de 2027",
+        "Início previsto das novas tarifas de transporte"
+      ],
+      [
+        "2028 e 2030",
+        "Entrada prevista dos projetos Raia e Seap"
+      ]
+    ]
   }
 ]
