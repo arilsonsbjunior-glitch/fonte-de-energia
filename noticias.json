@@ -2,6 +2,68 @@
   {
     "data": "2026-11-26",
     "setor": "luz",
+    "titulo": "Justiça mantém leilões de baterias de 2 e 4 de dezembro",
+    "resumo": "A Justiça Federal do Distrito Federal negou na quarta-feira (25) o pedido da Abeeólica para suspender os leilões de baterias marcados para 2 e 4 de dezembro. A associação contesta a lei que manda os geradores pagarem pela contratação desses sistemas e diz que vai recorrer. O mesmo pedido segue pendente no STF.",
+    "explicacao": "Os leilões vão contratar potência de novos sistemas de armazenamento em baterias, que guardam energia para devolver ao sistema nos horários de maior consumo. A Lei 15.269/2025 colocou esse custo apenas sobre os geradores de energia, e a Abeeólica, associação das empresas eólicas, estima um encargo de cerca de R$ 17 por MWh. O juiz entendeu que quem paga é uma escolha do legislador e que não há dano imediato, porque a cobrança só começa com o início do fornecimento, em agosto de 2028. Ele também considerou o risco de adiar a contratação, já que o governo aponta dificuldade de atender a demanda de potência a partir de 2027.\n\nNo STF, a ação da Abeeólica (ADI 8.050) está com o ministro Cristiano Zanin, que pediu informações antes de decidir sobre a liminar. Na Câmara, o PL 3.716/2026, que muda a regra e inclui os consumidores no rateio, pode ser votado na próxima semana, segundo fontes ouvidas pela imprensa. A Aneel informa mais de 5 mil projetos cadastrados em cada um dos dois leilões.",
+    "destaque": "2 e 4 dez",
+    "legenda": "são as datas mantidas para os primeiros leilões de baterias do país",
+    "fontes": [
+      {
+        "nome": "eixos",
+        "url": "https://eixos.com.br/energia-eletrica/justica-nega-liminar-a-abeeolica-e-mantem-leiloes-de-baterias-de-dezembro/"
+      },
+      {
+        "nome": "pv magazine Brasil",
+        "url": "http://www.pv-magazine-brasil.com/2026/11/25/justica-rejeita-pedido-de-suspensao-dos-leiloes-de-baterias/"
+      },
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/governo-mantem-confianca-em-leilao-de-baterias-apos-decisao-judicial/"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.unsplash.com/photo-1589216532372-1c2a367900d9?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/nSpj-Z12lX0",
+    "slug": "luz-justica-mantem-leiloes-de-baterias-de-2-e-4-de-dezembro"
+  },
+  {
+    "data": "2026-11-26",
+    "setor": "petroleo",
+    "titulo": "Ataque a refinaria saudita faz o petróleo voltar a subir",
+    "resumo": "Os houthis, grupo armado do Iêmen alinhado ao Irã, disseram ter atacado na quarta-feira (25) a refinaria de Ras Tanura, a maior da Arábia Saudita, ao lado de um dos maiores terminais de exportação de petróleo do mundo. O Brent, referência internacional, subiu 3,5% na quarta e chegou perto de US$ 95 por barril nesta quinta. No domingo (29), a Opep+ se reúne para decidir a produção de 2027.",
+    "explicacao": "Ras Tanura tem capacidade para refinar cerca de 550 mil barris por dia, segundo a imprensa internacional. Ataques a instalações de grandes produtores costumam aumentar o prêmio de risco do petróleo, porque o mercado passa a temer falta de oferta. O movimento veio depois de uma queda forte: na terça (24), o Brent tinha fechado em US$ 88,77, o menor nível em três meses.\n\nA Opep+ reúne a Organização dos Países Exportadores de Petróleo e aliados, como a Rússia, e define quanto cada país pode produzir. Para o Brasil, o preço do Brent pesa na receita da Petrobras e na arrecadação de royalties, além de influenciar o preço dos combustíveis. Nesta quinta, a bolsa brasileira subiu forte, e as ações da Petrobras estavam entre as maiores altas.",
+    "destaque": "US$ 95",
+    "legenda": "foi o patamar em que o Brent chegou nesta quinta, depois do ataque na Arábia Saudita",
+    "fontes": [
+      {
+        "nome": "Reuters, via Al-Monitor",
+        "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-say-they-attacked-saudi-arabias-ras-tanura-refinery"
+      },
+      {
+        "nome": "AGBI",
+        "url": "https://www.agbi.com/oil-and-gas/2026/11/houthis-target-ras-tanura-refinery-and-red-sea-ports/"
+      },
+      {
+        "nome": "Quartz",
+        "url": "https://qz.com/houthis-attack-saudi-arabia-ras-tanura-refinery-112526"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.unsplash.com/photo-1588011930968-eadac80e6a5a?auto=format&fit=crop&w=1200&q=80",
+    "foto_credito": "Unsplash",
+    "foto_link": "https://unsplash.com/photos/u13zBF4r56A",
+    "slug": "petroleo-ataque-a-refinaria-saudita-faz-o-petroleo-voltar-a-subir"
+  },
+  {
+    "data": "2026-11-26",
+    "setor": "luz",
     "titulo": "Conta de luz mais barata segura a prévia da inflação",
     "resumo": "O IPCA-15, prévia da inflação oficial, ficou em 0,22% em novembro, abaixo dos 0,32% de outubro, segundo o IBGE. A energia elétrica residencial caiu 0,85% e foi a principal contribuição para baixo no grupo Habitação, com a bandeira tarifária verde mantida no mês.",
     "explicacao": "O IPCA-15 é calculado pelo IBGE, o Instituto Brasileiro de Geografia e Estatística, e funciona como uma prévia do IPCA, o índice oficial de inflação do país. A bandeira tarifária é um sinal na conta de luz: quando está verde, não há cobrança extra; nas cores amarela e vermelha, o consumidor paga um adicional porque a geração de energia ficou mais cara.\n\nEm novembro, o grupo Habitação recuou 0,14%, puxado pela energia elétrica residencial. No ano, o IPCA-15 acumula alta de 4,38% e, em 12 meses, de 4,64%. Os alimentos foram o principal fator de alta no mês, com variação de 1,51%.",
