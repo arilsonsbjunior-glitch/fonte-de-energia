@@ -148,10 +148,10 @@
     "data": "2026-11-26",
     "setor": "petroleo",
     "titulo": "Ataque a refinaria saudita faz o petróleo voltar a subir",
-    "resumo": "Os houthis, grupo armado do Iêmen alinhado ao Irã, disseram ter atacado na quarta-feira (25) a refinaria de Ras Tanura, a maior da Arábia Saudita, ao lado de um dos maiores terminais de exportação de petróleo do mundo. O Brent, referência internacional, subiu 3,5% na quarta e chegou perto de US$ 95 por barril nesta quinta. No domingo (29), a Opep+ se reúne para decidir a produção de 2027.",
-    "explicacao": "Ras Tanura tem capacidade para refinar cerca de 550 mil barris por dia, segundo a imprensa internacional. Ataques a instalações de grandes produtores costumam aumentar o prêmio de risco do petróleo, porque o mercado passa a temer falta de oferta. O movimento veio depois de uma queda forte: na terça (24), o Brent tinha fechado em US$ 88,77, o menor nível em três meses.\n\nA Opep+ reúne a Organização dos Países Exportadores de Petróleo e aliados, como a Rússia, e define quanto cada país pode produzir. Para o Brasil, o preço do Brent pesa na receita da Petrobras e na arrecadação de royalties, além de influenciar o preço dos combustíveis. Nesta quinta, a bolsa brasileira subiu forte, e as ações da Petrobras estavam entre as maiores altas.",
-    "destaque": "US$ 95",
-    "legenda": "foi o patamar em que o Brent chegou nesta quinta, depois do ataque na Arábia Saudita",
+    "resumo": "Os houthis, grupo armado do Iêmen alinhado ao Irã, disseram ter atacado na quarta-feira (25) a refinaria de Ras Tanura, a maior da Arábia Saudita. A coalizão liderada pelos sauditas informou ter derrubado quatro drones sobre o local, sem confirmar danos à refinaria. O Brent, referência internacional, subiu 3,5% na quarta, para US$ 94,61, e fechou a quinta em US$ 96,57.",
+    "explicacao": "Ras Tanura tem capacidade para refinar cerca de 550 mil barris por dia e fica ao lado de um dos maiores terminais de exportação de petróleo do mundo. Imagens de satélite mostraram fumaça sobre a área, mas o governo saudita e a Aramco não comentaram danos. Na mesma semana, um ataque que a Arábia Saudita atribuiu aos houthis interrompeu temporariamente a refinaria de Jazan, no sudoeste do país.\n\nAtaques a instalações de grandes produtores costumam aumentar o prêmio de risco do petróleo, porque o mercado passa a temer falta de oferta. A alta veio depois de uma queda forte: na segunda (23), o Brent tinha fechado no menor nível desde o fim de agosto. No domingo (29), a Opep+, que reúne a Opep e aliados como a Rússia, se reúne para decidir a produção de 2027. Para o Brasil, o preço do Brent pesa na receita da Petrobras, na arrecadação de royalties e no preço dos combustíveis.",
+    "destaque": "+3,5%",
+    "legenda": "foi a alta do Brent na quarta, dia do ataque reivindicado pelos houthis",
     "fontes": [
       {
         "nome": "Reuters, via Al-Monitor",
@@ -166,8 +166,12 @@
         "url": "https://qz.com/houthis-attack-saudi-arabia-ras-tanura-refinery-112526"
       },
       {
-        "nome": "InfoMoney",
-        "url": "https://infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026"
+        "nome": "OilPrice.com",
+        "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html"
+      },
+      {
+        "nome": "The National",
+        "url": "https://thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns"
       }
     ],
     "video": "",
