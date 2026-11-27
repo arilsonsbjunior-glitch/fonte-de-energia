@@ -136,5 +136,47 @@
         "Entrada prevista dos projetos Raia e Seap"
       ]
     ]
+  },
+  {
+    "data": "2026-11-27",
+    "titulo": "A Petrobras desmonta o velho e procura o novo",
+    "autor": "Arilson Júnior",
+    "capa_numero": "27",
+    "capa_texto": "é o número de plataformas que a Petrobras prevê retirar do mar até 2031. No mesmo plano, a verba para procurar petróleo novo sobe 41%, numa semana em que o barril voltou a subir antes da reunião da Opep+.",
+    "noticias": [
+      {
+        "slug": "petroleo-petrobras-vai-retirar-27-plataformas-do-mar-ate-2031",
+        "numero": "US$ 11,2 bi",
+        "legenda": "é a conta estimada para o descomissionamento até 2031, alta de 15%",
+        "texto": "São nove plataformas a mais que no plano anterior. Quinze estão no Nordeste, oito na Bacia de Campos e quatro na Bacia de Santos."
+      },
+      {
+        "slug": "petroleo-petrobras-amplia-verba-para-procurar-petroleo-ate-2031",
+        "numero": "US$ 10 bi",
+        "legenda": "para exploração em cinco anos, contra US$ 7,1 bi no plano anterior",
+        "texto": "São cerca de 50 poços. Na Margem Equatorial, a verba subiu de US$ 2,5 bilhões para US$ 3,3 bilhões."
+      },
+      {
+        "slug": "petroleo-petroleo-caminha-para-alta-semanal-antes-da-opep",
+        "numero": "US$ 97",
+        "legenda": "é a casa em que o barril do Brent era negociado nesta sexta",
+        "texto": "Ataques a refinarias sauditas puxaram o preço. A Opep+ se reúne no domingo e avalia manter as cotas de janeiro."
+      }
+    ],
+    "leitura": "O plano da Petrobras combina duas frentes: encerrar a produção de campos maduros, que já não se pagam, e ampliar a busca por novas reservas. O preço do barril, que voltou a subir nesta semana, é uma das variáveis que pesam sobre essas duas decisões.",
+    "acompanhar": [
+      [
+        "Domingo (29/11)",
+        "Reunião da Opep+ sobre as cotas de janeiro"
+      ],
+      [
+        "Até o fim do ano",
+        "Conclusão da auditoria de capacidade dos países da Opep+"
+      ],
+      [
+        "2027 a 2031",
+        "Retirada das 27 plataformas e perfuração de cerca de 50 poços exploratórios"
+      ]
+    ]
   }
 ]

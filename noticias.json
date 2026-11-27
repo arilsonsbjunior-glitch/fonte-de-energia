@@ -1,5 +1,121 @@
 [
   {
+    "data": "2026-11-27",
+    "setor": "luz",
+    "titulo": "Linhas desligam e deixam Manaus e Roraima sem luz",
+    "resumo": "O desligamento das duas linhas de transmissão de 500 mil volts entre Jurupari e Oriximiná, no fim da tarde de quinta-feira (26), interrompeu 2.027 megawatts de carga em Manaus e Roraima, segundo o ONS. Municípios do interior do Amazonas e do oeste do Pará também ficaram sem energia. O fornecimento foi retomado aos poucos ao longo da noite, e as causas estão em apuração.",
+    "explicacao": "O ONS, Operador Nacional do Sistema Elétrico, é o órgão que coordena as usinas e as linhas de transmissão do país. Pela nota do operador, o corte começou com o desligamento das linhas Jurupari/Oriximiná C1 e C2, que levam energia a essa parte da Região Norte. Em Roraima, os números de emergência ficaram fora do ar por pouco mais de duas horas e a companhia de água parou a captação e o tratamento. Em Manaus, houve oscilação no abastecimento de água em alguns bairros.\n\nSegundo o ONS, as linhas estavam restabelecidas por volta das 20h30. As mesmas duas linhas já tinham desligado em março de 2025, durante uma tempestade, deixando Manaus e cidades do Amazonas e do Pará sem energia de madrugada. O Ministério de Minas e Energia e a Aneel, a Agência Nacional de Energia Elétrica, acompanham a apuração.",
+    "destaque": "2.027 MW",
+    "legenda": "de carga interrompida em Manaus e Roraima, segundo o ONS",
+    "fontes": [
+      {
+        "nome": "A Crítica",
+        "url": "https://www.acritica.com/geral/apos-apagao-ons-autoriza-retomada-gradual-do-fornecimento-de-energia-no-amazonas/"
+      },
+      {
+        "nome": "CanalEnergia",
+        "url": "https://www.canalenergia.com.br/noticias/53361376/desligamento-de-linhas-de-transmissao-apaga-manaus-e-roraima"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/nacional/norte/energia-e-restabelecida-na-regiao-norte-apos-apagao-afetar-servicos/"
+      },
+      {
+        "nome": "Canal Solar (março de 2025)",
+        "url": "https://canalsolar.com.br/apagao-amazonas-noroeste-para-desligamento-linha-de-transmissao/"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200",
+    "foto_credito": "Matthew Henry / Unsplash",
+    "foto_link": "https://unsplash.com/photos/photo-of-truss-towers-yETqkLnhsUI",
+    "slug": "luz-linhas-desligam-e-deixam-manaus-e-roraima-sem-luz"
+  },
+  {
+    "data": "2026-11-27",
+    "setor": "petroleo",
+    "titulo": "Petrobras vai retirar 27 plataformas do mar até 2031",
+    "resumo": "O plano de negócios 2027-2031 da Petrobras prevê o descomissionamento de 27 plataformas até 2031, nove a mais que as 18 do plano anterior. A conta estimada é de US$ 11,2 bilhões, alta de 15%. Das unidades, 15 estão no Nordeste, oito na Bacia de Campos e quatro na Bacia de Santos.",
+    "explicacao": "Descomissionamento é a etapa final da vida de um campo de petróleo: a retirada da plataforma, dos equipamentos no fundo do mar e o fechamento definitivo dos poços. Ele acontece quando já não há como prolongar a produção de forma rentável. Segundo a imprensa, 68% do valor vai para o desmonte das plataformas e 32% para a retirada dos equipamentos submarinos.\n\nNo comunicado oficial, a Petrobras fala em cerca de US$ 11 bilhões para descomissionamento até 2031. A maior parte das unidades fica em campos maduros do Nordeste, de onde a estatal vem saindo, e a Bacia de Campos responde por oito das 27 plataformas.",
+    "destaque": "27",
+    "legenda": "plataformas a retirar do mar até 2031, nove a mais que no plano anterior",
+    "fontes": [
+      {
+        "nome": "O Tempo (Folhapress)",
+        "url": "https://www.otempo.com.br/economia/2026/11/26/petrobras-preve-retirar-do-mar-27-plataformas-de-petroleo-ate-2031-saiba-por-que"
+      },
+      {
+        "nome": "Jornal do Comércio",
+        "url": "https://www.jornaldocomercio.com/economia/2026/11/1271824-petrobras-preve-retirar-do-mar-27-plataformas-de-petroleo-ate-2031-custo-e-de-uss-112-bi.html"
+      },
+      {
+        "nome": "Agência Petrobras",
+        "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-aprova-plano-de-neg%C3%B3cios-2027-2031"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/13199842/pexels-photo-13199842.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Jeff Stapleton / Pexels",
+    "foto_link": "https://www.pexels.com/photo/an-oil-platform-offshore-under-blue-sky-13199842/",
+    "slug": "petroleo-petrobras-vai-retirar-27-plataformas-do-mar-ate-2031"
+  },
+  {
+    "data": "2026-11-27",
+    "setor": "petroleo",
+    "titulo": "Petrobras amplia verba para procurar petróleo até 2031",
+    "resumo": "O investimento da Petrobras em exploração passou de US$ 7,1 bilhões para US$ 10 bilhões no plano 2027-2031, com cerca de 50 poços. Na Margem Equatorial, a verba subiu de US$ 2,5 bilhões para US$ 3,3 bilhões. Nas margens Sul e Sudeste, foi de US$ 2,2 bilhões para US$ 3,4 bilhões.",
+    "explicacao": "Exploração é a fase em que a empresa procura novas reservas, perfurando poços em áreas onde ainda não se sabe se há petróleo em volume comercial. A Margem Equatorial reúne a Bacia da Foz do Amazonas e outras quatro bacias no litoral norte do país, e é vista pelo setor como uma possível nova fronteira.\n\nSegundo a Agência iNFRA, a maior parte dos cerca de 50 poços exploratórios fica no exterior, em países como Colômbia, Bolívia e Argentina e na África. O mesmo plano prevê retirar do mar 27 plataformas de campos maduros até 2031.",
+    "destaque": "+41%",
+    "legenda": "no investimento em exploração, de US$ 7,1 bi para US$ 10 bi",
+    "fontes": [
+      {
+        "nome": "Agência iNFRA",
+        "url": "https://agenciainfra.com/blog/investimento-da-petrobras-em-exploracao-deve-crescer-408-ate-2031/"
+      },
+      {
+        "nome": "eixos (via Diário do Amapá)",
+        "url": "https://www.diariodoamapa.com.br/cadernos/cidades/petrobras-eleva-em-mais-de-30-verba-para-pocos-na-margem-equatorial/"
+      },
+      {
+        "nome": "Agência Petrobras",
+        "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-aprova-plano-de-neg%C3%B3cios-2027-2031"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/29190138/pexels-photo-29190138.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Faruk Yıldız / Pexels",
+    "foto_link": "https://www.pexels.com/photo/offshore-oil-drillship-in-turkiye-s-coastal-waters-29190138/",
+    "slug": "petroleo-petrobras-amplia-verba-para-procurar-petroleo-ate-2031"
+  },
+  {
+    "data": "2026-11-27",
+    "setor": "petroleo",
+    "titulo": "Petróleo caminha para alta semanal antes da Opep+",
+    "resumo": "O Brent, referência internacional do petróleo, era negociado na casa dos US$ 97 por barril nesta sexta-feira (27), depois de ataques a refinarias na Arábia Saudita atribuídos aos houthis. A Opep+ se reúne no domingo e, segundo delegados, avalia manter as cotas de produção para janeiro.",
+    "explicacao": "A Opep+ reúne os países da Opep e outros grandes produtores, como a Rússia, que combinam quanto cada um pode produzir. A reunião deve tratar também da revisão da capacidade de produção dos membros, que ficou mais difícil depois que o Iraque contestou a avaliação que recebeu. Segundo o vice-primeiro-ministro russo Alexander Novak, essa auditoria deve terminar até o fim do ano.\n\nPara o Brasil, o preço do barril pesa na receita das petroleiras, nos royalties pagos a estados e municípios e no custo dos combustíveis importados.",
+    "destaque": "US$ 97",
+    "legenda": "é a casa em que o barril do Brent era negociado nesta sexta",
+    "fontes": [
+      {
+        "nome": "The National",
+        "url": "https://thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns"
+      },
+      {
+        "nome": "Rigzone (Bloomberg)",
+        "url": "https://www.rigzone.com/news/opec_mulls_sticking_with_current_quotas-26-nov-2026-185177-article"
+      }
+    ],
+    "video": "",
+    "arte": "",
+    "foto": "https://images.pexels.com/photos/33333666/pexels-photo-33333666.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "foto_credito": "Eyüpcan Timur / Pexels",
+    "foto_link": "https://www.pexels.com/photo/massive-oil-tanker-sailing-on-open-sea-33333666/",
+    "slug": "petroleo-petroleo-caminha-para-alta-semanal-antes-da-opep"
+  },
+  {
     "data": "2026-11-26",
     "setor": "luz",
     "titulo": "Justiça mantém leilões de baterias de 2 e 4 de dezembro",
